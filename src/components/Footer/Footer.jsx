@@ -69,14 +69,14 @@ const Footer = () => {
                                         <BsTelephone className="mr-2" /> {/* Icon */}
                                         <div>
                                             <span className="font-bold">Tel:</span> {/* Label */}
-                                            <div className='text-red-500 mt-2'>555-555-5555</div> {/* Content */}
+                                            <div className='text-red-500 mt-2 mb-5'>555-555-5555</div> {/* Content */}
                                         </div>
                                     </li>
                                     <li className="flex items-start">
                                         <MdOutlineEmail className="mr-2 " /> {/* Icon */}
                                         <div>
                                             <span className="font-bold">Mail:</span> {/* Label */}
-                                            <div  className='text-red-500 mt-2'>hi@magicdesign.io</div> {/* Content */}
+                                            <div  className='text-red-500 mt-2 mb-5'>hi@magicdesign.io</div> {/* Content */}
                                         </div>
                                     </li>
                                     <li className="flex items-start">
