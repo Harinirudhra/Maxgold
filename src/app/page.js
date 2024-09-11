@@ -1,5 +1,6 @@
 import Hero from "@/components/home/Hero";
 import HomeAbout from "@/components/home/HomeAbout";
+import WhyMaxGold from "@/components/home/WhyMaxGold";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div >
       <Hero />
       <HomeAbout />
+      <WhyMaxGold/>
     </div>
   );
 }
