@@ -26,9 +26,9 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between">
 
             {/* Left Section */}
-            <div className="mb-8 lg:mb-0">
-              <h3 className="text-red-600 text-lg md:text-xl font-semibold p-4">Max Gold</h3>
-              <p className="mt-4 p-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
+            <div className="mb-8 lg:mb-0 ml-20 ">
+              <h3 className="text-red-600 text-lg md:text-xl font-semibold pm-6 ">Max Gold</h3>
+              <p className="mt-4 pm-6 text-gray-600 text-sm md:text-base w-50 lg:w-96 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
                 aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper 
                  amet adipiscing fermentum.</p>
 
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
 
             {/* Company Section */}
-            <div className="mb-8 lg:mb-0">
+            <div className="mb-8 lg:mb-0 ">
               <h4 className="text-red-400 font-bold text-lg">COMPANY</h4>
               <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">About</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
 
             {/* Resources Section */}
-            <div className="mb-8 lg:mb-0">
+            <div className="mb-8 lg:mb-0 ">
               <h4 className="text-red-400 font-bold text-lg">RESOURCES</h4>
               <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">Free eBooks</a></li>
@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
 
           {/* Bottom Links */}
-          <div className="mt-12 flex flex-col md:flex-row justify-between text-gray-600 text-sm mr-16">
+          <div className="mt-12 flex flex-col md:flex-row justify-between text-gray-600 text-sm mr-16 ml-20">
             <div className="flex flex-wrap  space-x-4 md:space-x-4 mb-4 md:mb-0 ">
               <a href="#">About us</a>
               <a href="#">Contact</a>
