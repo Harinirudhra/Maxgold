@@ -11,14 +11,14 @@ import { IoLogoGithub } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-    <div className="bg-red-400 py-8 lg:py-12">
-      <div className="text-center text-white mb-8 h-52 lg:h-44">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Are you ready to get started?</h2>
-        <p className="lg:text-4xl font-bold md:text-xl mt-2">We got you covered!</p>
-        <button className="mt-9 bg-white text-red-600 px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
-          Sign Up — Free
-        </button>
-      </div>
+      <div className="bg-red-400 py-8 lg:py-12">
+        <div className="text-center text-white mb-8 h-52 lg:h-44">
+          <h2 className="text-2xl md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
+          <p className="lg:text-2xl font-bold md:text-xl mt-2">We got you covered!</p>
+          <button className="mt-9 bg-white text-red-600 px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
+            Sign Up — Free
+          </button>
+        </div>
       </div>
 
       <div className="bg-white py-8 md:py-12">
@@ -28,13 +28,11 @@ const Footer = () => {
             {/* Left Section */}
             <div className="mb-8 lg:mb-0">
               <h3 className="text-red-600 text-lg md:text-xl font-semibold">Max Gold</h3>
-              <p className="mt-4 text-gray-600 text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base"> adipiscing elit. Nullam dictum aliquet</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base"> accumsan porta lectus ridiculus in mattis.</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base"> Netus sodales in volutpat ullamcorper</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base">  amet adipiscing fermentum.</p>
+              <p className="mt-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
+                aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper 
+                 amet adipiscing fermentum.</p>
 
-              <div className="flex space-x-4 mt-6">
+              <div className="flex space-x-4 mt-6 lg:mt-20">
                 <a href="#"><CiTwitter className="fab fa-twitter text-gray-600 text-lg" /></a>
                 <a href="#"><FaFacebookF className="fab fa-facebook text-gray-600 text-lg" /></a>
                 <a href="#"><FaInstagram className="fab fa-instagram text-gray-600 text-lg" /></a>
@@ -45,7 +43,7 @@ const Footer = () => {
             {/* Company Section */}
             <div className="mb-8 lg:mb-0">
               <h4 className="text-red-400 font-bold text-lg">COMPANY</h4>
-              <ul className="mt-8 space-y-7 text-gray-600 text-sm md:text-base">
+              <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Works</a></li>
@@ -56,7 +54,7 @@ const Footer = () => {
             {/* Resources Section */}
             <div className="mb-8 lg:mb-0">
               <h4 className="text-red-400 font-bold text-lg">RESOURCES</h4>
-              <ul className="mt-8 space-y-7 text-gray-600 text-sm md:text-base">
+              <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">Free eBooks</a></li>
                 <li><a href="#">Development Tutorial</a></li>
                 <li><a href="#">How to - Blog</a></li>
@@ -98,7 +96,7 @@ const Footer = () => {
 
           {/* Bottom Links */}
           <div className="mt-12 flex flex-col md:flex-row justify-between text-gray-600 text-sm mr-16">
-            <div className="flex flex-wrap space-x-4 md:space-x-7 mb-4 md:mb-0">
+            <div className="flex flex-wrap  space-x-4 md:space-x-4 mb-4 md:mb-0 ">
               <a href="#">About us</a>
               <a href="#">Contact</a>
               <a href="#">Privacy policy</a>
@@ -106,11 +104,11 @@ const Footer = () => {
               <a href="#">Terms of Use</a>
             </div>
             <p className="md:text-sm">&copy; 2023, All Rights Reserved</p>
-            
+
           </div>
         </div>
       </div>
- 
+
     </div>
   );
 };

@@ -35,7 +35,7 @@ const WhyMaxGold = () => {
   ];
 
   return (
-    <div className="relative bg-red-800 text-white py-16 px-4 md:py-32 md:px-6">
+    <div className="relative bg-purple text-white py-16 px-4 md:py-32 md:px-6">
       {/* Top-right png */}
       <img 
         src="leaf.png"
