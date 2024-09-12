@@ -5,7 +5,8 @@ import MenuIcon from "@mui/icons-material/Menu"; // Importing the Menu (hamburge
 import CloseIcon from "@mui/icons-material/Close"; // Importing the Close (X) icon
 import Image from "next/image"; // Importing Image component for the logo
 import maxigold from "../../../public/Logo/MaxGoldlogo.jpg";
-import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
+import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
+
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false); // For dropdown
@@ -23,7 +24,12 @@ function NavBar() {
       <div className="flex justify-between items-center">
         {/* Left Side: Max Gold logo */}
         <div className="flex items-center">
-          <Image src={maxigold} alt="Max Gold Logo" className="h-auto w-auto"/>
+          {/* Responsive Image with different sizes for mobile and desktop */}
+          <Image
+            src={maxigold}
+            alt="Max Gold Logo"
+            className="h-auto w-[100px] sm:w-[150px] md:w-[200px] lg:w-[250px] lg:ml-10" // Responsive sizes
+          />
         </div>
 
         {/* Hamburger Icon for small screens */}
@@ -40,7 +46,10 @@ function NavBar() {
           {/* Home tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Home
               </span>
             </Link>
@@ -49,7 +58,10 @@ function NavBar() {
           {/* About tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 About
               </span>
             </Link>
@@ -58,7 +70,10 @@ function NavBar() {
           {/* Blog tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Blog
               </span>
             </Link>
@@ -68,10 +83,10 @@ function NavBar() {
           <li className="relative z-40">
             <span
               className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
-              style={{ textUnderlineOffset: '7px' }}
+              style={{ textUnderlineOffset: "7px" }}
               onClick={toggleServicesDropdown}
             >
-              Our Services <ArrowDropDownOutlinedIcon/>
+              Our Services <ArrowDropDownOutlinedIcon />
             </span>
             {isServicesOpen && (
               <ul className="absolute bg-white shadow-lg mt-2 w-40">
@@ -97,7 +112,10 @@ function NavBar() {
           {/* Contact Us tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Contact Us
               </span>
             </Link>
@@ -110,21 +128,30 @@ function NavBar() {
         <ul className="md:hidden flex flex-col space-y-2 mt-4">
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2  text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Home
               </span>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer  px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 About
               </span>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Blog
               </span>
             </Link>
@@ -133,9 +160,9 @@ function NavBar() {
             <span
               className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
               onClick={toggleServicesDropdown}
-              style={{ textUnderlineOffset: '7px' }}
+              style={{ textUnderlineOffset: "7px" }}
             >
-              Our Services  <ArrowDropDownOutlinedIcon/>
+              Our Services <ArrowDropDownOutlinedIcon />
             </span>
             {isServicesOpen && (
               <ul className="mt-2">
@@ -159,7 +186,10 @@ function NavBar() {
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
+              <span
+                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                style={{ textUnderlineOffset: "8px" }}
+              >
                 Contact Us
               </span>
             </Link>
