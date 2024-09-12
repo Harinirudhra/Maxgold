@@ -29,7 +29,7 @@ body {
 @layer base {
   h1 {
     @apply text-3xl font-bold text-red-300;
-    font-family: IBM Plex Sans;
+    font-family: Teachers;
   }
 
   h2 {
@@ -44,6 +44,6 @@ body {
 
   p {
     @apply text-base text-red-300;
-    font-family: Anton;
+    font-family: Teachers;
   }
 }
