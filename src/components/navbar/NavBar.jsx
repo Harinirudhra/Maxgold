@@ -40,7 +40,7 @@ function NavBar() {
           {/* Home tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Home
               </span>
             </Link>
@@ -49,7 +49,7 @@ function NavBar() {
           {/* About tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 About
               </span>
             </Link>
@@ -58,7 +58,7 @@ function NavBar() {
           {/* Blog tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Blog
               </span>
             </Link>
@@ -97,7 +97,7 @@ function NavBar() {
           {/* Contact Us tab */}
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Contact Us
               </span>
             </Link>
@@ -110,21 +110,21 @@ function NavBar() {
         <ul className="md:hidden flex flex-col space-y-2 mt-4">
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2  text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2  text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Home
               </span>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer  px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer  px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 About
               </span>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Blog
               </span>
             </Link>
@@ -159,7 +159,7 @@ function NavBar() {
           </li>
           <li>
             <Link href="#">
-              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '7px' }}>
+              <span className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"style={{ textUnderlineOffset: '8px' }}>
                 Contact Us
               </span>
             </Link>
