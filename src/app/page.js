@@ -1,7 +1,7 @@
 import Hero from "@/components/home/Hero";
 import HomeAbout from "@/components/home/HomeAbout";
+import MaxGoldADS from "@/components/home/MaxGoldADS";
 import WhyMaxGold from "@/components/home/WhyMaxGold";
-import Image from "next/image";
 import "./globals.css";
 
 export default function Home() {
@@ -9,7 +9,8 @@ export default function Home() {
     <div >
       <Hero />
       <HomeAbout />
-      <WhyMaxGold />
+      <WhyMaxGold/>
+      <MaxGoldADS/>
     </div>
   );
 }
