@@ -25,3 +25,25 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold text-red-300;
+    font-family: Teachers;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold text-red-300;
+    font-family: Teachers;
+  }
+
+  h3 {
+    @apply font-medium text-red-300;
+    font-family: Teachers;
+  }
+
+  p {
+    @apply text-base text-red-300;
+    font-family: Teachers;
+  }
+}

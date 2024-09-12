@@ -12,3 +12,6 @@ logo text color: #e9a331 , #eed472  || #b9832c , #f1c068
 bg red color: #c5161d || #7b071e
 
 Mac gold Current WebSite : https://maxgold.co.in/
+
+
+https://nextjs.org/docs/messages/built-in-next-font
