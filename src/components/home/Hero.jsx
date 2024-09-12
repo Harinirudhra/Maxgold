@@ -7,7 +7,7 @@ const Hero = () => {
             <img 
                 src="/RKImages/RAMYA.jpg"
                 alt="hero" 
-                className="hidden lg:block w-full h-full p-4 rounded " />
+                className="hidden object-cover lg:block w-full h-full  p-4 rounded " />
             
     
             <img
@@ -18,10 +18,9 @@ const Hero = () => {
 
             <div className="absolute inset-0 flex flex-col justify-start lg:justify-end lg:items-start items-center p-4 lg:p-20">
                 <div className="text-center lg:text-left">
-                    <h1 className="text-white text-3xl md:text-3xl pt-12 lg:text-6xl font-bold">You deserve valuable price in</h1>
-                    <h1 className='text-white text-3xl md:text-3xl  lg:text-6xl font-bold'>market</h1>
+                    <h1 className="text-white text-3xl md:text-3xl pt-12 lg:text-6xl font-bold">You deserve valuable price in<span className="block">market</span></h1>
                 </div>
-                <div className="flex flex-row float-start lg:flex-row gap-4 lg:gap-6 -mt-1 lg:mt-8 p-6 "  >
+                <div className="flex flex-row float-start lg:flex-row gap-4 lg:gap-6 -mt-1 lg:mt-8 p-6 ">
                     <button className="bg-yellow-300 text-amber-900 font-bold py-2 px-4 -ml-5 rounded-xl hover:bg-red-500 hover:text-white">
                         Sell Gold
                     </button>
