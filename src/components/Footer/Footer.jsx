@@ -27,8 +27,8 @@ const Footer = () => {
 
             {/* Left Section */}
             <div className="mb-8 lg:mb-0">
-              <h3 className="text-red-600 text-lg md:text-xl font-semibold">Max Gold</h3>
-              <p className="mt-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
+              <h3 className="text-red-600 text-lg md:text-xl font-semibold p-4">Max Gold</h3>
+              <p className="mt-4 p-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
                 aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper 
                  amet adipiscing fermentum.</p>
 
