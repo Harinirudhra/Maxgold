@@ -57,7 +57,7 @@ function NavBar() {
 
           {/* About tab */}
           <li>
-            <Link href="#">
+            <Link href="/about">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
@@ -111,7 +111,7 @@ function NavBar() {
 
           {/* Contact Us tab */}
           <li>
-            <Link href="#">
+            <Link href="/Contact">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
@@ -137,7 +137,7 @@ function NavBar() {
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/about">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
@@ -185,7 +185,7 @@ function NavBar() {
             )}
           </li>
           <li>
-            <Link href="#">
+            <Link href="/contact">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
