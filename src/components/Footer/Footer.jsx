@@ -28,12 +28,11 @@ const Footer = () => {
             {/* Left Section */}
             <div className="mb-8 lg:mb-0">
               <h3 className="text-red-600 text-lg md:text-xl font-semibold">Max Gold</h3>
-              <p className="mt-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum aliquet accumsan porta lectus ridiculus in mattis.</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base"> </p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base"> Netus sodales in volutpat ullamcorper</p>
-              <p className="mt-1 text-gray-600 text-sm md:text-base">  amet adipiscing fermentum.</p>
+              <p className="mt-4 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum 
+                aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper 
+                 amet adipiscing fermentum.</p>
 
-              <div className="flex space-x-4 mt-6">
+              <div className="flex space-x-4 mt-6 lg:mt-20">
                 <a href="#"><CiTwitter className="fab fa-twitter text-gray-600 text-lg" /></a>
                 <a href="#"><FaFacebookF className="fab fa-facebook text-gray-600 text-lg" /></a>
                 <a href="#"><FaInstagram className="fab fa-instagram text-gray-600 text-lg" /></a>
@@ -44,7 +43,7 @@ const Footer = () => {
             {/* Company Section */}
             <div className="mb-8 lg:mb-0">
               <h4 className="text-red-400 font-bold text-lg">COMPANY</h4>
-              <ul className="mt-8 space-y-7 text-gray-600 text-sm md:text-base">
+              <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Works</a></li>
@@ -55,7 +54,7 @@ const Footer = () => {
             {/* Resources Section */}
             <div className="mb-8 lg:mb-0">
               <h4 className="text-red-400 font-bold text-lg">RESOURCES</h4>
-              <ul className="mt-8 space-y-7 text-gray-600 text-sm md:text-base">
+              <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
                 <li><a href="#">Free eBooks</a></li>
                 <li><a href="#">Development Tutorial</a></li>
                 <li><a href="#">How to - Blog</a></li>
@@ -97,7 +96,7 @@ const Footer = () => {
 
           {/* Bottom Links */}
           <div className="mt-12 flex flex-col md:flex-row justify-between text-gray-600 text-sm mr-16">
-            <div className="flex flex-wrap space-x-4 md:space-x-7 mb-4 md:mb-0">
+            <div className="flex flex-wrap  space-x-4 md:space-x-4 mb-4 md:mb-0 ">
               <a href="#">About us</a>
               <a href="#">Contact</a>
               <a href="#">Privacy policy</a>
