@@ -13,8 +13,8 @@ const Footer = () => {
     <div>
       <div className="bg-red-400 py-8 lg:py-12">
         <div className="text-center text-white mb-8 h-52 lg:h-44">
-          <h2 className="text-2xl md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
-          <p className="lg:text-2xl font-bold md:text-xl mt-2">We got you covered!</p>
+          <h2 className="text-2xl text-white md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
+          <p className="lg:text-2xl text-white font-bold md:text-xl mt-2">We got you covered!</p>
           <button className="mt-9 bg-white text-red-600 px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
             Sign Up — Free
           </button>
