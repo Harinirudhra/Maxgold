@@ -35,17 +35,17 @@ const WhyMaxGold = () => {
   ];
 
   return (
-    <div className="relative bg-purple text-white py-16 px-4 md:py-32 md:px-6">
+    <div className="relative bg-[#ec1a44] text-white py-16 px-4 md:py-32 md:px-6">
       {/* Top-right png */}
-      <img 
+      <img
         src="/whyIcons/leaf.png"
         alt="Top right decoration"
         className="-rotate-180 absolute -top-8 -right-0 w-32 h-32 md:w-48 md:h-48 object-contain"
       />
 
       {/* Bottom-left png */}
-      <img 
-        src="/whyIcons/leaf.png" 
+      <img
+        src="/whyIcons/leaf.png"
         alt="Bottom left decoration"
         className="absolute -bottom-8 left-0 w-32 h-32 md:w-48 md:h-48 object-contain"
       />
@@ -54,11 +54,11 @@ const WhyMaxGold = () => {
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-3">Why Max Gold</h2>
       <div className="w-20 h-1 bg-white mx-auto mb-12"></div>
 
-      
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className="flex items-start p-4"
           >
             {/* Left-side image */}

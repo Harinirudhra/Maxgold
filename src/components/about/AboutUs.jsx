@@ -11,7 +11,7 @@ const AboutUs = ({
 }) => {
   return (
     <div>
-      <div className="bg-gradient-to-b from-[#cb161c] to-[#ec1a44] p-8 rounded-lg">
+      <div className="bg-gradient-to-b from-[#cb161c] to-[#ec1a44] p-8 ">
         {/* Flex layout for responsiveness */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Title and Description */}
