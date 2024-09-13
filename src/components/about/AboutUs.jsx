@@ -11,17 +11,17 @@ const AboutUs = ({
 }) => {
   return (
     <div>
-      <div className="bg-gradient-to-t from-[#c5161d] to-[#7b071e] p-8 rounded-lg">
+      <div className="bg-gradient-to-b from-[#cb161c] to-[#ec1a44] p-8 rounded-lg">
         {/* Flex layout for responsiveness */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Title and Description */}
           <div className="order-1 lg:order-none">
-            <h2 className="text-3xl font-extrabold text-white mb-4">{title}</h2>
-            <p className="text-black font-black mb-4">
+            <h2 className="text-3xl font-extrabold text-[#ffbe46] mb-4">{title}</h2>
+            <p className="text-white text-2xl font-medium mb-8">
               {description}
             </p>
-            <h3 className="text-xl font-extrabold text-white mb-2">{journeyTitle}</h3>
-            <p className="text-black font-black">{journeyText}</p>
+            <h3 className="text-3xl font-extrabold text-[#fcc71a] mb-2">{journeyTitle}</h3>
+            <p className="text-white text-2xl font-medium">{journeyText}</p>
           </div>
 
           {/* Image */}

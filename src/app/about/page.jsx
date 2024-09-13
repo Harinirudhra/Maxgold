@@ -5,20 +5,22 @@ import AboutUs from '@/components/about/AboutUs'
 import Customers from '@/components/about/Customers'
 import OurValue from '@/components/about/OurValue'
 import Testimonials from '@/components/about/Testimonials'
+import WhyMaxGold from '@/components/home/WhyMaxGold'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-        <AboutHero/>
-        <AboutUs/>
-        <AboutGrid/>
-        <OurValue/>
-        <Testimonials/>
-        <Customers/>
-        <AboutFAQ/>
+      <AboutHero />
+      <AboutUs />
+      <WhyMaxGold />
+      <OurValue />
+      <AboutGrid />
+      <Testimonials />
+      <Customers />
+      <AboutFAQ />
 
-        
+
     </div>
   )
 }
