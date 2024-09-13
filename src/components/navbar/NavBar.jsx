@@ -45,7 +45,7 @@ function NavBar() {
         <ul className="hidden md:flex md:space-x-6 text-xl">
           {/* Home tab */}
           <li>
-            <Link href="#">
+            <Link href="/">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
