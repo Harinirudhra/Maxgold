@@ -15,7 +15,9 @@ const AboutUs = ({
         {/* Flex layout for responsiveness */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Title and Description */}
+
           <div className="order-1 lg:order-none">
+            <h1 className="text-4xl font-extrabold text-[#ffbe46] mb-4">About Us</h1>
             <h2 className="text-3xl font-extrabold text-[#ffbe46] mb-4">{title}</h2>
             <p className="text-white text-2xl font-medium mb-8">
               {description}
