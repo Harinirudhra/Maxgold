@@ -13,10 +13,10 @@ const page = () => {
         <AboutHero/>
         <AboutUs/>
         <AboutGrid/>
-        <AboutFAQ/>
         <OurValue/>
         <Testimonials/>
         <Customers/>
+        <AboutFAQ/>
 
         
     </div>
