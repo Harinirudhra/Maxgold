@@ -3,32 +3,32 @@ import React from 'react';
 const WhyMaxGold = () => {
   const features = [
     {
-      imageSrc: 'hand.png',
+      imageSrc: '/whyIcons/hand.png',
       title: 'Affordability',
       description: 'DIGIGOLD offers the best price for all products compared to live market rates.'
     },
     {
-      imageSrc: 'growth.png',
+      imageSrc: '/whyIcons/growth.png',
       title: 'Systematic growth',
       description: 'With our no lock-in period SIP in Gold, you can achieve systematic growth of your investment.'
     },
     {
-      imageSrc: 'guaranteed.png',
+      imageSrc: '/whyIcons/guaranteed.png',
       title: 'Guaranteed Purity',
       description: 'We assure to serve you the purest 24 karat Products with 99.9% purity and BIS Hallmark.'
     },
     {
-      imageSrc: 'safe-box.png',
+      imageSrc: '/whyIcons/safe-box.png',
       title: 'Security',
       description: 'We serve our customers with the best & trusted vault keeper that provides security for transactions and storage.'
     },
     {
-      imageSrc: '24-hours.png',
+      imageSrc: '/whyIcons/24-hours.png',
       title: 'Accessibility',
       description: 'DIGIGOLD provides all services for its customers 24x7 Globally.'
     },
     {
-      imageSrc: 'gold-bar.png',
+      imageSrc: '/whyIcons/gold-bar.png',
       title: 'High Liquidity',
       description: 'With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.'
     }
@@ -38,14 +38,14 @@ const WhyMaxGold = () => {
     <div className="relative bg-purple text-white py-16 px-4 md:py-32 md:px-6">
       {/* Top-right png */}
       <img 
-        src="leaf.png"
+        src="/whyIcons/leaf.png"
         alt="Top right decoration"
         className="-rotate-180 absolute -top-8 -right-0 w-32 h-32 md:w-48 md:h-48 object-contain"
       />
 
       {/* Bottom-left png */}
       <img 
-        src="leaf.png" 
+        src="/whyIcons/leaf.png" 
         alt="Bottom left decoration"
         className="absolute -bottom-8 left-0 w-32 h-32 md:w-48 md:h-48 object-contain"
       />
