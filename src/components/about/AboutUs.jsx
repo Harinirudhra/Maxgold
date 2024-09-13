@@ -1,35 +1,35 @@
 import React from 'react';
 
 // Reusable AboutUs component
-const AboutUs = ({ 
-  title, 
-  description, 
-  journeyTitle, 
-  journeyText, 
-  imageUrl, 
-  imageAlt 
+const AboutUs = ({
+  title,
+  description,
+  journeyTitle,
+  journeyText,
+  imageUrl,
+  imageAlt
 }) => {
   return (
     <div>
-      <div className="bg-gradient-to-t from-red-400 to-red-300 p-8 rounded-lg">
+      <div className="bg-gradient-to-t from-[#c5161d] to-[#7b071e] p-8 rounded-lg">
         {/* Flex layout for responsiveness */}
-        <div className="grid grid-cols-1 lg:ml-24 lg:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Title and Description */}
-          <div className="order-1 lg:order-none ">
+          <div className="order-1 lg:order-none">
             <h2 className="text-3xl font-extrabold text-white mb-4">{title}</h2>
             <p className="text-black font-black mb-4">
               {description}
             </p>
-            <h3 className="text-xl font-extrabold text-white mb-2 mt-10">{journeyTitle}</h3>
+            <h3 className="text-xl font-extrabold text-white mb-2">{journeyTitle}</h3>
             <p className="text-black font-black">{journeyText}</p>
           </div>
 
           {/* Image */}
           <div className="flex justify-center order-3 lg:order-none">
-            <img 
-              src={imageUrl} 
+            <img
+              src={imageUrl}
               alt={imageAlt}
-              className="rounded-3xl shadow-lg  w-96 h-96 object-cover "
+              className="rounded-3xl shadow-lg   "
             />
           </div>
         </div>
@@ -41,7 +41,7 @@ const AboutUs = ({
 // Main AboutUsSection content
 const AboutUsSection = () => {
   return (
-    <AboutUs 
+    <AboutUs
       title="Best gold buyer near me"
       description='Looking for "Gold buyer near me"? You have reached the right destination. Yes Max Gold is the most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.'
       journeyTitle="Our Journey"
