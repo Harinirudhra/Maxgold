@@ -1,33 +1,55 @@
-import React from 'react'
+import React from 'react';
 
-const AboutUs = () => {
+// Reusable AboutUs component
+const AboutUs = ({
+  title,
+  description,
+  journeyTitle,
+  journeyText,
+  imageUrl,
+  imageAlt
+}) => {
   return (
     <div>
-     <div className="bg-gradient-to-t from-red-400 to-red-300 p-8 rounded-lg">
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-    <div>
-      <h2 className="text-3xl font-extrabold text-white mb-4">Best gold buyer near me</h2>
-      <p className="text-black font-black mb-4">
-        Looking for "Gold buyer near me"? You have reached the right destination. Yes! <span className="font-semibold underline text-black">Max Gold</span> is the most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.
-      </p>
-      <h3 className="text-xl font-extrabold text-white mb-2">Our Journey</h3>
-      <p className="text-black font-black">
-        Max Gold's journey began with a vision to create a safe and reliable platform for individuals to navigate the intricate world of precious metals. Founded in 2006, we set out to offer a seamless and transparent experience in buying and selling gold, silver, and more. Over the years, our unwavering dedication to our core principles has earned us a reputation as a market leader in the industry.
-      </p>
-    </div>
-    <div className="flex justify-center  ">
-      <img 
-        src="/RKImages/RAMYA.jpg" 
-        alt="Max Gold Buyer"
-        className="rounded-3xl shadow-lg "
+      <div className="bg-gradient-to-t from-[#c5161d] to-[#7b071e] p-8 rounded-lg">
+        {/* Flex layout for responsiveness */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          {/* Title and Description */}
+          <div className="order-1 lg:order-none">
+            <h2 className="text-3xl font-extrabold text-white mb-4">{title}</h2>
+            <p className="text-black font-black mb-4">
+              {description}
+            </p>
+            <h3 className="text-xl font-extrabold text-white mb-2">{journeyTitle}</h3>
+            <p className="text-black font-black">{journeyText}</p>
+          </div>
 
-      />
+          {/* Image */}
+          <div className="flex justify-center order-3 lg:order-none">
+            <img
+              src={imageUrl}
+              alt={imageAlt}
+              className="rounded-3xl shadow-lg   "
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  );
+};
 
-    </div>
-  )
-}
+// Main AboutUsSection content
+const AboutUsSection = () => {
+  return (
+    <AboutUs
+      title="Best gold buyer near me"
+      description='Looking for "Gold buyer near me"? You have reached the right destination. Yes Max Gold is the most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.'
+      journeyTitle="Our Journey"
+      journeyText="Max Gold's journey began with a vision to create a safe and reliable platform for individuals to navigate the intricate world of precious metals. Founded in 2006, we set out to offer a seamless and transparent experience in buying and selling gold, silver, and more. Over the years, our unwavering dedication to our core principles has earned us a reputation as a market leader in the industry."
+      imageUrl="/RKImages/RAMYA.jpg"
+      imageAlt="Max Gold Buyer"
+    />
+  );
+};
 
-export default AboutUs
+export default AboutUsSection;
