@@ -12,7 +12,7 @@ const ImageGrid = ({ images }) => {
               alt={image.alt}
               className="w-auto h-full rounded-lg object-cover "
             />
-            <p className="mt-4 text-center text-black font-semibold text-2xl lg:w-96 lg:h-96">
+            <p className="mt-4 w-screen h-auto text-center text-black font-semibold text-2xl lg:w-96 lg:h-96">
               {image.caption}
             </p>
           </div>
