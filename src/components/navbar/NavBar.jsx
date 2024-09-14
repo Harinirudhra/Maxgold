@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu"; // Importing the Menu (hamburger) icon
-import CloseIcon from "@mui/icons-material/Close"; // Importing the Close (X) icon
+import CloseIcon from "@mui/icons-material/Close"; // Importing the Close (X) iconF
 import Image from "next/image"; // Importing Image component for the logo
 import maxigold from "../../../public/Logo/MaxGoldlogo.jpg";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
@@ -67,17 +67,7 @@ function NavBar() {
             </Link>
           </li>
 
-          {/* Blog tab */}
-          <li>
-            <Link href="#">
-              <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
-                style={{ textUnderlineOffset: "8px" }}
-              >
-                Blog
-              </span>
-            </Link>
-          </li>
+         
 
           {/* Our Services tab with static dropdown */}
           <li className="relative z-40">
@@ -91,7 +81,7 @@ function NavBar() {
             {isServicesOpen && (
               <ul className="absolute bg-white shadow-lg mt-2 w-40">
                 <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
+                  <Link href="/services" className="block px-4 py-2 text-black">
                     Service 1
                   </Link>
                 </li>
@@ -111,7 +101,7 @@ function NavBar() {
 
           {/* Contact Us tab */}
           <li>
-            <Link href="/Contact">
+            <Link href="/contact">
               <span
                 className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
@@ -146,16 +136,7 @@ function NavBar() {
               </span>
             </Link>
           </li>
-          <li>
-            <Link href="#">
-              <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
-                style={{ textUnderlineOffset: "8px" }}
-              >
-                Blog
-              </span>
-            </Link>
-          </li>
+      
           <li className="relative">
             <span
               className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
@@ -167,7 +148,7 @@ function NavBar() {
             {isServicesOpen && (
               <ul className="mt-2">
                 <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
+                  <Link href="/services" className="block px-4 py-2 text-black">
                     Service 1
                   </Link>
                 </li>
