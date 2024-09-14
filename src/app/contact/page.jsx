@@ -2,7 +2,7 @@
 import React from 'react'
 import Contact from '../../components/contact/Contact'
 
-const Pagecon = () => {
+const page = () => {
   return (
     <div>
         <Contact/>
@@ -10,4 +10,4 @@ const Pagecon = () => {
   )
 }
 
-export default Pagecon
+export default page
