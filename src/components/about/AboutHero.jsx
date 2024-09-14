@@ -16,7 +16,7 @@ const AboutHeroSection = () => {
   return (
     <AboutHero
       title="Max gold"
-      description="Your precious gold jewelry and get instant cash"
+      description="We are the best choice for you to sell your precious gold jewelry and get instant cash"
       imageurl="https://img.freepik.com/free-photo/elegant-gemstone-necklace-shines-with-rare-sophistication-generated-by-ai_188544-10736.jpg?ga=GA1.1.8839009.1724129443&semt=ais_hybrid"
     />
   );
