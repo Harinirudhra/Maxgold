@@ -4,16 +4,16 @@ import Servicegrid from '@/components/services/Servicegrid'
 import ServicesHero from '@/components/services/ServicesHero'
 import React from 'react'
 
-const servicespage = () => {
+const page = () => {
   return (
     <div>
         <ServicesHero/>
         <Ourservices/>
-       <Servicegrid/>
-       <Achievesucesses/>
+        <Servicegrid/>
+        <Achievesucesses/>
     
     </div>
   )
 }
 
-export default servicespage
+export default page
