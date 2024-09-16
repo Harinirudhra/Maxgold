@@ -28,7 +28,7 @@ const Ourservices = ({ imageurl, title, para }) => {
 const ServicesContent = () => {
   return (
     <Ourservices
-      imageurl="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-564880,resizemode-75,msid-100435884/wealth/spend/how-much-gold-can-you-buy-in-cash-without-and-with-pan-aadhaar-proof.jpg"
+      imageurl="https://bsmedia.business-standard.com/_media/bs/img/misc/2022-02/17/full/gold-loan-gold-financing-gold-financier-1645084756-39982620.jpg?im=FeatureCrop,size=(826,465)"
       title="Our Services"
       para="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
     />
