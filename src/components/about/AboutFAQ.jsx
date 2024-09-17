@@ -1,88 +1,155 @@
-"use client"; // Add this line at the top
 
-import React, { useState } from "react";
-
-const faqData = [
-  {
-    "question": "What is Aircove?",
-    "answer": "Aircove is a router with built-in VPN capabilities."
-  },
-  {
-    "question": "How is Aircove different from other routers?",
-    "answer": "Aircove offers integrated ExpressVPN support for secure browsing."
-  },
-  {
-    "question": "Where can I purchase Aircove?",
-    "answer": "Aircove can be purchased online via the official website."
-  },
-  {
-    "question": "Are there different Aircove models?",
-    "answer": "Yes, Aircove comes in different models depending on your needs and preferences."
-  },
-  {
-    "question": "Do I need an ExpressVPN subscription if I have an Aircove router?",
-    "answer": "Yes, you need an active ExpressVPN subscription to use the VPN feature on Aircove."
-  },
-  {
-    "question": "Do I need a separate subscription to use Threat Manager, ad blocker, or parental controls?",
-    "answer": "No, these features are included in your ExpressVPN subscription."
-  },
-  {
-    "question": "Can I use Aircove/Aircove Go's Threat Manager, ad blocker, and parental controls without the VPN?",
-    "answer": "Yes, these features can be used without turning on the VPN."
-  },
-  {
-    "question": "What is a portable/travel VPN router?",
-    "answer": "A portable VPN router is a small, lightweight device that lets you secure your internet connection while on the go."
-  },
-  {
-    "question": "Can I use Aircove with any internet service provider?",
-    "answer": "Yes, Aircove is compatible with most internet service providers."
-  },
-  {
-    "question": "How do I set up Aircove?",
-    "answer": "Setting up Aircove is easy. You can follow the step-by-step guide provided in the user manual or online."
-  }
-  // Add more FAQs as needed
-];
 
 const AboutFAQ = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
   return (
-    <div className="max-w-2xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-center text-3xl font-bold mb-6">FAQ</h1>
-      <div>
-        {faqData.map((faq, index) => (
-          <div
-            key={index}
-            className="border-b border-gray-300 py-4 cursor-pointer"
-          >
-            <div
-              className="flex justify-between items-center"
-              onClick={() => toggleFAQ(index)}
-            >
-              <h2 className="text-lg font-semibold text-black hover:text-red-500 transition-colors duration-200">{faq.question}</h2>
-              <span
-                className={`transform transition-transform duration-300 ${
-                  activeIndex === index ? "rotate-180" : ""
-                }`}
-              >
-                ▼
-              </span>
-            </div>
-            {activeIndex === index && (
-              <div className="mt-2 text-gray-700">{faq.answer}</div>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+    <div>
+      <section class="sm:py-10 bg-yellow-400 overflow-hidden" id="faq">
+        <div class="container mx-auto px-4">
+            <div class="relative py-16 px-8 bg-yelloww overflow-hidden rounded-3xl">
+                <div class="relative z-10 md:max-w-7xl mx-auto">
+                    <div class="md:max-w-xl mb-10"><span class="inline-block mb-5 text-md text-mygray font-bold uppercase tracking-widest">Frequently
+                            asked questions</span>
+                        <h2 class="font-heading text-4xl    text-mygray text-4xl lg:text-5xl font-bold font-heading">
+                            Got questions? We’re here to help!</h2>
+                    </div>
+                    <div class="flex flex-wrap -m-3">
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">How soon will I
+                                            receive the voucher code once I make the payment?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">You will receive the voucher code
+                                            immediately via email and SMS once you make the payment. The process is
+                                            completely automated and takes only 30 seconds.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Within what timeframe
+                                            do I need to book the slot after purchasing the voucher?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">This voucher is valid for 11 months. It is
+                                            important to complete your exam within this 11-month period starting from
+                                            the date of purchase.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Is this refundable?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Sure, if you change your mind and plan not
+                                            to appear for Toefl Academic and return the unused voucher code to us, we
+                                            will
+                                            happily refund 70% of the amount within 6 months of purchase.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-export default AboutFAQ;
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Can I book any
+                                            available slot?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Yes, you can book any available slot across
+                                            India. You just need to book your slot 48 hours in advance.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black lg:pr-10">Do I have to
+                                            pay anything extra at PearsonToefl.com website at the time of slot booking?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">No, you don't have to pay anything extra on
+                                            PearsonToefl.com website to book your slot. This prepaid Toefl voucher is
+                                            inclusive of GST and covers the full cost of Toefl Academic.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">
+                                            Can you book my slot for me?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Sure, if you're new to TOEFL and GRE and
+                                            don't know
+                                            how to book your slot, our team will happily help you to book your slot or
+                                            we will book it for you.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full p-3">
+                            <div class="p-10 bg-blue-700 rounded-3xl">
+                                <div class="flex flex-wrap -m-2">
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <h3 class="font-heading text-xl text-white font-black">Can you give me some
+                                            more discount?
+                                        </h3>
+                                    </div>
+                                    <div class="w-full md:w-1/2 p-2">
+                                        <p class="text-white font-medium">Unfortunately, we cannot provide any
+                                            further discount. There is no room for any additional discount since these
+                                            are genuine vouchers and they include 18% GST, unlike others.
+
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    </div>
+  )
+}
+
+export default AboutFAQ
