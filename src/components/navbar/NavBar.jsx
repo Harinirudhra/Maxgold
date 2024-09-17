@@ -25,11 +25,13 @@ function NavBar() {
         {/* Left Side: Max Gold logo */}
         <div className="flex items-center">
           {/* Responsive Image with different sizes for mobile and desktop */}
+          <Link href="/">
           <Image
             src={maxigold}
             alt="Max Gold Logo"
             className="h-auto w-[100px] sm:w-[150px] md:w-[200px] lg:w-[250px] lg:ml-10" // Responsive sizes
           />
+          </Link>
         </div>
 
         {/* Hamburger Icon for small screens */}
