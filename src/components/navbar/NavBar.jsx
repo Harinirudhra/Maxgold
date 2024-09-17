@@ -72,34 +72,45 @@ function NavBar() {
          
 
           {/* Our Services tab with static dropdown */}
-          <li className="relative z-40">
-            <span
-              className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
-              style={{ textUnderlineOffset: "7px" }}
-              onClick={toggleServicesDropdown}
-            >
-              Our Services <ArrowDropDownOutlinedIcon />
-            </span>
-            {isServicesOpen && (
-              <ul className="absolute bg-white shadow-lg mt-2 w-40">
-                <li className="hover:bg-gray-200">
-                  <Link href="/services" className="block px-4 py-2 text-black">
-                    Service 1
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
-                    Service 2
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
-                    Service 3
-                  </Link>
-                </li>
-              </ul>
-            )}
-          </li>
+          <li className="relative">
+  <span
+    className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+    onClick={(e) => {
+      e.preventDefault();
+      toggleServicesDropdown();
+    }}
+    style={{ textUnderlineOffset: "7px" }}
+  >
+    <div className="flex flex-1">
+    <Link href="/services" className="block text-black">
+      Our Services
+    </Link>
+    <ArrowDropDownOutlinedIcon className="mt-1" />
+    </div>
+ 
+  </span>
+
+  {isServicesOpen && (
+    <ul className="mt-2 bg-white shadow-lg absolute">
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service1" className="block px-4 py-2 text-black">
+          Service 1
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service2" className="block px-4 py-2 text-black">
+          Service 2
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service3" className="block px-4 py-2 text-black">
+          Service 3
+        </Link>
+      </li>
+    </ul>
+  )}
+</li>
+
 
           {/* Contact Us tab */}
           <li>
@@ -138,35 +149,44 @@ function NavBar() {
               </span>
             </Link>
           </li>
-      
           <li className="relative">
-            <span
-              className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
-              onClick={toggleServicesDropdown}
-              style={{ textUnderlineOffset: "7px" }}
-            >
-              Our Services <ArrowDropDownOutlinedIcon />
-            </span>
-            {isServicesOpen && (
-              <ul className="mt-2">
-                <li className="hover:bg-gray-200">
-                  <Link href="/services" className="block px-4 py-2 text-black">
-                    Service 1
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
-                    Service 2
-                  </Link>
-                </li>
-                <li className="hover:bg-gray-200">
-                  <Link href="#" className="block px-4 py-2 text-black">
-                    Service 3
-                  </Link>
-                </li>
-              </ul>
-            )}
-          </li>
+  <span
+    className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+    onClick={(e) => {
+      e.preventDefault();
+      toggleServicesDropdown();
+    }}
+    style={{ textUnderlineOffset: "7px" }}
+  >
+  <div className="flex flex-1">
+    <Link href="/services" className="block text-black">
+      Our Services
+    </Link>
+    <ArrowDropDownOutlinedIcon className="mt-1" />
+    </div>
+  </span>
+
+  {isServicesOpen && (
+    <ul className="mt-2 bg-white shadow-lg absolute">
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service1" className="block px-4 py-2 text-black">
+          Service 1
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service2" className="block px-4 py-2 text-black">
+          Service 2
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service3" className="block px-4 py-2 text-black">
+          Service 3
+        </Link>
+      </li>
+    </ul>
+  )}
+</li>
+
           <li>
             <Link href="/contact">
               <span
