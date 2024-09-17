@@ -25,8 +25,26 @@ const AboutText = [
   {
     heading: "About Us",
     content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
-    button: "read more"
-
+    button: "read more",
+    reverse:false
+  },
+  {
+    heading: "About Us",
+    content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
+    button: "read more",
+    reverse:true
+  },
+  {
+    heading: "About Us",
+    content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
+    button: "read more",
+    reverse:false
+  },
+  {
+    heading: "About Us",
+    content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
+    button: "read more",
+    reverse:true
   }
 ]
 // Reusable Card Component
@@ -43,17 +61,18 @@ const HomeAbout = () => {
   return (
     <div>
       {/* Static Section */}
-      <div className="flex flex-col sm:flex-row md:flex-row items-center sm:items-start sm:px-5 md:px-10 lg:px-20 ">
-        <Image
+      <div className="flex flex-col items-center sm:items-start sm:px-5 md:px-10 lg:px-20 ">
+
+        {AboutText.map((itemz, index) => (
+          <div className={`flex flex-col items-center justify-center ${itemz.reverse ? 'md:flex-row-reverse': 'md:flex-row'}`} key={index}>
+          <Image
           src={samplepic}
           width={700}
           height={100}
           style={{ height: '450px' }}
           className="p-3 w-full sm:w-1/2 md:w-1/2 lg:1/4 pt-7"
         />
-        {AboutText.map((itemz, index) => (
-          < div className="ml-0 sm:ml-5 md:ml-3 lg:ml-10 pr-5 pt-2 md:pr-0 lg:pr-2 mt-0 sm:mt-0 md:mt-0 sm:w-1/2 md:w-1/2 p-3" key={index}>
-            <h1 className="text-red-600 font-Extrabold">____</h1>
+          < div className="ml-0 sm:ml-5 md:ml-3 lg:ml-10 pr-5 pt-2 md:pr-0 lg:pr-2 mt-0 sm:mt-0 md:mt-0 sm:w-1/2 md:w-1/2 p-3">
             <h1 className="text-red-600 pt-3 text-2xl sm:text-3xl md:text-3xl md:pt-1 lg:text-4xl font-bold lg:mt-5">{itemz.heading}</h1>
             <p className="mt-6 text-gray-500 text-justify md:mt-1 lg:mt-5 xl:mt-7">
               {itemz.content}
@@ -61,7 +80,9 @@ const HomeAbout = () => {
             <button className="mt-5 text-gray-500 text-sm border rounded-3xl border-pink-500 p-2 px-7 hover:bg-red-500 hover:text-white transition duration-300 md:mt-1 lg:mt-3 xl:mt-5">
               {itemz.button}
             </button>
-          </div>))}
+          </div>
+          </div>
+          ))}
       </div>
 
       {/* Reusable Cards Section */}
