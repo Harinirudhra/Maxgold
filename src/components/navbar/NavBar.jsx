@@ -91,7 +91,7 @@ function NavBar() {
   </span>
 
   {isServicesOpen && (
-    <ul className="mt-2 bg-white shadow-lg absolute">
+    <ul className="mt-2 bg-white shadow-lg absolute z-50">
       <li className="hover:bg-gray-200">
         <Link href="/services/service1" className="block px-4 py-2 text-black">
           Service 1
