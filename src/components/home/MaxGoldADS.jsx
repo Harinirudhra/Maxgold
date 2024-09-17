@@ -122,16 +122,16 @@ const MaxGoldADS = () => {
     </h2>
     <div className="w-20 md:w-28 h-1 bg-white mx-auto mb-12"></div>
 
-    <div className=" md:hidden  overflow-hidden rounded-lg">
+    <div className=" md:hidden  overflow-hidden ">
           <YouTube videoId="wTTw4m7HUQE"  opts={optsMobile} onReady={onPlayerReady} />
         </div>
 
-        <div className="hidden md:block lg:hidden overflow-hidden rounded-xl">
+        <div className="hidden md:block lg:hidden overflow-hidden ">
          <YouTube videoId="wTTw4m7HUQE" opts={optsTablet} onReady={onPlayerReady} />
          </div>
 
     {/* YouTube Video at the bottom */}
-    <div className="hidden lg:block overflow-hidden rounded-2xl  ">
+    <div className="hidden lg:block overflow-hidden   ">
     <YouTube videoId ="wTTw4m7HUQE" opts={opts}  onReady={onPlayerReady}/>
     </div>
   </div>
