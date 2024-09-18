@@ -8,7 +8,7 @@ const Ourservices = ({ imageurl, title, para }) => {
         <img
           src={imageurl}
           alt="cash for gold"
-          className="rounded-lg w-full h-auto object-cover md:object-cover sm: w-screen h-screen"
+          className="rounded-br-3xl rounded-tr-3xl rounded-bl-3xl rounded-tl-none  object-cover md:w-full md:h-full lg:w-full lg:h-5/6 sm:object-cover sm:w-full sm:h-full"
         />
       </div>
 
@@ -16,14 +16,13 @@ const Ourservices = ({ imageurl, title, para }) => {
 
         <h1 className="text-5xl font-bold mb-4 md:pt-3 ">{title}</h1>
 
-        <p className="text-xl text-gray-700 p-8 ml-7 sm:p-6  ">
+        <p className="text-xl text-gray-700 sm:w-96 sm:h-96 sm:p-6 ">
           {para}
         </p>
       </div>
     </div>
   );
 };
-
 
 const ServicesContent = () => {
   return (
