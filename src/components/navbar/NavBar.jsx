@@ -94,17 +94,23 @@ function NavBar() {
     <ul className="mt-2 bg-white shadow-lg absolute z-50">
       <li className="hover:bg-gray-200">
         <Link href="/services/service1" className="block px-4 py-2 text-black">
-          Service 1
+        Cash For Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service2" className="block px-4 py-2 text-black">
-          Service 2
+        <Link href="/services/service2" className="block text-xl px-4 py-2 text-black">
+        Release Pledged Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
         <Link href="/services/service3" className="block px-4 py-2 text-black">
-          Service 3
+        Door Step Services
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service3" className="block px-4 py-2 text-black">
+        Add-On Services
+
         </Link>
       </li>
     </ul>
@@ -170,17 +176,22 @@ function NavBar() {
     <ul className="mt-2 bg-white shadow-lg absolute">
       <li className="hover:bg-gray-200">
         <Link href="/services/service1" className="block px-4 py-2 text-black">
-          Service 1
+        Cash For Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
         <Link href="/services/service2" className="block px-4 py-2 text-black">
-          Service 2
+        Release Pledged Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
         <Link href="/services/service3" className="block px-4 py-2 text-black">
-          Service 3
+        Door Step Services
+        </Link>
+      </li>
+      <li className="hover:bg-gray-200">
+        <Link href="/services/service3" className="block px-4 py-2 text-black">
+        Add-On Services
         </Link>
       </li>
     </ul>

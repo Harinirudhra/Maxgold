@@ -28,9 +28,7 @@ const Footer = () => {
             {/* Left Section */}
             <div className="mb-8 lg:mb-0 lg:ml-20">
               <h3 className="text-red-600 text-lg md:text-xl font-semibold pm-6">Max Gold</h3>
-              <p className="mt-4 pm-6 text-gray-600 text-sm md:text-base w-50 lg:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum
-                aliquet accumsan porta lectus ridiculus in mattis. Netus sodales in volutpat ullamcorper
-                amet adipiscing fermentum.</p>
+              <p className="mt-4 pm-6 text-gray-600 text-sm md:text-base w-50 lg:w-96">Max Gold has been growing tremendously at a fast pace with its comprehensive services. Max Gold, recognized as the top-notch and trustworthy place to Sell your used Gold in Tamil Nadu. We offer best cash for your Old Gold Jewelry as per the market rate.</p>
            
 
 
@@ -72,23 +70,25 @@ const Footer = () => {
                 <BsTelephone className="mr-2" />
                 <div>
                   <span className="font-bold">Tel:</span>
-                  <div className="text-red-500 mt-2">555-555-5555</div>
+                  <div className="text-red-500 mt-2"> 9677 40 60 80</div>
                 </div>
               </li>
               <li className="flex items-start">
                 <MdOutlineEmail className="mr-2" />
                 <div>
                   <span className="font-bold">Mail:</span>
-                  <div className="text-red-500 mt-2">hi@magicdesign.io</div>
+                  <div className="text-red-500 mt-2"> info@maxgold.co.in</div>
                 </div>
               </li>
               <li className="flex items-start">
                 <LuMapPin className="mr-2" />
                 <div>
                   <span className="font-bold">Address:</span>
-                  <div className="text-red-500 mt-2">Wizard Ventures GmbH,</div>
-                  <div className="text-red-500">Bugenhagenstr. 11,</div>
-                  <div className="text-red-500">10551 Berlin</div>
+                  <div className="text-red-500 mt-2">Prasanth Real Gold Towers,</div>
+                  <div className="text-red-500">Shop No 6, 8th floor, N Usman Rd,</div>
+                  <div className="text-red-500">T. Nagar, Chennai, Tamil Nadu</div>
+                  <div className="text-red-500">600017</div>
+
                 </div>
               </li>
             </ul>
