@@ -6,6 +6,7 @@ import { CiTwitter } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
+import Link from 'next/link';
 
 
 const Footer = () => {
@@ -15,9 +16,10 @@ const Footer = () => {
         <div className="text-center text-white mb-8 h-52 lg:h-44">
           <h2 className="text-2xl text-white md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
           <p className="lg:text-2xl text-white font-bold md:text-xl mt-2">We got you covered!</p>
+          <Link href="/contact">
           <button className="mt-9 bg-white text-red-600 px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
             Sign Up — Free
-          </button>
+          </button></Link>
         </div>
       </div>
 

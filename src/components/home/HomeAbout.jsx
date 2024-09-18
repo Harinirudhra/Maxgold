@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import samplepic from "../home/goldsamplepic.jpg"
 
+
 // Sample JSON data for the reusable component
 const cardData = [
   {
@@ -61,9 +62,9 @@ const Card = ({ category, title, description }) => (
 );
 
 
-const HomeAbout = () => {
+const HomeAbout = (() => {
   return (
-    <div>
+    <div id="brush-section">
       {/* Static Section */}
       <div className="flex flex-col items-center sm:items-start px-6 md:px-8 lg:px-10">
   {AboutText.map((itemz, index) => (
@@ -115,6 +116,6 @@ const HomeAbout = () => {
       </div>
     </div >
   );
-}
+})
 
 export default HomeAbout;
