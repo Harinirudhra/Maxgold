@@ -3,7 +3,7 @@ import React from 'react';
 // Reusable ImageCard component to handle circular images
 const ImageCard = ({ src, alt, shape }) => {
   return (
-    <div className={`w-52 h-52 overflow-hidden rounded-full ${shape}`}>
+    <div className={`w-32 h-32 sm:w-40 sm:h-40 md:w-52 md:h-52 overflow-hidden ${shape}`}>
       <img src={src} alt={alt} className="w-full h-full object-cover" />
     </div>
   );
@@ -41,12 +41,12 @@ const Aboutus = () => {
             alt={image.alt}
             shape={ 
               index === 0
-                ? "rounded-tl-lg"
+                ? "rounded-lg"
                 : index === 1
                 ? "rounded-full"
                 : index === 2
                 ? "rounded-full" 
-                : "rounded-br-lg"
+                : "rounded-lg"
             } 
           />
         ))}
