@@ -1,65 +1,125 @@
-import React from 'react';
+'use client'
 
-const testimonials = [
-  {
-    client: "Google",
-    testimonial: "@gather_place is the best. We've moved all of our meetings to this new platform and it's made them all better and efficient.",
-    name: "Adam Smith",
-    position: "Web Designer at Spotify",
-    image: "https://via.placeholder.com/50"
-  },
-  {
-    client: "Google",
-    testimonial: "@gather_place is the best. We've moved all of our meetings to this new platform and it's made them all better and efficient.",
-    name: "Adam Smith",
-    position: "Web Designer at Spotify",
-    image: "https://via.placeholder.com/50"
-  },
-  {
-    client: "Google",
-    testimonial: "@gather_place is the best. We've moved all of our meetings to this new platform and it's made them all better and efficient.",
-    name: "Adam Smith",
-    position: "Web Designer at Spotify",
-    image: "https://via.placeholder.com/50"
-  }
-];
+import { useState ,useEffect} from 'react';
+import Marquee from "react-fast-marquee";
 
-// Testimonial Card Component
-const TestimonialCard = ({ client, testimonial, name, position, image }) => (
-  <div className="testimonial-card p-6 bg-green-100 rounded-lg shadow-lg mb-6 w-full max-w-lg">
-    <div className="flex items-center mb-4">
-      <img src={image} alt={`${name}`} className="w-12 h-12 rounded-full mr-4" />
-      <h3 className="text-xl font-bold text-blue-500">{client}</h3>
-    </div>
-    <p className="text-gray-700 mb-4">{testimonial}</p>
-    <div className="flex items-center">
-      <img src={image} alt={name} className="w-10 h-10 rounded-full mr-4" />
-      <div>
-        <h4 className="text-sm font-semibold">{name}</h4>
-        <p className="text-xs text-gray-500">{position}</p>
-      </div>
-    </div>
+const persons = {
+  "users": [
+    {
+      "name": "John Doe",
+      "profile": "https://example.com/images/john_doe.jpg",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 5,
+      "emoji":"😁"
+    },
+    {
+      "name": "Emily Johnson",
+      "profile": "https://example.com/images/emily_johnson.jpg",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 4,
+      "emoji":"🥰"
+    },
+    {
+      "name": "Michael Lee",
+      "profile": "https://example.com/images/michael_lee.jpg",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 3,
+      "emoji":"🤩"
+    },
+    {
+      "name": "Sophia Martinez",
+      "profile": "https://example.com/images/sophia_martinez.jpg",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 5,
+      "emoji":"😘"
+    },
+    {
+      "name": "David Brown",
+      "profile": "https://example.com/images/david_brown.jpg",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 4,
+      "emoji":"😊"
+    },
+    {
+      "name": "David Brown",
+      "profile": "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortFeedback": "Excellent service! Very pleased with the outcome!Good, but room for improvement.Amazing work, would recommend!",
+      "starRating": 4,
+      "emoji":"🥳"
+    }
+  ]
+};
+
+function Testimonials() {
+  
+
+  return (
+  <>
+  <div className='flex flex-col gap-4 m-2 sm:hidden'>
+  {persons.users.slice(0,4).map((user, index) => (
+       
+        
+       <Card key={index} data={user}   />
+       
+     ))}
   </div>
-);
+  <div className='hidden md:flex flex-col gap-[12px] '>
 
-// Main Component to Render Testimonials
-const Testimonials = () => (
-  <div className="testimonials-container p-8 bg-gray-900 text-white">
-    <h2 className="text-3xl font-bold mb-8">Hear what our clients say</h2>
-    <p className="text-lg mb-6">Don’t just take our word for it. Here are a few (of many) reviews of GatherPlace.</p>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {testimonials.map((testimonial, index) => (
-        <TestimonialCard
-          key={index}
-          client={testimonial.client}
-          testimonial={testimonial.testimonial}
-          name={testimonial.name}
-          position={testimonial.position}
-          image={testimonial.image}
-        />
+
+<Marquee loop={0} direction='right'>
+    <div className={`grid grid-cols-6 gap-4 ml-4 `}>
+      {persons.users.map((user, index) => (
+       
+        
+        <Card key={index} data={user} />
+        
+      ))}
+    
+    </div>
+    </Marquee>
+    <Marquee loop={0} direction='left'>
+    <div className={`grid grid-cols-6 gap-4 ml-4 `}>
+      {persons.users.map((user, index) => (
+       
+        
+        <Card key={index} data={user} />
+        
       ))}
     </div>
-  </div>
-);
+    
+    </Marquee>
+   
+    </div>
+    </>
+  );
+}
+
+function Card({ data }) {
+  const[count,SetCount]=useState(data.starRating);
+  return (
+    
+    <div className='flex flex-col items-center gap-4 p-1 rounded-lg shadow-sm aspect-[3/2]  h-[260px] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-400'>
+      <div class="bg-white rounded-lg p-4 border border-transparent h-full bg-clip-border">
+      <div className='flex items-center justify-between w-full'>
+      <div className='flex items-center gap-2'>
+      <div className='w-[50px] h-[50px] rounded-[100%] bg-black'>
+        <img src={data.profile}  className='rounded-[100%] object-cover w-full h-full'></img>
+      </div>
+      <h2 className='text-xl font-bold'>{data.name}</h2>
+      </div>
+      <div className='flex'>
+      
+      {Array.from({ length: count }, (_, i) => (
+        <div key={i}>⭐
+        </div>
+      ))}
+    </div>
+    </div>
+    <div className='font-light text-[18px] self-start'>{data.shortFeedback}</div>
+    
+    </div>
+    </div>
+  );
+}
 
 export default Testimonials;

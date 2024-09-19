@@ -44,7 +44,7 @@ const Customers = () => {
     <div>
 
 
-<div className="flex items-center justify-center gap-x-1 p-6 sm:p-10 md:p-12 lg:p-16 xl:p-20bg-rose-300 sm:bg-white md:bg-rose-300 lg:bg-rose-300 xl:bg-rose-300">
+<div className="flex mt-4 items-center justify-center gap-x-1 p-6 sm:p-10 md:p-12 lg:p-16 xl:p-20bg-rose-300 sm:bg-white md:bg-rose-300 lg:bg-rose-300 xl:bg-rose-300">
       <div className="flex -space-x-2 sm:-space-x-2">
         {testimonials.map((testimonial, index) => (
           <img
