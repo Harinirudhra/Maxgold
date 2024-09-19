@@ -35,7 +35,7 @@ const WhyMaxGold = () => {
   ];
 
   return (
-    <div className="relative bg-[#ec1a44] text-white py-16 px-4 md:py-32 md:px-6">
+    <div className="relative bg-[#ec1a44] text-white py-16 px-5 md:py-32 md:px-20">
       {/* Top-right png */}
       <img
         src="/whyIcons/leaf.png"
@@ -59,7 +59,7 @@ const WhyMaxGold = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex items-start p-4"
+            className="flex items-start p-3"
           >
             {/* Left-side image */}
             <div className="w-16 h-16 flex-shrink-0 mr-5">
