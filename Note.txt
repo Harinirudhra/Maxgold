@@ -19,3 +19,4 @@ https://nextjs.org/docs/messages/built-in-next-font
 
 
 npm install react-youtube
+npm install react-scroll

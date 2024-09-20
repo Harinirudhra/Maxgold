@@ -3,7 +3,7 @@ import React from 'react';
 const Ourservices = ({ imageurl, title, para }) => {
   return (
     <div className="flex flex-col md:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
-      
+
       <div className="md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0">
         <img
           src={imageurl}
@@ -24,7 +24,7 @@ const Ourservices = ({ imageurl, title, para }) => {
   );
 };
 
-const ServicesContent = () => {
+export const ServicesContent = () => {
   return (
     <Ourservices
       imageurl="https://bsmedia.business-standard.com/_media/bs/img/misc/2022-02/17/full/gold-loan-gold-financing-gold-financier-1645084756-39982620.jpg?im=FeatureCrop,size=(826,465)"
@@ -34,4 +34,4 @@ const ServicesContent = () => {
   );
 };
 
-export default ServicesContent;
+export default Ourservices;
