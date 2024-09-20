@@ -65,7 +65,7 @@ const persons = {
 function Testimonials() {
   return (
     <>
-    <div className="mb-10">
+    <div className="mb-10 md:mx-0 mx-5">
     <div className="text-center mb-10">
         <h1>Testimonials</h1>
       </div>
