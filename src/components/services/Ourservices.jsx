@@ -34,4 +34,4 @@ export const ServicesContent = () => {
   );
 };
 
-export default Ourservices;
+export default ServicesContent;
