@@ -68,7 +68,7 @@ function Testimonials() {
     <div className="text-center mb-10">
         <h1>Testimonials</h1>
       </div>
-      <div className="flex flex-col gap-4 m-2 sm:hidden">
+      <div className="flex flex-col gap-4 m-8 sm:hidden">
         {persons.users.slice(0, 4).map((user, index) => (
           <Card key={index} data={user} />
         ))}
