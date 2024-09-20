@@ -7,7 +7,7 @@ const cardData = [
     title: "TRUST",
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
-    backgroundColor: "bg-gray-200",
+    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e]  ",
     roundedClass: "rounded-tr-[42px] rounded-b-xl"
   },
   {
@@ -28,7 +28,7 @@ const cardData = [
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/shield.png",
-    backgroundColor: "bg-gray-200",
+    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e] ",
     roundedClass: "rounded-bl-[42px] rounded-t-xl"
   }
 ];
@@ -58,7 +58,7 @@ const OurValue = () => {
               <div key={index} className={`${card.backgroundColor} p-6 md:p-8 rounded-lg ${card.roundedClass} flex flex-col text-left`}>
                 <img src={card.imageSrc} alt={card.title} className="mb-4 w-12 h-12" />
                 <h3 className="text-lg md:text-xl font-bold mb-2 text-black">{card.title}</h3>
-                <p className="text-gray-700 text-sm md:text-base">{card.description}</p>
+                <p className="text-black text-sm md:text-base">{card.description}</p>
               </div>
             ))}
           </div>
