@@ -14,14 +14,14 @@ const cardData = [
     title: "CONVENIENCE",
     description: "Our services are tech driven & designed to make your experience a tension-free one.",
     imageSrc: "/ourValueIcons/gold-key.png",
-    backgroundColor: "bg-yellow-200",
+    backgroundColor: "bg-gradient-to-b from-[#f0c678] to-[#e4a018]",
     roundedClass: "rounded-tl-[42px] rounded-b-xl"
   },
   {
     title: "TRANSPARENCY",
     description: "What you see is what you get. Quite literally, no hidden charges and fees!",
     imageSrc: "/ourValueIcons/pay.png",
-    backgroundColor: "bg-yellow-200",
+    backgroundColor: "bg-gradient-to-b from-[#f0c678] to-[#e4a018]",
     roundedClass: "rounded-br-[42px] rounded-t-xl"
   },
   {
@@ -35,7 +35,7 @@ const cardData = [
 
 const OurValue = () => {
   return (
-    <section className="px-4 py-8 md:py-12 bg-white">
+    <section className="px-4 py-8 md:py-12 bg-white ">
       <div className="max-w-7xl mx-auto">
         <p className="text-lg sm:text-xl md:text-2xl mb-10 md:mb-14 text-black text-center font-medium mx-auto md:mx-20 lg:mx-60">
           At <span className="font-bold">Max Gold</span>, our values are the bedrock of our business, shaping every
@@ -45,7 +45,7 @@ const OurValue = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10">
           {/* Left side - Our Value Text */}
           <div className="flex flex-col justify-start items-center mb-0 lg:mb-10">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-black mb-5">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black  text-black mb-5">
               <span className="text-red-500">Our</span> Value
             </h2>
             <img src="/ourValueIcons/arrows.png" alt="Arrows" className=" lg:block hidden" /> 
