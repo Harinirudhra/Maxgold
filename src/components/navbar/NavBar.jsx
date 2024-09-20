@@ -34,7 +34,7 @@ function NavBar() {
           <Image
             src={maxigold}
             alt="Max Gold Logo"
-            className="h-auto w-[100px] sm:w-[150px] md:w-[200px] lg:w-[250px] lg:ml-10" // Responsive sizes
+            className="h-auto w-[150px] md:w-[200px] lg:w-[250px] lg:ml-10" // Responsive sizes
           />
           </Link>
         </div>
