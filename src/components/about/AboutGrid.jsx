@@ -3,7 +3,7 @@ import React from 'react';
 // Reusable ImageGrid component
 const ImageGrid = ({ images }) => {
   return (
-    <div className="bg-white p-8 -mb-32">
+    <div className="bg-white p-8 md:p-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col items-center ">
@@ -12,7 +12,7 @@ const ImageGrid = ({ images }) => {
               alt={image.alt}
               className="w-auto h-full rounded-lg object-cover "
             />
-            <p className="mt-4 w-screen h-auto text-center text-black font-semibold text-2xl md:w-80 md:h-80">
+            <p className="mt-4 w-screen h-auto text-center text-black font-semibold text-2xl md:w-80 ">
               {image.caption}
             </p>
           </div>
