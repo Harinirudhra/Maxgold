@@ -17,7 +17,7 @@ const AboutHeroSection = () => {
     <AboutHero
       title="Max gold"
       description="We are the best choice for you to sell your precious gold jewelry and get instant cash"
-      imageurl="https://img.freepik.com/free-photo/elegant-gemstone-necklace-shines-with-rare-sophistication-generated-by-ai_188544-10736.jpg?ga=GA1.1.8839009.1724129443&semt=ais_hybrid"
+      imageurl="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2f73bb61658493.5a75732e670c8.jpg"
     />
   );
 };
