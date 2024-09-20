@@ -88,11 +88,11 @@ function NavBar() {
                 <Link href="/services" className="block text-white hover:text-[#eeaf39] hover:underline">
                   Our Services
                 </Link>
-                <ArrowDropDownOutlinedIcon className="mt-1" />
+                {/* <ArrowDropDownOutlinedIcon className="mt-1" /> */}
               </div>
             </span>
 
-            {isServicesOpen && (
+            {/* {isServicesOpen && (
               <ul className="mt-2 bg-white shadow-lg absolute z-50">
                 <li className="hover:bg-gray-200">
                   <Link href="/services/service1" className="block px-4 py-2 text-black">
@@ -115,7 +115,7 @@ function NavBar() {
                   </Link>
                 </li>
               </ul>
-            )}
+            )} */}
           </li>
 
           {/* Contact Us tab */}
@@ -168,11 +168,11 @@ function NavBar() {
                 <Link href="/services" className="block text-white">
                   Our Services
                 </Link>
-                <ArrowDropDownOutlinedIcon className="mt-1" />
+                {/* <ArrowDropDownOutlinedIcon className="mt-1" /> */}
               </div>
             </span>
 
-            {isServicesOpen && (
+            {/* {isServicesOpen && (
               <ul className="mt-2 bg-[#da0000] z-50 relative">
                 <li className="hover:bg-gray-200">
                   <Link href="/services/service1" className="block px-4 py-2  text-white" onClick={closeMenu}>
@@ -195,7 +195,7 @@ function NavBar() {
                   </Link>
                 </li>
               </ul>
-            )}
+            )} */}
           </li>
 
           <li>
