@@ -65,6 +65,7 @@ const persons = {
 function Testimonials() {
   return (
     <>
+    <div className="mb-10">
     <div className="text-center mb-10">
         <h1>Testimonials</h1>
       </div>
@@ -90,6 +91,7 @@ function Testimonials() {
           </div>
         </Marquee>
       </div>
+      </div>
     </>
   );
 }
@@ -97,6 +99,7 @@ function Testimonials() {
 function Card({ data }) {
   const [count, SetCount] = useState(data.starRating);
   return (
+    
     <div className=" p-1 rounded-lg shadow-sm aspect-[3/2]  h-[260px] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-400">
       <div class="flex flex-col items-center gap-4 bg-white rounded-lg p-4 border border-transparent h-full bg-clip-border">
         <div className="flex items-center justify-between w-full">
@@ -123,6 +126,7 @@ function Card({ data }) {
         </div>
       </div>
     </div>
+  
   );
 }
 
