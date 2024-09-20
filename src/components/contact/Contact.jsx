@@ -93,7 +93,7 @@ const Contact = () => {
 
       {/* Alternating Layout for Each Location */}
       {contactData.locations.map((location, index) => (
-        <div className={`grid grid-cols-1 md:grid-cols-2 ${location.backgroundColor} mb-5 md:mb-0 mx-0 lg:mx-10`} key={index}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 lg:mb-10 ${location.backgroundColor} mb-5 md:mb-0 mx-0 lg:mx-10`} key={index}>
           {/* Conditionally render text or map first based on index */}
           {index % 2 === 0 ? (
             <>
