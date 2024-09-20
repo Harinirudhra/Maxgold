@@ -20,7 +20,8 @@ function NavBar() {
   };
 
   return (
-    <nav className="bg-white p-6 shadow-md">
+    <nav className="bg-gradient-to-r from-[#da0000] to-[#b81619] p-6 shadow-md">
+
       <div className="flex justify-between items-center">
         {/* Left Side: Max Gold logo */}
         <div className="flex items-center">
@@ -37,9 +38,9 @@ function NavBar() {
         {/* Hamburger Icon for small screens */}
         <div className="md:hidden" onClick={toggleMenu}>
           {isOpen ? (
-            <CloseIcon className="h-6 w-6 text-black" /> // Close icon when menu is open
+            <CloseIcon className="h-6 w-6 text-white" /> // Close icon when menu is open
           ) : (
-            <MenuIcon className="h-6 w-6 text-black" /> // Menu icon when menu is closed
+            <MenuIcon className="h-6 w-6 text-white" /> // Menu icon when menu is closed
           )}
         </div>
 
@@ -49,7 +50,7 @@ function NavBar() {
           <li>
             <Link href="/">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                className="cursor-pointer px-4 py-2 text-white block hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Home
@@ -61,7 +62,7 @@ function NavBar() {
           <li>
             <Link href="/about">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-800 hover:underline"
+                className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 About
@@ -74,7 +75,7 @@ function NavBar() {
           {/* Our Services tab with static dropdown */}
           <li className="relative">
   <span
-    className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+    className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
     onClick={(e) => {
       e.preventDefault();
       toggleServicesDropdown();
@@ -82,7 +83,7 @@ function NavBar() {
     style={{ textUnderlineOffset: "7px" }}
   >
     <div className="flex flex-1">
-    <Link href="/services" className="block text-black">
+    <Link href="/services" className="block text-white  hover:text-[#eeaf39] hover:underline">
       Our Services
     </Link>
     <ArrowDropDownOutlinedIcon className="mt-1" />
@@ -93,17 +94,17 @@ function NavBar() {
   {isServicesOpen && (
     <ul className="mt-2 bg-white shadow-lg absolute z-50">
       <li className="hover:bg-gray-200">
-        <Link href="/services/service1" className="block px-4 py-2 text-black">
+        <Link href="/services/service1" className="block px-4 py-2  text-black">
         Cash For Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service2" className="block text-xl px-4 py-2 text-black">
+        <Link href="/services/service2" className="block text-xl px-4 py-2  text-black">
         Release Pledged Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service3" className="block px-4 py-2 text-black">
+        <Link href="/services/service3" className="block px-4 py-2  text-black">
         Door Step Services
         </Link>
       </li>
@@ -122,7 +123,7 @@ function NavBar() {
           <li>
             <Link href="/contact">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Contact Us
@@ -138,7 +139,7 @@ function NavBar() {
           <li>
             <Link href="#">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Home
@@ -148,7 +149,7 @@ function NavBar() {
           <li>
             <Link href="/about">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 About
@@ -157,7 +158,7 @@ function NavBar() {
           </li>
           <li className="relative">
   <span
-    className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+    className="cursor-pointer px-4 py-2  text-white block  hover:text-[#eeaf39] hover:underline"
     onClick={(e) => {
       e.preventDefault();
       toggleServicesDropdown();
@@ -165,7 +166,7 @@ function NavBar() {
     style={{ textUnderlineOffset: "7px" }}
   >
   <div className="flex flex-1">
-    <Link href="/services" className="block text-black">
+    <Link href="/services" className="block  text-white">
       Our Services
     </Link>
     <ArrowDropDownOutlinedIcon className="mt-1" />
@@ -175,22 +176,22 @@ function NavBar() {
   {isServicesOpen && (
     <ul className="mt-2 bg-white shadow-lg absolute">
       <li className="hover:bg-gray-200">
-        <Link href="/services/service1" className="block px-4 py-2 text-black">
+        <Link href="/services/service1" className="block px-4 py-2  text-black">
         Cash For Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service2" className="block px-4 py-2 text-black">
+        <Link href="/services/service2" className="block px-4 py-2  text-black">
         Release Pledged Gold
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service3" className="block px-4 py-2 text-black">
+        <Link href="/services/service3" className="block px-4 py-2  text-black">
         Door Step Services
         </Link>
       </li>
       <li className="hover:bg-gray-200">
-        <Link href="/services/service3" className="block px-4 py-2 text-black">
+        <Link href="/services/service3" className="block px-4 py-2  text-black">
         Add-On Services
         </Link>
       </li>
@@ -201,7 +202,7 @@ function NavBar() {
           <li>
             <Link href="/contact">
               <span
-                className="cursor-pointer px-4 py-2 text-black block hover:text-red-700 hover:underline"
+                className="cursor-pointer px-4 py-2 text-whiteblock  hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Contact Us
