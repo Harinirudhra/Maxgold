@@ -8,28 +8,28 @@ const cardData = [
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
     backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e]  ",
-    roundedClass: "rounded-tr-[42px] rounded-b-xl"
+    roundedClass: "rounded-tr-[42px] rounded-b-xl text-white"
   },
   {
     title: "CONVENIENCE",
     description: "Our services are tech driven & designed to make your experience a tension-free one.",
     imageSrc: "/ourValueIcons/gold-key.png",
     backgroundColor: "bg-gradient-to-b from-[#e7a72f] to-[#e4a018]",
-    roundedClass: "rounded-tl-[42px] rounded-b-xl"
+    roundedClass: "rounded-tl-[42px] rounded-b-xl text-black"
   },
   {
     title: "TRANSPARENCY",
     description: "What you see is what you get. Quite literally, no hidden charges and fees!",
     imageSrc: "/ourValueIcons/pay.png",
     backgroundColor: "bg-gradient-to-b from-[#e7a72f] to-[#e4a018]",
-    roundedClass: "rounded-br-[42px] rounded-t-xl"
+    roundedClass: "rounded-br-[42px] rounded-t-xl "
   },
   {
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/shield.png",
     backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e] ",
-    roundedClass: "rounded-bl-[42px] rounded-t-xl"
+    roundedClass: "rounded-bl-[42px] rounded-t-xl text-white"
   }
 ];
 
@@ -57,8 +57,8 @@ const OurValue = () => {
             {cardData.map((card, index) => (
               <div key={index} className={`${card.backgroundColor} p-6 md:p-8 rounded-lg ${card.roundedClass} flex flex-col text-left`}>
                 <img src={card.imageSrc} alt={card.title} className="mb-4 w-12 h-12" />
-                <h3 className="text-lg md:text-xl font-bold mb-2 text-black">{card.title}</h3>
-                <p className="text-black text-sm md:text-base">{card.description}</p>
+                <h3 className="text-lg md:text-xl font-bold mb-2 ">{card.title}</h3>
+                <p className=" text-sm md:text-base">{card.description}</p>
               </div>
             ))}
           </div>

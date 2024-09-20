@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div>
-      <div className="bg-red-400 py-8 lg:py-12">
+      <div className="bg-red-600 py-8 lg:py-12">
         <div className="text-center text-white mb-8 h-52 lg:h-44">
           <h2 className="text-2xl text-white md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
           <p className="lg:text-2xl text-white font-bold md:text-xl mt-2">We got you covered!</p>
@@ -44,7 +44,7 @@ const Footer = () => {
 
           {/* Company Section */}
           <div className="mb-8 lg:mb-0 ">
-            <h4 className="text-red-400 font-bold text-lg">COMPANY</h4>
+            <h4 className="text-red-600 font-bold text-lg">COMPANY</h4>
             <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
               <li><a href="#">About</a></li>
               <li><a href="#">Features</a></li>
@@ -55,7 +55,7 @@ const Footer = () => {
 
           {/* Resources Section */}
           <div className="mb-8 lg:mb-0 ">
-            <h4 className="text-red-400 font-bold text-lg">RESOURCES</h4>
+            <h4 className="text-red-600 font-bold text-lg">RESOURCES</h4>
             <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
               <li><a href="#">Free eBooks</a></li>
               <li><a href="#">Development Tutorial</a></li>
@@ -66,30 +66,30 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div className="lg:mr-20">
-            <h4 className="text-red-400 font-bold text-lg">CONTACT</h4>
+            <h4 className="text-red-600 font-bold text-lg">CONTACT</h4>
             <ul className="mt-4 space-y-4 text-gray-600 text-sm md:text-base">
               <li className="flex items-start">
                 <BsTelephone className="mr-2" />
                 <div>
                   <span className="font-bold">Tel:</span>
-                  <div className="text-red-500 mt-2"> 9677 40 60 80</div>
+                  <div className="text-red-600 mt-2"> 9677 40 60 80</div>
                 </div>
               </li>
               <li className="flex items-start">
                 <MdOutlineEmail className="mr-2" />
                 <div>
                   <span className="font-bold">Mail:</span>
-                  <div className="text-red-500 mt-2"> info@maxgold.co.in</div>
+                  <div className="text-red-600 mt-2"> info@maxgold.co.in</div>
                 </div>
               </li>
               <li className="flex items-start">
                 <LuMapPin className="mr-2" />
                 <div>
                   <span className="font-bold">Address:</span>
-                  <div className="text-red-500 mt-2">Prasanth Real Gold Towers,</div>
-                  <div className="text-red-500">Shop No 6, 8th floor, N Usman Rd,</div>
-                  <div className="text-red-500">T. Nagar, Chennai, Tamil Nadu</div>
-                  <div className="text-red-500">600017</div>
+                  <div className="text-red-600 mt-2">Prasanth Real Gold Towers,</div>
+                  <div className="text-red-600">Shop No 6, 8th floor, N Usman Rd,</div>
+                  <div className="text-red-600">T. Nagar, Chennai, Tamil Nadu</div>
+                  <div className="text-red-600">600017</div>
 
                 </div>
               </li>
