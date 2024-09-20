@@ -23,33 +23,33 @@ const cardData = [
 ];
 
 const AboutText = [
-  {
-    heading: "Welcome to Max Gold - Cash for Gold",
-    // content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.",
-    // content: "We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
-    content:["In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.", "We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security."],
-    button: "Read more",
-    reverse:false
-  },
-  {
-    heading: "Max Gold - A Trusted Partner for Selling Gold",
-    content: "We understand that parting with your gold can be a significant decision. Whether you’ve inherited jewellery that no longer serves your needs or you simply wish to convert your gold assets into cash, Max Gold is here to make the process as convenient and secure as possible. As prominent gold buyers near you, we take pride in our ability to offer a convenient and trustworthy solution to meet your needs.",
-    button: "Read more",
-    reverse:true
-  },
-  {
-    heading: "Selling Gold for Cash: A Hassle-Free process at Max Gold",
-    // content: "Gold selling for cash should be a straightforward and stress-free experience, and that’s precisely what we provide at Max Gold. Our well-established and streamlined process ensures that you can quickly turn your gold into cash without unnecessary complications. We prioritize efficiency and ease in every step of the transaction, ensuring that you receive the best value for your gold.",
-    // content: "At Max Gold, we believe that selling gold for cash should be a hassle-free and straightforward experience, and we have meticulously designed our process to ensure just that. We understand that when individuals decide to part with their gold items, they want a seamless and efficient transaction that provides them with the best value. That’s precisely what you can expect when you choose Max Gold for your cash-for-gold needs.",
-    content: ["Gold selling for cash should be a straightforward and stress-free experience, and that’s precisely what we provide at Max Gold. Our well-established and streamlined process ensures that you can quickly turn your gold into cash without unnecessary complications. We prioritize efficiency and ease in every step of the transaction, ensuring that you receive the best value for your gold.","At Max Gold, we believe that selling gold for cash should be a hassle-free and straightforward experience, and we have meticulously designed our process to ensure just that. We understand that when individuals decide to part with their gold items, they want a seamless and efficient transaction that provides them with the best value. That’s precisely what you can expect when you choose Max Gold for your cash-for-gold needs."],
-    button: "Read more",
-    reverse:false
-  },
+  // {
+  //   heading: "Welcome to Max Gold - Cash for Gold",
+  //   // content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.",
+  //   // content: "We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
+  //   content:["In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.", "We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security."],
+  //   button: "Read more",
+  //   reverse:false
+  // },
+  // {
+  //   heading: "Max Gold - A Trusted Partner for Selling Gold",
+  //   content: "We understand that parting with your gold can be a significant decision. Whether you’ve inherited jewellery that no longer serves your needs or you simply wish to convert your gold assets into cash, Max Gold is here to make the process as convenient and secure as possible. As prominent gold buyers near you, we take pride in our ability to offer a convenient and trustworthy solution to meet your needs.",
+  //   button: "Read more",
+  //   reverse:true
+  // },
+  // {
+  //   heading: "Selling Gold for Cash: A Hassle-Free process at Max Gold",
+  //   // content: "Gold selling for cash should be a straightforward and stress-free experience, and that’s precisely what we provide at Max Gold. Our well-established and streamlined process ensures that you can quickly turn your gold into cash without unnecessary complications. We prioritize efficiency and ease in every step of the transaction, ensuring that you receive the best value for your gold.",
+  //   // content: "At Max Gold, we believe that selling gold for cash should be a hassle-free and straightforward experience, and we have meticulously designed our process to ensure just that. We understand that when individuals decide to part with their gold items, they want a seamless and efficient transaction that provides them with the best value. That’s precisely what you can expect when you choose Max Gold for your cash-for-gold needs.",
+  //   content: ["Gold selling for cash should be a straightforward and stress-free experience, and that’s precisely what we provide at Max Gold. Our well-established and streamlined process ensures that you can quickly turn your gold into cash without unnecessary complications. We prioritize efficiency and ease in every step of the transaction, ensuring that you receive the best value for your gold.","At Max Gold, we believe that selling gold for cash should be a hassle-free and straightforward experience, and we have meticulously designed our process to ensure just that. We understand that when individuals decide to part with their gold items, they want a seamless and efficient transaction that provides them with the best value. That’s precisely what you can expect when you choose Max Gold for your cash-for-gold needs."],
+  //   button: "Read more",
+  //   reverse:false
+  // },
   {
     heading: "About Us",
     content: "In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return. If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold.We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.",
     button: "Read more",
-    reverse:true
+    reverse:false
   }
 ]
 // Reusable Card Component
@@ -69,7 +69,7 @@ const HomeAbout = (() => {
       <div className="flex flex-col items-center sm:items-start px-6 md:px-8 lg:px-10">
   {AboutText.map((itemz, index) => (
     <div
-      className={`flex flex-col items-start justify-center gap-4 ${itemz.reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}
+      className={`flex flex-col items-start justify-center gap-8 ${itemz.reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}
       key={index}
       // style={{ maxHeight: '450px' }}  // Ensures max height is the same for both content and image
     >
@@ -80,7 +80,7 @@ const HomeAbout = (() => {
           width={700}
           height={100}
           style={{ height: '100%' }}  // Ensures image height fills the container
-          className="w-full object-cover"  // Prevents overflow and maintains aspect ratio
+          className="w-full object-cover "  // Prevents overflow and maintains aspect ratio
         />
       </div>
       <div className="w-full pt-5 sm:w-1/2 md:w-1/2 flex flex-col gap-4 justify-between">

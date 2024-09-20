@@ -19,6 +19,12 @@ const servicesData = [
     image: '/AchieveSuccess/person.png',
     buttonText: 'View More',
   },
+  {
+    title: 'Add-On Services',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    image: '/AchieveSuccess/goldcoin.png',
+    buttonText: 'View More',
+  },
 ];
 
 const ServiceCard = ({ title, description, image, buttonText, isReverse }) => {
