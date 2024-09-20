@@ -5,7 +5,7 @@ import React from 'react';
 const AboutFAQ = () => {
   return (
     <div>
-      <section class="sm:py-10 bg-[#ffbe46]  overflow-hidden" id="faq">
+      <section class="sm:py-10 bg-gradient-to-b from-[#fdc662] to-[#f6a606] overflow-hidden" id="faq">
         <div class="container mx-auto px-4">
             <div class="relative py-16 px-8 bg-yelloww overflow-hidden rounded-3xl">
                 <div class="relative z-10 md:max-w-7xl mx-auto">
