@@ -7,7 +7,7 @@ const cardData = [
     title: "TRUST",
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
-    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e]  ",
+    backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e]  ",
     roundedClass: "rounded-tr-[42px] rounded-b-xl"
   },
   {
@@ -28,7 +28,7 @@ const cardData = [
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/shield.png",
-    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e] ",
+    backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e] ",
     roundedClass: "rounded-bl-[42px] rounded-t-xl"
   }
 ];
