@@ -93,7 +93,7 @@ const AboutFAQ = () => {
                                         </h3>
                                     </div>
                                     <div class="w-full md:w-1/2 p-2">
-                                        <p class="text-white font-medium">No, you don't have to pay anything extra on
+                                        <p class="text-white font-medium">No, you dont have to pay anything extra on
                                             PearsonToefl.com website to book your slot. This prepaid Toefl voucher is
                                             inclusive of GST and covers the full cost of Toefl Academic.
                                         </p>
@@ -110,8 +110,8 @@ const AboutFAQ = () => {
                                         </h3>
                                     </div>
                                     <div class="w-full md:w-1/2 p-2">
-                                        <p class="text-white font-medium">Sure, if you're new to TOEFL and GRE and
-                                            don't know
+                                        <p class="text-white font-medium">Sure, if you are new to TOEFL and GRE and
+                                            dont know
                                             how to book your slot, our team will happily help you to book your slot or
                                             we will book it for you.
 
