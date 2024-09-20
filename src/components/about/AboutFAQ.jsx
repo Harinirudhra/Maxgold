@@ -5,18 +5,18 @@ import React from 'react';
 const AboutFAQ = () => {
   return (
     <div>
-      <section class="sm:py-10 bg-gradient-to-b from-[#c40b30] [#ffbe46] to-[#c40b30]  overflow-hidden" id="faq">
+      <section class="sm:py-10 bg-[#ffbe46]  overflow-hidden" id="faq">
         <div class="container mx-auto px-4">
             <div class="relative py-16 px-8 bg-yelloww overflow-hidden rounded-3xl">
                 <div class="relative z-10 md:max-w-7xl mx-auto">
-                    <div class="md:max-w-xl mb-10"><span class="inline-block mb-5 text-md text-[#181817]  font-bold uppercase tracking-widest">Frequently
+                    <div class="md:max-w-xl mb-10"><span class="inline-block mb-5 text-md text-black  font-bold uppercase tracking-widest">Frequently
                             asked questions</span>
-                        <h2 class="font-heading text-4xl    text-[#171717]  lg:text-5xl font-bold font-heading">
+                        <h2 class="font-heading text-4xl  text-black lg:text-5xl font-bold font-heading">
                             Got questions? Were here to help!</h2>
                     </div>
                     <div class="flex flex-wrap -m-3">
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">How soon will I
@@ -33,7 +33,7 @@ const AboutFAQ = () => {
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Within what timeframe
@@ -50,7 +50,7 @@ const AboutFAQ = () => {
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Is this refundable?
@@ -68,7 +68,7 @@ const AboutFAQ = () => {
                         </div>
 
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Can I book any
@@ -85,7 +85,7 @@ const AboutFAQ = () => {
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46]  rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619]  rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black lg:pr-10">Do I have to
@@ -102,7 +102,7 @@ const AboutFAQ = () => {
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">
@@ -121,7 +121,7 @@ const AboutFAQ = () => {
                             </div>
                         </div>
                         <div class="w-full p-3">
-                            <div class="p-10 bg-[#ffbe46] rounded-3xl">
+                            <div class="p-10 bg-gradient-to-r from-[#da0000] to-[#b81619] rounded-2xl">
                                 <div class="flex flex-wrap -m-2">
                                     <div class="w-full md:w-1/2 p-2">
                                         <h3 class="font-heading text-xl text-white font-black">Can you give me some
