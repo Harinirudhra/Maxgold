@@ -7,28 +7,28 @@ const cardData = [
     title: "TRUST",
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
-    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e]  ",
+    backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e]  ",
     roundedClass: "rounded-tr-[42px] rounded-b-xl"
   },
   {
     title: "CONVENIENCE",
     description: "Our services are tech driven & designed to make your experience a tension-free one.",
     imageSrc: "/ourValueIcons/gold-key.png",
-    backgroundColor: "bg-gradient-to-b from-[#f0c678] to-[#e4a018]",
+    backgroundColor: "bg-gradient-to-b from-[#e7a72f] to-[#e4a018]",
     roundedClass: "rounded-tl-[42px] rounded-b-xl"
   },
   {
     title: "TRANSPARENCY",
     description: "What you see is what you get. Quite literally, no hidden charges and fees!",
     imageSrc: "/ourValueIcons/pay.png",
-    backgroundColor: "bg-gradient-to-b from-[#f0c678] to-[#e4a018]",
+    backgroundColor: "bg-gradient-to-b from-[#e7a72f] to-[#e4a018]",
     roundedClass: "rounded-br-[42px] rounded-t-xl"
   },
   {
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/shield.png",
-    backgroundColor: "bg-gradient-to-b from-[#e64d52] to-[#ac0e2e] ",
+    backgroundColor: "bg-gradient-to-b from-[#e50001] to-[#ac0e2e] ",
     roundedClass: "rounded-bl-[42px] rounded-t-xl"
   }
 ];
@@ -45,7 +45,7 @@ const OurValue = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10">
           {/* Left side - Our Value Text */}
           <div className="flex flex-col justify-start items-center mb-0 lg:mb-10">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black  text-black mb-5">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black   text-black mb-5">
               <span className="text-red-500">Our</span> Value
             </h2>
             <img src="/ourValueIcons/arrows.png" alt="Arrows" className=" lg:block hidden" /> 

@@ -17,13 +17,13 @@ const AboutUs = ({
           {/* Title and Description */}
 
           <div className="order-1 lg:order-none">
-            <h1 className="text-4xl font-extrabold text-[#ffbe46] mb-4">About Us</h1>
-            <h2 className="text-3xl font-extrabold text-[#ffbe46] mb-4">{title}</h2>
-            <p className="text-white text-2xl font-medium mb-8">
+            <h1 className="text-4xl font-extrabold text-[#ffbe46] mb-5 lg:mb-10">About Us</h1>
+            <h2 className="md:text-3xl text-2xl font-bold text-[#ffbe46] mb-2">{title}</h2>
+            <p className="text-white text-xl font-medium mb-8">
               {description}
             </p>
-            <h3 className="text-3xl font-extrabold text-[#fcc71a] mb-2">{journeyTitle}</h3>
-            <p className="text-white text-2xl font-medium">{journeyText}</p>
+            <h3 className="md:text-3xl text-2xl font-bold text-[#fcc71a] mb-2">{journeyTitle}</h3>
+            <p className="text-white text-xl font-medium">{journeyText}</p>
           </div>
 
           {/* Image */}
