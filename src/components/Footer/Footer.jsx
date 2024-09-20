@@ -5,7 +5,8 @@ import { LuMapPin } from "react-icons/lu";
 import { CiTwitter } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { IoLogoGithub } from "react-icons/io";
+import { FaYoutube } from "react-icons/fa";
+
 import Link from 'next/link';
 
 
@@ -38,7 +39,7 @@ const Footer = () => {
               <a href="#"><CiTwitter className="fab fa-twitter text-gray-600 text-lg" /></a>
               <a href="#"><FaFacebookF className="fab fa-facebook text-gray-600 text-lg" /></a>
               <a href="#"><FaInstagram className="fab fa-instagram text-gray-600 text-lg" /></a>
-              <a href="#"><IoLogoGithub className="fab fa-github text-gray-600 text-lg" /></a>
+              <a href="#"><FaYoutube className="fab fa-instagram text-gray-600 text-lg" /></a>
             </div>
           </div>
 
