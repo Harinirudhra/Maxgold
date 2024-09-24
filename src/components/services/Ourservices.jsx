@@ -2,21 +2,19 @@ import React from 'react';
 
 const Ourservices = ({ imageurl, title, para }) => {
   return (
-    <div className="flex flex-col md:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
+    <div className="flex flex-col lg:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
 
-      <div className="md:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0">
+      <div className="lg:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 ">
         <img
           src={imageurl}
           alt="cash for gold"
-          className="rounded-br-3xl rounded-tr-3xl rounded-bl-3xl rounded-tl-none  object-cover md:w-full md:h-full lg:w-full lg:h-5/6 sm:object-cover sm:w-full sm:h-full"
+          className="rounded-br-3xl rounded-tr-3xl rounded-bl-3xl rounded-tl-none  object-cover md:w-full md:h-full lg:w-full lg:h-full sm:object-cover sm:w-full sm:h-full"
         />
       </div>
 
-      <div className="md:w-1/2  flex flex-col justify-center px-4">
-
-        <h1 className="text-5xl  font-bold mb-2 sm:p-6 ">{title}</h1>
-
-        <p className="text-2xl  md:text-xl  text-gray-700  sm:p-6 ">
+      <div className="lg:w-1/2   flex flex-col justify-center px-4">
+        <h1 className="text-3xl md:text-2x1  font-bold mb-1 sm:p-2  ">{title}</h1>
+        <p className="text-xl  md:text-lg lg:text-x flex flex-wrap  text-gray-700  sm:p-2 ">
           {para}
         </p>
       </div>
