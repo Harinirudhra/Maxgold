@@ -6,6 +6,8 @@ import { CiTwitter } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Image from 'next/image';
+import backimg from '../../../public/BackgroundImg/goldencoins.jpg'
 
 import Link from 'next/link';
 
@@ -13,13 +15,15 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div>
-      <div className="bg-red-600 py-8 lg:py-12">
-        <div className="text-center text-white mb-8 h-52 lg:h-44">
-          <h2 className="text-2xl text-white md:text-3xl lg:text-2xl font-bold">Are you ready to get started?</h2>
-          <p className="lg:text-2xl text-white font-bold md:text-xl mt-2">We got you covered!</p>
+      <div className=" py-8 lg:py-12"style={{ backgroundImage: `url(${backimg.src})`, // Using the `src` property for the image path
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',}}>
+        <div className="text-center text-black mb-8 h-52 lg:h-44">
+          <h2 className="text-2xl text-black md:text-3xl lg:text-2xl font-bold">Ready to Turn </h2>
+          <p className="lg:text-2xl text-black font-bold md:text-xl mt-2">Your Gold into Cash?</p>
           <Link href="/contact">
-          <button className="mt-9 bg-white text-red-600 px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
-            Sign Up — Free
+          <button className="mt-9 bg-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
+            Contact-Us
           </button></Link>
         </div>
       </div>
