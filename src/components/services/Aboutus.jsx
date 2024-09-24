@@ -53,8 +53,8 @@ const Aboutus = () => {
       </div>
 
       {/* Right section: Text content */}
-      <div className="mt-4 ml-10 md:mt-0 md:w-1/2 sm:text-center md:text-left ">
-        <p className="text-black text-lg leading-relaxed ">
+      <div className="mt-4 ml-10 md:mt-0 md:w-1/2  md:text-left  ">
+        <p className="text-black lg:text-3xl md:text-2xl sm:text-center leading-relaxed  ">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industrys standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

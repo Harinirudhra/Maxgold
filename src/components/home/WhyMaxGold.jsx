@@ -3,39 +3,39 @@ import React from 'react';
 const WhyMaxGold = () => {
   const features = [
     {
-      imageSrc: '/whyIcons/hand.png',
+      imageSrc: '/WhyIcon/funding.png',
       title: 'Affordability',
       description: 'DIGIGOLD offers the best price for all products compared to live market rates.'
     },
     {
-      imageSrc: '/whyIcons/growth.png',
+      imageSrc: '/WhyIcon/diagram.png',
       title: 'Systematic growth',
       description: 'With our no lock-in period SIP in Gold, you can achieve systematic growth of your investment.'
     },
     {
-      imageSrc: '/whyIcons/guaranteed.png',
+      imageSrc: 'WhyIcon/guaranteed.png',
       title: 'Guaranteed Purity',
       description: 'We assure to serve you the purest 24 karat Products with 99.9% purity and BIS Hallmark.'
     },
     {
-      imageSrc: '/whyIcons/safe-box.png',
+      imageSrc: '/WhyIcon/safe-box.png',
       title: 'Security',
       description: 'We serve our customers with the best & trusted vault keeper that provides security for transactions and storage.'
     },
     {
-      imageSrc: '/whyIcons/24-hours.png',
+      imageSrc: '/WhyIcon/time.png',
       title: 'Accessibility',
       description: 'DIGIGOLD provides all services for its customers 24x7 Globally.'
     },
     {
-      imageSrc: '/whyIcons/gold-bar.png',
+      imageSrc: '/WhyIcon/gold.png',
       title: 'High Liquidity',
       description: 'With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.'
     }
   ];
 
   return (
-    <div className="relative bg-[#ec1a44] text-white py-16 px-5 md:py-32 md:px-16">
+    <div className="relative bg-[#C21807] text-white py-16 px-5 md:py-32 md:px-16">
       {/* Top-right png */}
       <img
         src="/whyIcons/leaf.png"
