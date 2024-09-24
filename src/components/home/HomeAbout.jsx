@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import aboutrk from '../../../public/RKImages/RAMYA.jpg';
+import aboutrk from '../../../public/RKImages/gold-growing.jpg';
 
 // Sample JSON data for the reusable component
 const cardData = [
@@ -65,7 +65,7 @@ const HomeAbout = (() => {
             key={index}
           >
             <div className="w-full pt-5 sm:w-1/2 md:w-1/2 flex flex-col gap-4 justify-between">
-              <h1 className="text-white">{itemz.heading}</h1>
+              <h1 className="text-white font-black">{itemz.heading}</h1>
               {Array.isArray(itemz.content) ? (
                 itemz.content.map((liitem, index) => (
                   <p className="text-white" key={index}>
@@ -83,8 +83,7 @@ const HomeAbout = (() => {
               <Image
                 src={aboutrk}
                 alt="Sample"
-                className="w-full h-auto object-contain rounded-md"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Ensures responsive loading based on screen size
+                className="w-full h-auto object-full rounded-md"
                 priority={true} // Optimize image loading
               />
             </div>
