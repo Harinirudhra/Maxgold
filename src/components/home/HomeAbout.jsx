@@ -22,7 +22,7 @@ const cardData = [
   {
     category: "Friendly Service",
     title: "Customer Satisfaction",
-    description: "Our team is dedicated to ensuring your comfort and satisfaction throughout the process. We re here to answer any questions, address concerns, and provide guidance, making the transaction a pleasant and stress-free experience."
+    description: "Our team is dedicated to ensuring your comfort and satisfaction throughout the process. We’re here to answer any questions, address concerns, and provide guidance, making the transaction a pleasant and stress-free experience."
   },
   {
     category: "Secure Handling",
@@ -31,7 +31,7 @@ const cardData = [
   },
   {
     category: "No Pressure",
-    title: "Sell Gold  For Instant Cash",
+    title: "Sell Gold for Instant Cash",
     description: "At Max Gold, we emphasize that the decision to sell your gold is entirely up to you. There’s no obligation or pressure to accept our offer. We respect your choice and aim to provide a comfortable environment for you to make an informed decision."
   }
 ];
@@ -47,25 +47,25 @@ const AboutText = [
 
 // Reusable Card Component
 const Card = ({ category, title, description }) => (
-  <div className=" text-white p-5 ">
-    <p className="text-[#f7d344] lg:text-3xl font-semibold ">{category}</p>
+  <div className="text-white p-5">
+    <p className="text-[#f7d344] lg:text-3xl font-semibold">{category}</p>
     <h1 className="font-bold text-lg pt-2">{title}</h1>
     <p className="text-sm pt-2">{description}</p>
   </div>
 );
 
-const HomeAbout = (() => {
+const HomeAbout = () => {
   return (
-    <div className=' bg-gradient-to-b from-[#ff0800] to-[#C21807]'>
-      {/* Static Section */}
-      <div className="flex flex-col items-center sm:items-start px-6 md:px-8 lg:px-10">
+    <div className="bg-gradient-to-b from-[#ff0800] to-[#C21807]">
+      {/* About Section */}
+      <div className="flex flex-col items-center sm:items-start px-6 md:px-8 lg:px-10 ">
         {AboutText.map((itemz, index) => (
           <div
-            className={`flex flex-col items-start justify-center gap-8 ${itemz.reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}
+            className={`flex flex-col items-start justify-center gap-8 ${itemz.reverse ? 'lg:flex-row-reverse ' : 'lg:flex-row '} w-full`}
             key={index}
           >
-            <div className="w-full pt-5 sm:w-1/2 md:w-1/2 flex flex-col gap-4 justify-between">
-              <h1 className="text-white font-black">{itemz.heading}</h1>
+            <div className="w-full pt-5  lg:w-1/2 flex flex-col gap-4 justify-between">
+              <h1 className="text-white font-black text-3xl">{itemz.heading}</h1>
               {Array.isArray(itemz.content) ? (
                 itemz.content.map((liitem, index) => (
                   <p className="text-white" key={index}>
@@ -75,15 +75,15 @@ const HomeAbout = (() => {
               ) : (
                 <p className="text-white lg:text-xl">{itemz.content}</p>
               )}
-              <button className="w-40 text-white  text-sm  rounded-3xl bg-yellow-500 p-2 hover:bg-red-100 hover:text-black transition duration-300">
+              <button className="w-40 text-white text-sm rounded-3xl bg-yellow-500 p-2 hover:bg-red-100 hover:text-black transition duration-300">
                 {itemz.button}
               </button>
             </div>
-            <div className="w-full sm:w-1/2 md:w-1/2 pt-5">
+            <div className="w-full  lg:w-1/2 pt-5">
               <Image
                 src={aboutrk}
                 alt="Sample"
-                className="w-full h-auto object-full rounded-md"
+                className="w-full h-auto object-cover rounded-md"
                 priority={true} // Optimize image loading
               />
             </div>
@@ -92,7 +92,7 @@ const HomeAbout = (() => {
       </div>
 
       {/* Reusable Cards Section in Grid Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:ml-10 p-5 md:ml-10 mr-7 mt-10  lg:ml-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:ml-10 p-5 md:ml-10 mr-7 mt-10 lg:ml-20">
         {cardData.map((item, index) => (
           <Card
             key={index}
@@ -104,6 +104,6 @@ const HomeAbout = (() => {
       </div>
     </div>
   );
-})
+}
 
 export default HomeAbout;
