@@ -67,7 +67,7 @@ function Testimonials() {
     <>
       <div className="mb-10 md:mx-0 mx-5">
         <div className="text-center mb-10">
-          <h1 className=" text-5xl">Testimonials</h1>
+          <h1 className=" lg:text-5xl text-2xl">Testimonials</h1>
         </div>
         <div className="flex flex-col gap-4 m- sm:hidden">
           {persons.users.slice(0, 4).map((user, index) => (
@@ -100,7 +100,7 @@ function Card({ data }) {
   const [count, SetCount] = useState(data.starRating);
   return (
 
-    <div className=" p-1 rounded-lg shadow-sm aspect-[3/2]  h-[260px] bg-red-900">
+    <div className=" rounded-lg shadow-sm aspect-[3/2]  h-[260px]  border-double border-4 border-red-600">
       <div class="flex flex-col  gap-4 bg-red-50 rounded-lg p-4 border border-transparent h-full bg-clip-border">
         <div className=" w-full">
           <div className="flex  items-center justify-between">
@@ -119,15 +119,15 @@ function Card({ data }) {
         </div>
 
         <div className="flex flex-row items-end">
-            {Array.from({ length: count }, (_, i) => (
-              <div key={i} className=" ">
-                <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
+          {Array.from({ length: count }, (_, i) => (
+            <div key={i} className=" ">
+              <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
 
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
+        </div>
       </div>
-      
+
     </div>
 
   );
