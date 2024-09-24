@@ -20,19 +20,19 @@ const cardData = [
     description: "We value your time. Once the evaluation process is complete, Max Gold ensures immediate payment, either in cash or via your preferred method, without any delays. Our process is designed to be fast, secure, and hassle-free."
   },
   {
-    category: "Evaluation",
-    title: "Professional Gold Assessment",
-    description: "At Max Gold, we prioritize accuracy and fairness in our evaluations. Using cutting-edge technology, our experts meticulously evaluate the purity and weight of your gold, ensuring you receive a transparent and accurate assessment for maximum value."
+    category: "Friendly Service",
+    title: "Customer Satisfaction",
+    description: "Our team is dedicated to ensuring your comfort and satisfaction throughout the process. We re here to answer any questions, address concerns, and provide guidance, making the transaction a pleasant and stress-free experience."
   },
   {
-    category: "Transparent Pricing",
-    title: "Fair Market-Based Offers",
-    description: "We pride ourselves on offering competitive rates that reflect current market prices. There are no hidden charges, and we ensure complete transparency in our pricing, giving you the confidence to sell your gold with peace of mind."
+    category: "Secure Handling",
+    title: "We Value Your Trust",
+    description: "Your gold items are handled with the utmost care and security. We prioritize the safety of your valuables, from the moment you entrust them to us until you leave with your cash in hand."
   },
   {
-    category: "Quick Payment",
-    title: "Instant Cash Payout",
-    description: "We value your time. Once the evaluation process is complete, Max Gold ensures immediate payment, either in cash or via your preferred method, without any delays. Our process is designed to be fast, secure, and hassle-free."
+    category: "No Pressure",
+    title: "Sell Gold  For Instant Cash",
+    description: "At Max Gold, we emphasize that the decision to sell your gold is entirely up to you. There’s no obligation or pressure to accept our offer. We respect your choice and aim to provide a comfortable environment for you to make an informed decision."
   }
 ];
 
@@ -48,7 +48,7 @@ const AboutText = [
 // Reusable Card Component
 const Card = ({ category, title, description }) => (
   <div className=" text-white p-5 ">
-    <p className="text-[#fae079] lg:text-3xl font-semibold ">{category}</p>
+    <p className="text-[#f7d344] lg:text-3xl font-semibold ">{category}</p>
     <h1 className="font-bold text-lg pt-2">{title}</h1>
     <p className="text-sm pt-2">{description}</p>
   </div>
@@ -56,7 +56,7 @@ const Card = ({ category, title, description }) => (
 
 const HomeAbout = (() => {
   return (
-    <div className=' bg-gradient-to-b from-[#FF2400] to-[#C21807]'>
+    <div className=' bg-gradient-to-b from-[#ff0800] to-[#C21807]'>
       {/* Static Section */}
       <div className="flex flex-col items-center sm:items-start px-6 md:px-8 lg:px-10">
         {AboutText.map((itemz, index) => (
@@ -73,9 +73,9 @@ const HomeAbout = (() => {
                   </p>
                 ))
               ) : (
-                <p className="text-white">{itemz.content}</p>
+                <p className="text-white lg:text-xl">{itemz.content}</p>
               )}
-              <button className="w-40 text-white bg-black text-sm border rounded-3xl border-pink-500 p-2 hover:bg-red-500 hover:text-white transition duration-300">
+              <button className="w-40 text-white  text-sm  rounded-3xl bg-yellow-500 p-2 hover:bg-red-100 hover:text-black transition duration-300">
                 {itemz.button}
               </button>
             </div>
@@ -83,7 +83,7 @@ const HomeAbout = (() => {
               <Image
                 src={aboutrk}
                 alt="Sample"
-                className="w-full h-auto object-contain"
+                className="w-full h-auto object-contain rounded-md"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Ensures responsive loading based on screen size
                 priority={true} // Optimize image loading
               />
@@ -93,7 +93,7 @@ const HomeAbout = (() => {
       </div>
 
       {/* Reusable Cards Section in Grid Layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:ml-10 p-5 md:ml-10 mr-7 mt-10 mb-10 lg:ml-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:ml-10 p-5 md:ml-10 mr-7 mt-10  lg:ml-20">
         {cardData.map((item, index) => (
           <Card
             key={index}
