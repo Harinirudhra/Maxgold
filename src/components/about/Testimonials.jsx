@@ -101,30 +101,33 @@ function Card({ data }) {
   return (
 
     <div className=" p-1 rounded-lg shadow-sm aspect-[3/2]  h-[260px] bg-red-900">
-      <div class="flex flex-col items-center gap-4 bg-red-50 rounded-lg p-4 border border-transparent h-full bg-clip-border">
-        <div className="flex items-center justify-between w-full">
-          <div className="flex items-center gap-2">
-            <div className="w-[50px] h-[50px] rounded-[100%] bg-black">
+      <div class="flex flex-col  gap-4 bg-red-50 rounded-lg p-4 border border-transparent h-full bg-clip-border">
+        <div className=" w-full">
+          <div className="flex  items-center justify-between">
+            <div className="w-[50px] h-[50px] rounded-[100%] bg-black flex justify-between">
               <img
                 src={data.profile}
-                className="rounded-[100%] object-cover w-full h-full"
+                className="rounded-[100%] object-cover w-full h-full "
               ></img>
             </div>
-            <h2 className="text-xl font-bold">{data.name}</h2>
+            <h2 className="text-xl font-bold  ">{data.name}</h2>
           </div>
-          <div className="flex">
-            {Array.from({ length: count }, (_, i) => (
-              <div key={i}>
-                <img className="h-[30px] w-[30px]" src="/Logo/star.png"></img>
 
-              </div>
-            ))}
-          </div>
         </div>
         <div className="font-light text-[18px] self-start">
           {data.shortFeedback}
         </div>
+
+        <div className="flex flex-row items-end">
+            {Array.from({ length: count }, (_, i) => (
+              <div key={i} className=" ">
+                <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
+
+              </div>
+            ))}
+          </div>
       </div>
+      
     </div>
 
   );
