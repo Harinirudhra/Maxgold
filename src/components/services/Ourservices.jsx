@@ -12,11 +12,11 @@ const Ourservices = ({ imageurl, title, para }) => {
         />
       </div>
 
-      <div className="md:w-1/2 flex flex-col justify-center lg:items-center md:items-center md:text-center sm:text-center px-4">
+      <div className="md:w-1/2  flex flex-col justify-center px-4">
 
-        <h1 className="text-5xl font-bold mb-4 md:pt-3 ">{title}</h1>
+        <h1 className="text-5xl  font-bold mb-2 sm:p-6 ">{title}</h1>
 
-        <p className="text-xl text-gray-700 sm:w-96 sm:h-96 sm:p-6 ">
+        <p className="text-2xl  md:text-xl  text-gray-700  sm:p-6 ">
           {para}
         </p>
       </div>
@@ -29,7 +29,8 @@ export const ServicesContent = () => {
     <Ourservices
       imageurl="https://bsmedia.business-standard.com/_media/bs/img/misc/2022-02/17/full/gold-loan-gold-financing-gold-financier-1645084756-39982620.jpg?im=FeatureCrop,size=(826,465)"
       title="Our Services"
-      para="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      para="Gold selling for cash should be a straightforward and stress-free experience, and thats precisely what we provide at Max Gold. Our well-established and streamlined process ensures that you can quickly turn your gold into cash without unnecessary complications. We prioritize efficiency and ease in every step of the transaction, ensuring that you receive the best value for your gold.
+            At Max Gold, we believe that selling gold for cash should be a hassle-free and straightforward experience, and we have meticulously designed our process to ensure just that. We understand that when individuals decide to part with their gold items, they want a seamless and efficient transaction that provides them with the best value. That precisely what you can expect when you choose Max Gold for your cash-for-gold needs."
     />
   );
 };
