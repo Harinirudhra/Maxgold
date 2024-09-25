@@ -121,7 +121,7 @@ function Card({ data }) {
         <div className="flex flex-row items-end">
           {Array.from({ length: count }, (_, i) => (
             <div key={i} className=" ">
-              <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
+              <img className="h-[30px] w-[30px] " src="/Logo/starz.png"></img>
 
             </div>
           ))}
