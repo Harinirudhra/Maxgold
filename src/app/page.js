@@ -7,6 +7,7 @@ import OurValue from "@/components/about/OurValue";
 import Testimonials from "@/components/about/Testimonials";
 import Aboutus from "@/components/about/AboutUs";
 import Extra from "@/components/home/Extra";
+import Extra1 from "@/components/home/Extra1";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonials />
       <MaxGoldADS />
       <Extra />
+      <Extra1/>
     </div>
   );
 }
