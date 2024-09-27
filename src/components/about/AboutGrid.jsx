@@ -1,23 +1,9 @@
+import Image from 'next/image';
 import React from 'react';
-import pic from "../../../public/AchieveSuccess/delivery.png"
+import pic from '../../../public/AchieveSuccess/delivery.png'
+
 
 // Reusable ImageGrid component
-<<<<<<< Updated upstream
-const ImageGrid = ({ images }) => {
-  return (
-    <div className="bg-white p-8 md:p-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {images.map((image, index) => (
-          <div key={index} className="flex flex-col items-center ">
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="w-auto h-full rounded-lg object-cover "
-            />
-            <p className="mt-4 w-screen h-auto text-center text-black font-semibold text-2xl md:w-80 ">
-              {image.caption}
-            </p>
-=======
 const ImageGrid = () => {
   return (
     <section className="py-24">
@@ -56,11 +42,10 @@ const ImageGrid = () => {
                 WANT TO SELL YOUR GOLD
               </p>
             </div>
->>>>>>> Stashed changes
           </div>
-        ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -73,8 +58,8 @@ const AboutGrid = () => {
       caption: 'GOLD JEWELLERY BUYERS',
     },
     {
-      src: 'https://www.topconsumerreviews.com/best-gold-selling-sites/images/body-cash-for-gold-1.jpg',
-      alt: 'Cash in Hand',
+      srcz: 'https://www.topconsumerreviews.com/best-gold-selling-sites/images/body-cash-for-gold-1.jpg',
+      altz: 'Cash in Hand',
       caption: 'WANT TO SELL YOUR GOLD',
     },
   ];
@@ -82,4 +67,4 @@ const AboutGrid = () => {
   return <ImageGrid images={imagesData} />;
 };
 
-export default AboutGrid ;
+export default AboutGrid;
