@@ -104,9 +104,13 @@ function Card({ data }) {
     <div className=" rounded-lg shadow-sm aspect-[3/2]  h-[260px] border border-gray-600">
       <div class="flex flex-col  gap-4  rounded-lg p-4 border border-transparent h-full bg-clip-border">
 
-      <div className="flex items-center">
-          <img className="h-[30px] w-[30px]" src="/Logo/star.png" alt="star" />
-          <span className="ml-2 text-lg font-semibold">{count}</span>
+      <div className="flex flex-row items-end">
+          {Array.from({ length: count }, (_, i) => (
+            <div key={i} className=" ">
+              <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
+
+            </div>
+          ))}
         </div>
 
         <div className="font-light text-[18px] self-start">
@@ -137,7 +141,7 @@ function Card({ data }) {
         {/* <div className="flex flex-row items-end">
           {Array.from({ length: count }, (_, i) => (
             <div key={i} className=" ">
-              <img className="h-[30px] w-[30px] " src="/Logo/starz.png"></img>
+              <img className="h-[30px] w-[30px] " src="/Logo/star.png"></img>
 
             </div>
           ))}
