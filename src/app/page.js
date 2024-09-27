@@ -6,6 +6,7 @@ import "./globals.css";
 import OurValue from "@/components/about/OurValue";
 import Testimonials from "@/components/about/Testimonials";
 import Aboutus from "@/components/about/AboutUs";
+import Countup from "@/components/home/Countup";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeAbout />
       <WhyMaxGold />
       <OurValue />
+      <Countup />
       <Testimonials />
       <MaxGoldADS />
     </div>
