@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from "next/image"
+import i from "../../../public/br.jpg"
 
 function Extra() {
     return (
@@ -15,14 +16,14 @@ function Extra() {
                 <div className="relative">
                     <div className="flex md:items-stretch gap-10 lg:gap-14">
                         <div className="hidden md:flex md:w-1/2 lg:w-2/5 md:h-auto">
-                            <Image src="/images/sidebiew.webp" width={1900} height={1200} alt="Author Avatr" className="w-full h-full object-cover rounded-lg" />
+                            <Image src={i.src}width={1900} height={1200} alt="Author Avatr" className="w-full h-full object-cover rounded-lg" />
                         </div>
                         <div className="flex-1 flex flex-col space-y-6 md:space-y-12 lg:space-y-16 md:py-6 lg:py-8 md:h-auto md:justify-center">
                             <p className="text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-300">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at ipsa pariatur culpa iste dolore aliquid officia modi quas vel inventore animi, error commodi distinctio eum accusamus? Accusantium, tempora quisquam!
                             </p>
                             <div className="flex items-start gap-4">
-                                <Image src="/images/sidebiew.webp" width={1900} height={1200} alt="Author avatar" className="w-12 h-12 rounded-full flex md:hidden" />
+                                <Image src="/b.jpg" width={1900} height={1200} alt="Author avatar" className="w-12 h-12 rounded-full flex md:hidden" />
                                 <div className="space-y-1 flex-1">
                                     <h2 className="text-lg font-semibold leading-none text-gray-800 dark:text-gray-200">
                                         John Doe
