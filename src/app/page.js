@@ -10,13 +10,19 @@ import Testimonials from "@/components/about/Testimonials";
 import Extra1 from "@/components/home/Extra1";
 import MainAb from "@/components/home/MainAb";
 import Ourstory from "@/components/home/Ourstory";
+import HomeAbout from "@/components/old/HomeAbout";
 
 
 export default function Home() {
   return (
     <div >
       <Hero />
+<<<<<<< HEAD
      
+=======
+      <HomeAbout/>
+      <Extra1/>
+>>>>>>> ca262365e83c2e02e01556aa8eae6606c9c406df
       {/* <WhyMaxGold /> */}
       <MainAb />
       <Ourstory />
