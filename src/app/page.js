@@ -15,6 +15,7 @@ export default function Home() {
     <div >
       <Hero />
       <HomeAbout />
+      <Extra1/>
       {/* <WhyMaxGold /> */}
       <OurValue />
       <Testimonials />
