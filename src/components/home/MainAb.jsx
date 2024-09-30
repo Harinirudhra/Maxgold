@@ -1,16 +1,16 @@
 export default function MainAb() {
   return (
     <div className="relative flex flex-col-reverse md:flex-row w-full min-h-screen">
-      {/* Parallax Background Section */}
-      <div
-        className="relative w-full h-64 md:h-full bg-fixed bg-center bg-no-repeat bg-cover md:absolute md:inset-0"
-        style={{
-          backgroundImage: "url('/RKImages/gold.webp')",
-          clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)",
-        }}
-      >
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-pink-100/10 to-white/10 z-10"></div>
+
+      <div className="absolute inset-0 bg-gradient-to-r from-pink-200/80 to-white/80 z-20">
+        <div
+          className="relative w-full h-64  md:h-full bg-fixed bg-center bg-no-repeat bg-cover md:absolute md:inset-0"
+          style={{
+            backgroundImage: "url('/RKImages/gold.webp')",
+            clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)",
+          }}
+        >
+        </div>
       </div>
 
       {/* Additional Content */}
