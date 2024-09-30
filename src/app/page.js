@@ -11,6 +11,7 @@ import Extra1 from "@/components/home/Extra1";
 import MainAb from "@/components/home/MainAb";
 import Ourstory from "@/components/home/Ourstory";
 import HomeAbout from "@/components/old/HomeAbout";
+import Countup from "@/components/home/Countup";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 
 
       <OurValue />
+      <Countup/>
       <Testimonials />
       <MaxGoldADS />
       {/* <Feedback/> */}
