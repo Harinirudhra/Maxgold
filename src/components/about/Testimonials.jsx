@@ -219,7 +219,7 @@ const Testimonial = () => {
 
   return (
     <div className="min-h-screen w-full flex items-center justify-center py-16 px-6 bg-gray-50">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center shadow-xl py-16 px-40 rounded-2xl bg-gray-100">
         {/* Heading */}
         <h3 className="text-lg lg:text-2xl font-semibold text-orange-500 tracking-wider uppercase mb-4 underline">
           {title}
