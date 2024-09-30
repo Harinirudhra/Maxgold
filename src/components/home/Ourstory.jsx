@@ -19,6 +19,7 @@ const Ourstory = () => {
 
       {/* Content Over Both Image and Gradient */}
       <div className="relative z-20 flex items-center justify-center h-full px-6 md:px-16">
+   
         <div className="text-left max-w-full">
           <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 leading-tight">
             OUR STORY
