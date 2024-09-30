@@ -12,6 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
         purple: "#7b071e"
       },
+      fontFamily: {
+        fredoka: ['Fredoka One', 'Poppins', 'Bebas Neue', 'sans-serif'],
+      },
     },
   },
   plugins: [],

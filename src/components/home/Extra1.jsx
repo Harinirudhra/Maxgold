@@ -14,7 +14,7 @@ const iconRender = (val) => {
 
 const ServiceCard = ({ title, description, icon }) => {
     return (
-        <div className="p-5 sm:p-6 lg:p-8 rounded-3xl border hover:bg-yellow-300 border-gray-200  bg-gray-100 relative overflow-hidden">
+        <div className="p-5 sm:p-6 lg:p-8 rounded-3xl border hover:bg-[#efd69d] border-gray-200  bg-gray-100 relative overflow-hidden">
             <div className="rounded-xl text-gray-900 w-max relative">
                 {iconRender(icon)}
             </div>
@@ -34,37 +34,37 @@ const ServiceCard = ({ title, description, icon }) => {
 const services = [
     {
         id: 1,
-        icon: '/WhyIcon/funding.png',
+        icon: '/NewWhyIcons/price-down.png',
         title: 'Affordability',
         description: 'DIGIGOLD offers the best price for all products compared to live market rates.'
     },
     {
         id: 2,
-        icon: '/WhyIcon/diagram.png',
+        icon: '/NewWhyIcons/growth-chart.png',
         title: 'Systematic growth',
         description: 'With our no lock-in period SIP in Gold, you can achieve systematic growth of your investment.'
     },
     {
         id: 3,
-        icon: '/WhyIcon/guaranteed.png',
+        icon: '/NewWhyIcons/guaranted.png',
         title: 'Guaranteed Purity',
         description: 'We assure to serve you the purest 24 karat Products with 99.9% purity and BIS Hallmark.'
     },
     {
         id: 4,
-        icon: '/whyIcons/safe-box.png',
+        icon: '/NewWhyIcons/goldbar.png',
         title: 'Security',
         description: 'We serve our customers with the best & trusted vault keeper that provides security for transactions and storage.'
     },
     {
         id: 5,
-        icon: '/whyIcons/time.png',
+        icon: '/NewWhyIcons/24-hour-clock.png',
         title: 'Accessibility',
         description: 'DIGIGOLD provides all services for its customers 24x7 Globally.'
     },
     {
         id: 6,
-        icon: '/WhyIcon/gold.png',
+        icon: '/NewWhyIcons/gold-ingot.png',
         title: 'High Liquidity',
         description: 'With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.'
     }

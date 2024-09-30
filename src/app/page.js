@@ -16,7 +16,12 @@ export default function Home() {
   return (
     <div >
       <Hero />
+<<<<<<< HEAD
      
+=======
+      <HomeAbout />
+      <Extra1/>
+>>>>>>> a6e29031d74328db921dec29cf1ecef39bf3930a
       {/* <WhyMaxGold /> */}
       <MainAb />
       <Ourstory />
@@ -24,7 +29,6 @@ export default function Home() {
       <Testimonials />
       <MaxGoldADS />
       {/* <Feedback/> */}
-      <Extra1/>
 
     </div>
   );

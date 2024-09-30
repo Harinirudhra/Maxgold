@@ -35,13 +35,9 @@ const cardData = [
 
 const OurValue = () => {
   return (
-    <section className="px-4 py-8 md:py-12 bg-white ">
+    <section className="px-4 py-10 md:py-12 bg-white ">
       <div className="max-w-7xl mx-auto">
-        <p className="text-lg sm:text-xl md:text-2xl mb-10 md:mb-14 text-black text-center font-medium mx-auto md:mx-20 lg:mx-60">
-          At <span className="font-bold">Max Gold</span>, our values are the bedrock of our business, shaping every
-          aspect of our operations. Your search for a gold buyer near me comes to an end with us. We pride ourselves
-          on these fundamental principles:
-        </p>
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10">
           {/* Left side - Our Value Text */}
           <div className="flex flex-col justify-start items-center mb-0 lg:mb-10">
@@ -63,6 +59,11 @@ const OurValue = () => {
             ))}
           </div>
         </div>
+        <p className="text-lg sm:text-xl md:text-2xl mt-10 md:mb-14 text-black text-center font-medium mx-auto md:mx-20 lg:mx-60">
+          At <span className="font-bold">Max Gold</span>, our values are the bedrock of our business, shaping every
+          aspect of our operations. Your search for a gold buyer near me comes to an end with us. We pride ourselves
+          on these fundamental principles:
+        </p>
       </div>
     </section>
   );
