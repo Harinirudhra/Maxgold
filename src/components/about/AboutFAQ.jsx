@@ -220,20 +220,20 @@ const AboutFAQ = () => {
         <div className="px-10 md:lg:px-16">
         <div className="grid grid-cols-1 md:lg:grid-cols-2 ">
             <div className="pt-3 w-9/12">
-                <h1 className="text-base md:lg:text-2xl">Got questions? Were here to help!</h1>
+                <h1 className="text-base md:lg:text-4xl">Got questions? Were here to help!</h1>
             </div>
             <div>
 {faq.map((faq, index) => (
-        <div className="px-1">
+        <div className="px-1" key={faq.id}>
          <div
-         key={faq.id}
+         
          className={` mb-6 w-full overflow-hidden p-5 rounded-md transition-colors duration-300 ${openFAQ === faq.id ? "bg-black" : "bg-gray-100"}`}
      >
          <div
              className="flex cursor-pointer items-start justify-between "
              onClick={() => toggleFAQ(faq.id)}
          >
-             <p className={`text-sm font-bold transition-colors duration-300 ${openFAQ === faq.id ? "text-white" : "text-black"}`}>{faq.title}</p>
+             <p className={`text-sm md:lg:text-lg font-bold transition-colors duration-300 ${openFAQ === faq.id ? "text-white" : "text-black"}`}>{faq.title}</p>
              <div className=" relative ml-10 mt-1 flex h-5 w-5 items-center justify-center">
                  <div
                     className={`absolute h-5 w-0.5 transition-transform duration-300 ${openFAQ === faq.id ? "rotate-90 bg-white" : "bg-black"}`}
@@ -244,7 +244,7 @@ const AboutFAQ = () => {
          </div>
          {openFAQ === faq.id && (
              <div className=" w-full overflow-hidden mb-4 max-w-2xl lg:max-w-4xl">
-                 <p className={`text-sm sm:text-base pt-3 transition-colors duration-300 ${openFAQ === faq.id ? "text-slate-100" : "text-black"}`}>{faq.content}</p>
+                 <p className={`text-sm md:lg:text-base pt-3 transition-colors duration-300 ${openFAQ === faq.id ? "text-slate-100" : "text-black"}`}>{faq.content}</p>
              </div>
          )}
      </div>
@@ -257,17 +257,17 @@ const AboutFAQ = () => {
             </div>
         <div className="grid grid-cols-1 md:lg:grid-cols-2 ">
     {faqv.map((faq, index) => (
-        <div className="px-1">
+        <div className="px-1" key={faq.id}>
          <div
-         key={faq.id}
-         className={` mb-6 w-full overflow-hidden p-5 rounded-md transition-colors duration-300 ${openFAQ === faq.id ? "bg-gray-100" : "bg-gray-100"}`}
+         
+         className={` mb-6 w-full overflow-hidden p-5 rounded-md transition-colors duration-300 ${openFAQ === faq.id ? "bg-black" : "bg-gray-100"}`}
      >
 
          <div
              className="flex cursor-pointer items-start justify-between "
              onClick={() => toggleFAQ(faq.id)}
          >
-             <p className={`text-sm font-bold transition-colors duration-300 ${openFAQ === faq.id ? "text-white" : "text-black"}`}>{faq.title}</p>
+             <p className={`text-sm md:lg:text-lg font-bold transition-colors duration-300 ${openFAQ === faq.id ? "text-white" : "text-black"}`}>{faq.title}</p>
              <div className=" relative ml-10 mt-1 flex h-5 w-5 items-center justify-center">
                  <div
                     className={`absolute h-5 w-0.5 transition-transform duration-300 ${openFAQ === faq.id ? "rotate-90 bg-white" : "bg-black"}`}
@@ -278,7 +278,7 @@ const AboutFAQ = () => {
          </div>
          {openFAQ === faq.id && (
              <div className=" w-full overflow-hidden mb-4 max-w-2xl lg:max-w-4xl">
-                 <p className={`text-sm sm:text-base pt-3 transition-colors duration-300 ${openFAQ === faq.id ? "text-slate-100" : "text-black"}`}>{faq.content}</p>
+                 <p className={`text-sm md:lg:text-base pt-3 transition-colors duration-300 ${openFAQ === faq.id ? "text-slate-100" : "text-black"}`}>{faq.content}</p>
              </div>
          )}
      </div>
