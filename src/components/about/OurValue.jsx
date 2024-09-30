@@ -40,11 +40,11 @@ const OurValue = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10">
           {/* Left side - Our Value Text */}
-          <div className="flex flex-col justify-start items-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black   text-black mb-5">
+          <div className="flex flex-col justify-start relative items-start">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-black mb-12">
               <span className="text-red-500">Our</span> Value
             </h2>
-            <img src="/road/way.png" alt="Arrows" className=" lg:block hidden" /> 
+            <img src="/road/way.png" alt="Arrows" className="h-96 w-full left-0 absolute bottom-0 lg:block hidden" /> 
           </div>
 
           {/* Right side - Cards */}
