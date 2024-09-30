@@ -1,5 +1,5 @@
 import Hero from "@/components/home/Hero";
-import HomeAbout from "@/components/home/HomeAbout";
+
 import MaxGoldADS from "@/components/home/MaxGoldADS";
 // import WhyMaxGold from "@/components/old/WhyMaxGold";
 import "./globals.css";
@@ -8,14 +8,18 @@ import Testimonials from "@/components/about/Testimonials";
 // import Aboutus from "@/components/about/AboutUs";
 // import Feedback from "@/components/home/Feedback";
 import Extra1 from "@/components/home/Extra1";
+import MainAb from "@/components/home/MainAb";
+import Ourstory from "@/components/home/Ourstory";
 
 
 export default function Home() {
   return (
     <div >
       <Hero />
-      <HomeAbout />
+     
       {/* <WhyMaxGold /> */}
+      <MainAb />
+      <Ourstory />
       <OurValue />
       <Testimonials />
       <MaxGoldADS />
