@@ -6,9 +6,11 @@ const AboutHero = ({ title, description, imageurl }) => {
       
       <img src={imageurl} className="object-cover w-screen h-screen" alt="hero background" />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center lg:items-start lg:justify-end text-center lg:text-left p-4 lg:mx-14">
-  <h1 className="text-yellow-300 lg:text-9xl text-6xl ">{title}</h1>
-  <p className="text-white lg:text-3xl text-2xl lg:mb-24 lg:w-2/4">{description}</p>
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center lg:items-start lg:justify-end text-center lg:text-left p-4 lg:mx-14 lg:gap-4">
+      <h1 className="bg-gradient-to-r from-[#f44336] to-[#FFCE00] bg-clip-text text-transparent lg:text-9xl text-6xl lg:mt-">
+  {title}
+</h1>
+  <p className="text-white lg:text-3xl text-2xl  lg:w-2/4">{description}</p>
 </div>
 
 
