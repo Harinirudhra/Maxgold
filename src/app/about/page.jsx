@@ -1,4 +1,5 @@
 import AboutFAQ from '@/components/about/AboutFAQ'
+import AboutFAQtop from '@/components/about/AboutFAQtop'
 import AboutGrid from '@/components/about/AboutGrid'
 import AboutHero from '@/components/about/AboutHero'
 import AboutUs from '@/components/about/AboutUs'
@@ -20,7 +21,7 @@ const page = () => {
       <AboutGrid />
       <Testimonials />
       {/* <Customers /> */}
-      
+      <AboutFAQtop />
       <AboutFAQ />
 
 

@@ -217,10 +217,10 @@ const AboutFAQ = () => {
   return (
     <div className="lg:flex-[1_1_500px] w-full flex-none py-10">
 
-        <div className=" px-14">
+        <div className="px-10 md:lg:px-16">
         <div className="grid grid-cols-1 md:lg:grid-cols-2 ">
             <div className="pt-3 w-9/12">
-                <h1>Got questions? Were here to help!</h1>
+                <h1 className="text-base md:lg:text-2xl">Got questions? Were here to help!</h1>
             </div>
             <div>
 {faq.map((faq, index) => (
