@@ -15,18 +15,37 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div>
-      <div className=" py-8 lg:py-12"style={{ backgroundImage: `url(${backimg.src})`, // Using the `src` property for the image path
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',}}>
-        <div className="text-center text-black mb-8 h-52 lg:h-44">
-          <h2 className="text-2xl text-black md:text-3xl lg:text-2xl font-bold">Ready to Turn </h2>
-          <p className="lg:text-2xl text-black font-bold md:text-xl mt-2">Your Gold into Cash?</p>
-          <Link href="/contact">
-          <button className="mt-9 bg-red-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-md md:text-lg font-bold">
-            Contact-Us
-          </button></Link>
-        </div>
+<div className="bg-red-100 flex flex-col lg:flex-row items-center justify-between w-full px-8 py-16 lg:py-24 lg:px-32">
+      
+      {/* Left Section */}
+      <div className="lg:w-2/3">
+        <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+          Why connect us?
+        </h2>
+        <ul className="space-y-4 text-lg text-gray-600">
+          <li className="flex items-center">
+            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            Having problem handling finance?
+          </li>
+          <li className="flex items-center">
+            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            Having revenue problem?
+          </li>
+          <li className="flex items-center">
+            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            In the needs of professional advice?
+          </li>
+        </ul>
       </div>
+
+      {/* Right Section */}
+      <div className="lg:w-1/3 mt-8 lg:mt-0 lg:text-right">
+        <h1 className="text-lg text-gray-900 mb-4">Contact us now</h1>
+        <button className="bg-red-600 text-white py-3 px-8 rounded-full hover:bg-red-700 transition-all duration-300">
+          Contact
+        </button>
+      </div>
+    </div>
 
       <div className="bg-white py-8 md:py-12">
         <div className="container mx-auto px-4">
