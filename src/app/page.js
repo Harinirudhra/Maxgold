@@ -21,7 +21,6 @@ export default function Home() {
       <Testimonials />
       <MaxGoldADS />
       {/* <Feedback/> */}
-      <Extra1/>
 
     </div>
   );

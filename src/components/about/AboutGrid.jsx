@@ -6,7 +6,7 @@ import pic from '../../../public/AchieveSuccess/delivery.png'
 // Reusable ImageGrid component
 const ImageGrid = () => {
   return (
-    <section className="py-24">
+    <section className="pt-10 pb-24">
       <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col md:flex-row gap-16">
         <div className="flex md:flex-1">
           <Image src={pic} alt="working on housing" width={1300} height={700} className="w-full md:h-full object-cover rounded-lg" />
