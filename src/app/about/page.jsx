@@ -20,6 +20,7 @@ const page = () => {
       <AboutGrid />
       <Testimonials />
       {/* <Customers /> */}
+      
       <AboutFAQ />
 
 
