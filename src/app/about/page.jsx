@@ -6,6 +6,7 @@ import AboutUs from '@/components/about/AboutUs'
 // import Customers from '@/components/about/Customers'
 import OurValue from '@/components/about/OurValue'
 import Testimonials from '@/components/about/Testimonials'
+import Countup from '@/components/home/Countup'
 import Extra1 from '@/components/home/Extra1'
 // import WhyMaxGold from '@/components/old/WhyMaxGold'
 import React from 'react'
@@ -20,6 +21,7 @@ const page = () => {
       <OurValue />
       <AboutGrid />
       <Testimonials />
+      <Countup/>
       {/* <Customers /> */}
       <AboutFAQtop />
       <AboutFAQ />
