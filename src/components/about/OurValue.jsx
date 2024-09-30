@@ -13,7 +13,7 @@ const cardData = [
   {
     title: "CONVENIENCE",
     description: "Our services are tech driven & designed to make your experience a tension-free one.",
-    imageSrc: "/ourValueIcons/gold-key.png",
+    imageSrc: "/ourValueIcons/convenience.png",
     backgroundColor: "bg-gradient-to-b from-[#fbe8b4] to-[#f9d986]",
     roundedClass: "rounded-tl-[42px] rounded-b-xl text-black"
   },
@@ -27,7 +27,7 @@ const cardData = [
   {
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
-    imageSrc: "/ourValueIcons/shield.png",
+    imageSrc: "/ourValueIcons/security.png",
     backgroundColor: "bg-gradient-to-b from-[#f72626] to-[#f84848] ",
     roundedClass: "rounded-bl-[42px] rounded-t-xl text-white"
   }
