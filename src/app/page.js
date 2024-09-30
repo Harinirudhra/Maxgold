@@ -17,12 +17,10 @@ export default function Home() {
   return (
     <div >
       <Hero />
-<<<<<<< HEAD
-     
-=======
+
       <HomeAbout/>
       <Extra1/>
->>>>>>> ca262365e83c2e02e01556aa8eae6606c9c406df
+
       {/* <WhyMaxGold /> */}
       <MainAb />
       <Ourstory />
