@@ -28,7 +28,7 @@ export default function MainAb() {
             About Us
           </h1>
           <p className="mt-4 text-base md:text-lg text-gray-600">
-          In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return.
+            In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return.
 
           </p>
           <p className="mt-4 text-base md:text-lg text-gray-600">
