@@ -54,7 +54,7 @@ export default function MainBC() {
         className="relative w-full md:w-1/2 h-64 md:h-full bg-fixed bg-center bg-no-repeat bg-cover"
         style={{
           backgroundImage: "url('/RKImages/gold.webp')",
-          clipPath: "polygon(0 0, 100% 0%, 100% 100%, 0% 100%)",
+          clipPath: "polygon(11% 0, 100% 0, 100% 100%, 0% 100%)", // Adjusted clip path for left side effect
         }}
       >
         {/* Gradient Overlay */}
@@ -68,7 +68,7 @@ export default function MainBC() {
       >
         <div
           className="absolute inset-0 z-10 bg-gradient-to-b from-pink-200 to-white hidden md:block"
-          style={{ clipPath: "polygon(0 0, 100% 0%, 89% 100%, 0% 100%)" }}
+          style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 11% 100%)" }} // Adjusted to match left-side effect
         ></div>
 
         <div className="relative z-20 text-left max-w-lg">
@@ -89,3 +89,6 @@ export default function MainBC() {
     </div>
   );
 }
+
+  
+  
