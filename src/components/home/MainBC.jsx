@@ -28,11 +28,9 @@ export default function MainAb() {
             About Us
           </h1>
           <p className="mt-4 text-base md:text-lg text-gray-600">
-            In the fast-paced world of gold transactions, Max Gold is the trusted name for individuals seeking a seamless and reliable solution to exchange their precious gold for cash. As a premier choice among gold buyers, strategically located in your vicinity, we excel in providing a swift and hassle-free process for selling gold and receiving cash in return.
+          Max Gold’s journey began with a vision to create a safe and reliable platform for individuals to navigate the intricate world of precious metals. Founded in 2006, we set out to offer a seamless and transparent experience in buying and selling gold, silver, and more. Over the years, our unwavering dedication to our core principles has earned us a reputation as a market leader in the industry.
           </p>
-          <p className="mt-4 text-base md:text-lg text-gray-600">
-            If you’ve ever wondered, “Where can I sell gold near me?” or “Where can I find the best cash-for-gold locations near me?” – the answer is simple: Max Gold. We serve as your go-to destination for selling gold and transforming your valuable items into cash. With years of experience catering to individuals eager to exchange their gold for cash in their local area, we prioritize not only the profitability of your transaction but also its safety and security.
-          </p>
+         
           <a
             href="#"
             className="inline-block mt-8 px-4 py-2 md:px-6 md:py-3 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition"
