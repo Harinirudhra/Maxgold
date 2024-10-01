@@ -7,7 +7,7 @@ const cardData = [
     title: "TRUST",
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
-    backgroundColor: "bg-gradient-to-b from-[#f72626] to-[#f84848]  ",
+    backgroundColor: "bg-red-400",
     roundedClass: "rounded-tr-[42px] rounded-b-xl text-white"
   },
   {
@@ -28,7 +28,7 @@ const cardData = [
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/security.png",
-    backgroundColor: "bg-gradient-to-b from-[#f72626] to-[#f84848] ",
+    backgroundColor: "bg-red-400",
     roundedClass: "rounded-bl-[42px] rounded-t-xl text-white"
   }
 ];
@@ -59,8 +59,8 @@ const OurValue = () => {
             ))}
           </div>
         </div>
-        <p className="text-lg sm:text-xl md:text-2xl mt-10 md:mb-14 text-black text-center font-medium mx-auto md:mx-20 lg:mx-60">
-          At <span className="font-bold">Max Gold</span>, our values are the bedrock of our business, shaping every
+        <p className="text-base md:text-xl mt-12 md:mb-14 text-gray-800 text-center font-normal mx-auto md:mx-20 lg:mx-60">
+          At <span className="font-semibold">Max Gold</span>, our values are the bedrock of our business, shaping every
           aspect of our operations. Your search for a gold buyer near me comes to an end with us. We pride ourselves
           on these fundamental principles:
         </p>
