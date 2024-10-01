@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import cfg from '../../../public/aboutus img/cfg.webp'
 
 // Reusable AboutUs component
 const AboutUs = ({
@@ -27,13 +29,32 @@ const AboutUs = ({
           </div>
 
           {/* Image */}
-          <div className="flex justify-center order-3 lg:order-none">
-            <img
-              src={imageUrl}
-              alt={imageAlt}
-              className="rounded-3xl shadow-lg   "
-            />
-          </div>
+          <div className="relative">
+  <div className="flex justify-center order-3 lg:order-none relative">
+    <img
+      src={imageUrl}
+      alt={imageAlt}
+      className="rounded-3xl shadow-lg"
+    />
+
+{/* <img
+      src={cfg.src}
+      alt={imageAlt}
+      className="rounded-3xl shadow-lg w-2/3"
+    /> */}
+    
+    {/* Overlay text */}
+    <div className="absolute inset-0 flex items-center justify-center">
+      <h2 className="text-white font-black lg:text-6xl text-center z-10">cash for gold</h2>
+    </div>
+
+    {/* Dark overlay */}
+    <div className="absolute inset-0 bg-black opacity-10 rounded-3xl"></div>
+  </div>
+</div>
+
+
+
         </div>
       </div>
     </div>
