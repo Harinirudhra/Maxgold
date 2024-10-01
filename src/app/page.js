@@ -12,6 +12,7 @@ import MainAb from "@/components/home/MainAb";
 import Ourstory from "@/components/home/Ourstory";
 import HomeAbout from "@/components/old/HomeAbout";
 import Countup from "@/components/home/Countup";
+import MainBC from "@/components/home/MainBC";
 
 
 export default function Home() {
@@ -19,8 +20,9 @@ export default function Home() {
     <div >
       <Hero />
       <MainAb />
+      
       <Ourstory />
-
+      <MainBC/>
       <Extra1 />
 
       {/* <WhyMaxGold /> */}
