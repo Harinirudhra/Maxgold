@@ -86,7 +86,7 @@ const MaxGoldADS = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#C21807] p-10">
+    <div className="flex flex-col items-center justify-center bg-red-500 p-10">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 text-white">
         Max <span className="text-yellow-400">Gold</span> Channel

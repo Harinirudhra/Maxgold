@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import pic from '../../../public/AchieveSuccess/delivery.png'
+import p from '../../../public/AchieveSuccess/delivery.png'
+import pic from '../../../public/AchieveSuccess/jew.webp'
 
 
 // Reusable ImageGrid component
@@ -13,12 +14,10 @@ const ImageGrid = () => {
         </div>
         <div className="md:w-1/2 lg:w-[54%] space-y-12 text-gray-700 dark:text-gray-300">
           <h1 className="text-gray-900 dark:text-white font-semibold text-2xl sm:text-3xl md:text-4xl">
-            We help drive your business forward faster
+            Benefits just for you
           </h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, saepe aliquid autem alias vero distinctio dignissimos consequatur? Excepturi quibusdam, quam ipsum hic, laudantium ducimus suscipit, culpa facere consequuntur repellat delectus.
-          </p>
-          <div className="grid sm:grid-cols-2 gap-6">
+          {/* We help drive your business forward faster */}
+          <div className="grid sm:grid-cols-2 gap-6 pt-10">
             <div className="space-y-6 p-4 rounded-xl bg-white dark:bg-gray-950 border border-gray-100 dark:border-gray-900">
               <span className="rounded-full bg-gray-900 dark:bg-gray-100 text-gray-100 dark:text-gray-900 w-max p-3 flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -42,6 +41,9 @@ const ImageGrid = () => {
                 WANT TO SELL YOUR GOLD
               </p>
             </div>
+
+
+            
           </div>
         </div>
       </div>
