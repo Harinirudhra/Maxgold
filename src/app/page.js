@@ -13,6 +13,7 @@ import Ourstory from "@/components/home/Ourstory";
 import HomeAbout from "@/components/old/HomeAbout";
 import Countup from "@/components/home/Countup";
 import MainBC from "@/components/home/MainBC";
+import TestimonialExtra from "@/components/home/TestimonialExtra";
 
 
 export default function Home() {
@@ -30,7 +31,8 @@ export default function Home() {
 
       <OurValue />
       <Countup/>
-      <Testimonials />
+      {/* <Testimonials /> */}
+      <TestimonialExtra/>
       <MaxGoldADS />
       {/* <Feedback/> */}
 
