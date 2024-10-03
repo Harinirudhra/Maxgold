@@ -110,18 +110,18 @@ const TestimonialExtra = () => {
       const scrollInterval = setInterval(() => {
         columnRefs.forEach((ref, index) => {
           if (ref.current) {
-            const scrollSpeed = index === 1 ? 1 : 2; // Middle column scrolls slower
+            const scrollSpeed = index === 1 ? 1 : 2; 
   
             if (ref.current.scrollTop + ref.current.clientHeight >= ref.current.scrollHeight) {
               ref.current.scrollTop = 0;
             } else {
-              ref.current.scrollBy(0, scrollSpeed); // Scroll down by the defined speed
+              ref.current.scrollBy(0, scrollSpeed); 
             }
           }
         });
       }, 30); // Adjust the speed of the interval
   
-      return () => clearInterval(scrollInterval); // Cleanup on unmount
+      return () => clearInterval(scrollInterval);
     }, []);
   
     // Create duplicated content for infinite scroll
@@ -157,41 +157,43 @@ const TestimonialExtra = () => {
             }
           `}</style>
   
-          {/* Centering wrapper */}
-          <div className="flex flex-row justify-center items-center">
-            {/* Wrapper for the first column - shown on all screen sizes */}
-            <div className="flex flex-col mx-0 md:mx-2 w-full md:w-auto h-96 items-center overflow-hidden relative">
-              <div
-                ref={columnRefs[0]}
-                className="overflow-y-hidden h-full pr-2 scrollbar-hide"
-                style={{ pointerEvents: 'none' }} // Disable mouse events
-              >
-                {renderFeedback()}
-              </div>
-            </div>
-  
-            {/* Wrapper for the second column - shown on tablet and larger screens */}
-            <div className="hidden md:flex flex-col mx-0 md:mx-2 h-96 overflow-hidden relative">
-              <div
-                ref={columnRefs[1]}
-                className="overflow-y-hidden h-full pr-2 scrollbar-hide"
-                style={{ pointerEvents: 'none' }} // Disable mouse events
-              >
-                {renderFeedback()}
-              </div>
-            </div>
-  
-            {/* Wrapper for the third column - shown on laptop and larger screens */}
-            <div className="hidden lg:flex flex-col mx-0 md:mx-2 h-96 overflow-hidden relative">
-              <div
-                ref={columnRefs[2]}
-                className="overflow-y-hidden h-full pr-2 scrollbar-hide"
-                style={{ pointerEvents: 'none' }} // Disable mouse events
-              >
-                {renderFeedback()}
-              </div>
-            </div>
-          </div>
+          
+        
+<div className="flex flex-row justify-center items-center">
+  {/* first column */}
+  <div className="flex flex-col mx-0 md:mx-4 my-0 md:my-4 w-full md:w-auto h-[36rem] items-center overflow-hidden relative">
+    <div
+      ref={columnRefs[0]}
+      className="overflow-y-hidden h-full pr-2 scrollbar-hide"
+      style={{ pointerEvents: 'none' }} 
+    >
+      {renderFeedback()}
+    </div>
+  </div>
+
+  {/*second column */}
+  <div className="hidden md:flex flex-col mx-0 md:mx-4 my-0 md:my-4 h-[36rem] overflow-hidden relative">
+    <div
+      ref={columnRefs[1]}
+      className="overflow-y-hidden h-full pr-2 scrollbar-hide"
+      style={{ pointerEvents: 'none' }} 
+    >
+      {renderFeedback()}
+    </div>
+  </div>
+
+  {/* third column */}
+  <div className="hidden lg:flex flex-col mx-0 lg:mx-6 my-0 lg:my-6 h-[36rem] overflow-hidden relative">
+    <div
+      ref={columnRefs[2]}
+      className="overflow-y-hidden h-full pr-2 scrollbar-hide"
+      style={{ pointerEvents: 'none' }} 
+    >
+      {renderFeedback()}
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     );
