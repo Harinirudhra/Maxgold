@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import bg from '../../../public/aboutus img/cfg.webp'
+import bg from '../../../public/aboutus img/handgold.webp'
 
 const AboutUs = () => {
   return (
     <section className="bg-red-900 text-white py-16 px-4">
-      <div className="flex flex-col lg:flex-row items-center justify-between">
+      <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
         {/* Masked Image Section */}
         <div className="relative w-full lg:w-1/2 mb-12 lg:mb-0">
           <div className="relative overflow-hidden">
@@ -30,7 +30,7 @@ const AboutUs = () => {
         </div>
 
         {/* Text Content */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 mt-0">
           <svg
             id="icon"
             className="mb-3 w-8 h-8"
@@ -47,14 +47,15 @@ const AboutUs = () => {
           </svg>
           <h3 className="text-yellow-400 mb-4 text-lg">About Us</h3>
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-            DesignUps builds <em className="italic">world-class</em> digital experiences.
+            <em className="italic">Max gold</em> 
           </h1>
           <p className="text-lg">
-            At DesignUps, we use our passion and ambition to elevate brands. Our clients have
-            great success as a result of our approach.
+          Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request.
+          Kindly reach us on 044 - 45454545 for detailed query.
           </p>
         </div>
       </div>
+
     </section>
   );
 };
