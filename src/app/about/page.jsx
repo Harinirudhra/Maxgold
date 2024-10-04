@@ -10,7 +10,7 @@ import Countup from '@/components/home/Countup'
 import Extra1 from '@/components/home/Extra1'
 // import WhyMaxGold from '@/components/old/WhyMaxGold'
 import React from 'react'
-
+import TestimonialExtra from "@/components/home/TestimonialExtra";
 const page = () => {
   return (
     <div>
@@ -20,7 +20,7 @@ const page = () => {
       {/* <WhyMaxGold /> */}
       <OurValue />
       <AboutGrid />
-      <Testimonials />
+     <TestimonialExtra/>
       <Countup/>
       {/* <Customers /> */}
       <AboutFAQtop />

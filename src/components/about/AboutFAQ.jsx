@@ -220,7 +220,7 @@ const AboutFAQ = () => {
         <div className="px-10 md:lg:px-16">
         <div className="grid grid-cols-1 md:lg:grid-cols-2 ">
             <div className="pt-3 w-9/12">
-                <h1 className="text-base md:lg:text-4xl">Got questions? Were here to help!</h1>
+                <h1 className="text-base md:lg:text-6xl">Got questions? Were here to help!</h1>
             </div>
             <div>
 {faq.map((faq, index) => (

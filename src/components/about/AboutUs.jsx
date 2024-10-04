@@ -23,6 +23,7 @@ const AboutUs = ({
             <h2 className="md:text-3xl text-2xl font-bold text-[#ffbe46] mb-2">{title}</h2>
             <p className="text-white text-xl font-medium mb-8">
               {description}
+              
             </p>
             <h3 className="md:text-3xl text-2xl font-bold text-[#fcc71a] mb-2">{journeyTitle}</h3>
             <p className="text-white text-xl font-medium">{journeyText}</p>
