@@ -38,7 +38,7 @@ const Countup = () => {
           <div className="md:w-1/3 text-center md:text-left">
             <p className="text-sm text-white">Our expertise</p>
             <h2 className="text-xl lg:text-3xl font-semibold text-white mt-2">
-              New fashionable is around the world
+              New fashionable is <br></br> around the world
             </h2>
             <button className="mt-8 text-red-500 text-sm lg:text-base font-semibold py-3 px-6 rounded-md bg-white transition">
               DISCOVER NOW
