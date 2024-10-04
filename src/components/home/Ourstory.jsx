@@ -27,7 +27,7 @@ const Ourstory = () => {
           <p className="mt-6 text-xs lg:text-lg text-gray-900">
             Welcome to Max Gold, where your old gold transforms into instant cash. We understand the sentimental and monetary value your gold jewellery, and we are dedicated to providing a seamless and trustworthy experience for selling your precious Gold.          </p>
           <p className="mt-6 text-xs lg:text-xl font-semibold text-gray-900">
-            Looking for "Gold buyer near me". You have reached the right destination. Yes! Max Gold is most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.          </p>
+            Looking for Gold buyer near me. You have reached the right destination. Yes! Max Gold is most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.          </p>
           <p className="mt-6 text-xs lg:text-lg text-gray-900">
             Max Gold is a leading name in the world of precious metals, specializing in buying and selling gold, silver, platinum, and other valuable items. Established with a commitment to integrity, trust, and exceptional service, we have become a trusted partner for individuals and businesses looking to turn their precious metals into cash or invest in tangible assets.          </p>
 

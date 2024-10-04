@@ -41,7 +41,7 @@ const feedback = [
       name: "Rajdeep Seth",
       username: "@rajdeepseth1",
       profilePic: "https://robohash.org/rajdeepseth.png?set=set3",
-      text: "Stumbled upon ui.aceternity.com today and it's amazing!",
+      text: "Stumbled upon ui.aceternity.com today and its amazing!",
       verified: false
     },
     {
@@ -55,7 +55,7 @@ const feedback = [
       name: "David Liu",
       username: "@dliu_tech",
       profilePic: "https://robohash.org/davidliu.png?set=set4",
-      text: "Just integrated the UI kit, and it's fantastic. Great job!",
+      text: "Just integrated the UI kit, and its fantastic. Great job!",
       verified: false
     },
     {
@@ -69,14 +69,14 @@ const feedback = [
       name: "Tom Hardy",
       username: "@hardy_dev",
       profilePic: "https://robohash.org/tomhardy.png?set=set2",
-      text: "Bookmarking this! Can't wait to use it in my next project.",
+      text: "Bookmarking this! Cant wait to use it in my next project.",
       verified: true
     },
     {
       name: "Nina Patel",
       username: "@ninapatel",
       profilePic: "https://ui-avatars.com/api/?name=Nina+Patel&background=random",
-      text: "The animations in this library are incredibly smooth. Love it!",
+      text: "The animations in this library are incredibly smooth. Love it",
       verified: false
     },
     {
@@ -140,7 +140,7 @@ const TestimonialExtra = () => {
       <div className='bg-gray-100 py-16 px-6 flex flex-col items-center justify-center'>
         <div className='text-center'>
           <h1>Loved by thousands of people</h1>
-          <p className='text-base mt-4 mb-8'>Here's what some of our users have to say about Aceternity UI.</p>
+          <p className='text-base mt-4 mb-8'>Heres what some of our users have to say about.</p>
         </div>
   
         <div className="flex flex-col justify-center items-center bg-gray-100">
