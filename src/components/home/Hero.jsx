@@ -27,7 +27,7 @@ const Hero = () => {
 
             <div className="absolute inset-0 flex flex-col justify-start lg:justify-end lg:items-start items-center p-4 lg:p-20">
                 <div className="text-center lg:text-left">
-                    <h1 className="text-white text-3xl md:text-3xl pt-12 lg:text-6xl w-1/3 font-bold">You deserve valuable price in<span className="block">market</span></h1>
+                    <h1 className="text-white text-3xl md:text-3xl pt-12 lg:text-6xl lg:w-1/3 font-bold">You deserve valuable price in<span className="block">market</span></h1>
                 </div>
                 <div className="flex flex-row float-start lg:flex-row gap-4 lg:gap-6 -mt-1 lg:mt-8 p-6 ">
 
