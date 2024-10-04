@@ -7,6 +7,7 @@ import React from 'react'
 import Ourservices from '@/components/services/Ourservices'
 import Extra2 from '@/components/services/Extra2'
 import Extra3 from '@/components/services/Extra3'
+import Extra1 from '@/components/home/Extra1'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       <ServicesHero />
       <Ourservices />
       <Servicegrid />
+      <Extra1/>
       <Aboutus />
       <Achievesucesses />
       <Extra3/>
