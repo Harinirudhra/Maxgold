@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="relative bg-red-100 bg-cover bg-center h-screen flex items-center ">
 
             <img 
-                src="/RKImages/RAMYA.jpg"
+                src="/RKImages/max.jpg"
                 alt="hero" 
                 className="hidden object-cover lg:block w-full h-full  p-4 rounded " />
             

@@ -23,7 +23,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-[#da0000] to-[#b81619] p-6 shadow-md">
+    <nav className="bg-gradient-to-r from-[#ff4d4d] to-[#b81619] p-6 shadow-md">
       <div className="flex justify-between items-center">
         {/* Left Side: Max Gold logo */}
         <div className="flex items-center">
