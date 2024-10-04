@@ -129,7 +129,7 @@ function NavBar() {
               style={{ textUnderlineOffset: "7px" }}
             >
               <div className="flex flex-1">
-                <Link href="/services" className="block text-white">
+                <Link href="/services" className="block text-white " onClick={closeMenu}>
                   Our Services
                 </Link>
               </div>
