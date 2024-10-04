@@ -12,6 +12,7 @@ import Extra1 from '@/components/home/Extra1'
 import React from 'react'
 import TestimonialExtra from "@/components/home/TestimonialExtra";
 import Aboutsecond from '@/components/about/Aboutsecond'
+import AboutExtra from '@/components/about/AboutExtra'
 const page = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const page = () => {
       <Extra1 />
       {/* <WhyMaxGold /> */}
       <OurValue />
-      <AboutGrid />
+      <AboutExtra />
       <TestimonialExtra />
       <Countup />
       {/* <Customers /> */}

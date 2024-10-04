@@ -17,7 +17,7 @@ const AboutExtra = () => {
         </svg>
       </span>
       <h1 className="text-black text-2xl md:text-3xl xl:text-3xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">
-      Max Gold’s instant cash for gold process is designed to be swift and efficient, allowing you to sell your gold and receive cash without delay. Here’s a step-by-step guide to what you can expect:
+      Max Golds instant cash for gold process is designed to be swift and efficient, allowing you to sell your gold and receive cash without delay. Heres a step-by-step guide to what you can expect
       </h1>
       <div className="grid text-left  sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
         {/* Card 1 */}
