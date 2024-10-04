@@ -11,11 +11,13 @@ import Extra1 from '@/components/home/Extra1'
 // import WhyMaxGold from '@/components/old/WhyMaxGold'
 import React from 'react'
 import TestimonialExtra from "@/components/home/TestimonialExtra";
+import Aboutsecond from '@/components/about/Aboutsecond'
 const page = () => {
   return (
     <div>
       <AboutHero />
       <AboutUs />
+      <Aboutsecond/>
       <Extra1/>
       {/* <WhyMaxGold /> */}
       <OurValue />
