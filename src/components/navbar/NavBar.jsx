@@ -50,7 +50,7 @@ function NavBar() {
           <li>
             <Link href="/">
               <span
-                className="cursor-pointer px-4 py-2 text-white block hover:text-[#eeaf39] hover:underline"
+                className="cursor-pointer px-4 py-2 font-bold text-white block hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Home
@@ -60,7 +60,7 @@ function NavBar() {
           <li>
             <Link href="/about">
               <span
-                className="cursor-pointer px-4 py-2 text-white block hover:text-[#eeaf39] hover:underline"
+                className="cursor-pointer px-4 py-2 font-bold text-white block hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 About
@@ -69,7 +69,7 @@ function NavBar() {
           </li>
           <li className="relative">
             <span
-              className="cursor-pointer px-4 py-2 text-white block hover:text-[#eeaf39] hover:underline"
+              className="cursor-pointer px-4 py-2 font-bold text-white block hover:text-[#eeaf39] hover:underline"
               onClick={(e) => {
                 e.preventDefault();
                 toggleServicesDropdown();
@@ -77,7 +77,7 @@ function NavBar() {
               style={{ textUnderlineOffset: "7px" }}
             >
               <div className="flex flex-1">
-                <Link href="/services" className="block text-white hover:text-[#eeaf39] hover:underline">
+                <Link href="/services" className="block font-bold text-white hover:text-[#eeaf39] hover:underline">
                   Our Services
                 </Link>
               </div>
@@ -86,7 +86,7 @@ function NavBar() {
           <li>
             <Link href="/contact">
               <span
-                className="cursor-pointer px-4 py-2 text-white block hover:text-[#eeaf39] hover:underline"
+                className="cursor-pointer px-4 py-2 font-bold text-white block hover:text-[#eeaf39] hover:underline"
                 style={{ textUnderlineOffset: "8px" }}
               >
                 Contact Us
