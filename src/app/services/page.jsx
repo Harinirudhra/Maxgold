@@ -7,17 +7,21 @@ import React from 'react'
 import Ourservices from '@/components/services/Ourservices'
 import Extra2 from '@/components/services/Extra2'
 import Extra3 from '@/components/services/Extra3'
+import Parallax from '@/components/about/Parallex'
 
 const page = () => {
   return (
     <div>
       <ServicesHero />
       <Ourservices />
+      
+      <Parallax/>
       <Servicegrid />
       <Aboutus />
+      
       <Achievesucesses />
-      <Extra3/>
-      <Extra2/>
+      
+      
 
     </div>
   )
