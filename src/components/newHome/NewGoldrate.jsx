@@ -7,7 +7,7 @@ const Goldrate = () => {
       <h2 className='pb-5'>Today Gold Rate Per Gram in Chennai (INR)</h2>
       <div className=' px-10 grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center'>
 
-        <div className="w-full bg-gradient-to-b from-red-500 to-red-800 p-10 rounded-lg m-4 md:mx-2">
+        <div className="w-full bg-gradient-to-b from-red-100 to-red-200 p-10 rounded-lg m-4 md:mx-2">
           <h1 className="text-white text-3xl font-bold mb-4 pb-4">Pure Gold (24K)</h1>
           <div className='grid grid-cols-2 gap-2'>
             <h3 className='text-2xl text-white'>1 Gram</h3>

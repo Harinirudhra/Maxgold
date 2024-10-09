@@ -33,10 +33,11 @@ export default function Home() {
       <Newcashbackcard />
       <NewContent />
       <NewCountUp />
+      <NewWhy />
       <NewGoldrate />
       <NewFAQ />
-      <NewWhy/>
-      <NewTestimonials/>
+
+      <NewTestimonials />
 
       <MaxGoldADS />
       {/* <Feedback/> */}
