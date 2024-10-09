@@ -21,6 +21,7 @@ import NewGoldrate from "@/components/newHome/NewGoldrate";
 import NewFAQ from "@/components/newHome/NewFAQ";
 import NewTestimonial from "@/components/newHome/NewTestimonial";
 import Newcashback from "@/components/newHome/Newcashback";
+import NewWhy from "@/components/newHome/NewWhy";
 
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
       <NewCountUp />
       <NewGoldrate />
       <NewFAQ />
+      <NewWhy/>
       <NewTestimonial />
 
       <MaxGoldADS />
