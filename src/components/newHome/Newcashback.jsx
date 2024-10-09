@@ -1,4 +1,5 @@
 import React from 'react'
+import i from "../../../public/Newcashback/z.png"
 
 const Newcashback = () => {
     return (
