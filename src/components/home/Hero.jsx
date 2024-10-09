@@ -20,7 +20,7 @@ const Hero = () => {
 
 
             <img
-                src="/RKImages/max.jpg"
+                src="/RKImages/RAMYA MOBILE.jpg"
                 alt="RK"
                 className='block lg:hidden w-screen h-screen object-cover p-4 rounded' />
 
