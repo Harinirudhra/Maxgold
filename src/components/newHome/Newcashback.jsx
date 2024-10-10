@@ -20,6 +20,10 @@ const Newcashback = () => {
           <p className="text-base md:text-sm lg:text-2xl font-thin md:!leading-7">
             Looking to sell your gold jewelry? We offer a safe, reliable, and efficient service to get you instant cash. Whether it’s a necklace, earrings, or other pieces, we ensure you receive top value based on current market rates.
           </p>
+        <button className="bg-red-600 text-white mt-5 py-3 px-8 rounded-lg hover:bg-red-700 transition-all duration-300">
+          Contact
+        </button>
+      
         </div>
 
 
