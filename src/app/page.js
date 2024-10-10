@@ -24,6 +24,7 @@ import Newcashback from "@/components/newHome/Newcashback";
 import NewWhy from "@/components/newHome/NewWhy";
 import NewTestimonials from "@/components/newHome/NewTestimonials";
 import NewStep from "@/components/newHome/NewStep";
+import CAR from "@/components/newHome/CAR";
 
 
 export default function Home() {
@@ -40,7 +41,7 @@ export default function Home() {
       <NewFAQ />
 
       <NewTestimonials />
-
+<CAR/>
       <MaxGoldADS />
       {/* <Feedback/> */}
 
