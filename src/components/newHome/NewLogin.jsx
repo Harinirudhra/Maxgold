@@ -124,7 +124,7 @@ const NewLogin = () => {
                                 <div>
                                     <h4 className="text-black font-bold mb-1">Captcha</h4>
                                     <input
-                                        className="p-2 rounded-2xl border w-full bg-gray-100 cursor-not-allowed text-center"
+                                        className="p-2 rounded-lg border w-full bg-gray-100 cursor-not-allowed text-center"
                                         value={captcha} 
                                         placeholder="Captcha"
                                         readOnly
