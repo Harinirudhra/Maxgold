@@ -31,9 +31,9 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-row float-start lg:flex-row gap-4 lg:gap-6 -mt-1 lg:mt-8 p-6 ">
 
-                    <ScrollLink to="brush-section" smooth={true} duration={800} className="scroll-link"><button className="bg-yellow-300 text-amber-900 font-bold py-2 px-4 -ml-5 rounded-xl hover:bg-red-500 hover:text-white" >
+                    <Link href="/contact" smooth={true} duration={800} className="scroll-link"><button className="bg-yellow-300 text-amber-900 font-bold py-2 px-4 -ml-5 rounded-xl hover:bg-red-500 hover:text-white" >
                         Sell Gold
-                    </button></ScrollLink>
+                    </button></Link>
 
                     <Link href="/about"><button className="bg-opacity-30 backdrop-blur-sm border border-white text-white font-bold py-2 px-4 rounded-xl hover:bg-red-500">
                         Know more
