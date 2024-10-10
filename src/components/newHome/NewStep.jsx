@@ -40,7 +40,7 @@ const NewStep = () => {
               className='px-20 pt-20'
             >
               <motion.img
-                src="/RKImages/service2.jpg"
+                src="/service2.jpg"
                 alt="img"
                 className='w-96 h-96'
                 initial={{ scale: 0.8, opacity: 0 }}
