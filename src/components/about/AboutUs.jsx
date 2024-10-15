@@ -4,7 +4,7 @@ import bg from '../../../public/aboutus img/handgold.webp'
 
 const AboutUs = () => {
   return (
-    <section className="bg-red-900 text-white py-16 px-4">
+    <section className="bg-[#550000] text-white py-16 px-4">
       <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
         {/* Masked Image Section */}
         <div className="relative w-full lg:w-1/2 mb-12 lg:mb-0">

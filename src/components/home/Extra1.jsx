@@ -26,7 +26,7 @@ const ServiceCard = ({ title, description, icon }) => {
                     {description}
                 </p>
             </div>
-            <span className="absolute w-32 aspect-square -bottom-16 -right-16 bg-[#ff7f50] rounded-full" />
+            <span className="absolute w-32 aspect-square -bottom-16 -right-16 bg-[#550000] rounded-full" />
         </div>
     );
 }
