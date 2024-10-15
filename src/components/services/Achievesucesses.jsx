@@ -40,7 +40,7 @@ const ServiceCard = ({ title, description, image, buttonText, isReverse }) => {
       />
       <div className="p-6 flex flex-col justify-between">
         <div>
-          <h3 className="font-bold lg:text-2xl md:text-xl text-lg mb-4 border-b-2 border-black inline-block">
+          <h3 className="font-bold text-yellow-500 lg:text-2xl md:text-xl text-lg mb-4 border-b-2 border-black inline-block">
             {title}
           </h3>
           <p className="md:text-lg lg:text-xl text-base text-gray-600 mb-4 mr-0 lg:mr-32">{description}</p>
@@ -58,7 +58,7 @@ const ServiceCard = ({ title, description, image, buttonText, isReverse }) => {
 const Achievesucesses = () => {
   return (
     <div className="container mx-auto p-5 md:p-10">
-      <h1 className="text-center mb-6 md:mb-24 font-bold lg:text-4xl md:text-3xl text-lg">
+      <h1 className="text-center mb-6 md:mb-24 font-bold lg:text-5xl md:text-3xl text-lg text-yellow-600">
         Preparing Students to Achieve Success
       </h1>
       {servicesData.map((service, index) => (
