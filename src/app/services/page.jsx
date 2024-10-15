@@ -12,9 +12,9 @@ const page = () => {
   return (
     <div>
 
+      <Parallax />
       <Ourservices />
       <Servicegrid />
-      <Parallax />
       <Aboutus />
 
       <Achievesucesses />
