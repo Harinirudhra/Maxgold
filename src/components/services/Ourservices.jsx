@@ -13,7 +13,7 @@ const Ourservices = ({ imageurl, title, para }) => {
       </div>
 
       <div className="lg:w-1/2   flex flex-col justify-center px-4">
-        <h1 className="text-3xl md:text-2x1  font-bold mb-1 sm:p-2  ">{title}</h1>
+        <h1 className="text-3xl md:text-2x1  font-bold mb-1 sm:p-2 flex justify-center text-yellow-600 ">{title}</h1>
         <p className="text-xl  md:text-lg lg:text-x flex flex-wrap  text-gray-700  sm:p-2 ">
           {para}
         </p>
