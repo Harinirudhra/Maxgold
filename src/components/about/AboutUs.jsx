@@ -47,7 +47,7 @@ const AboutUs = () => {
           </svg>
           <h3 className="text-yellow-400 mb-4 text-lg">About Us</h3>
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-            <em className="italic">Max gold</em> 
+            Max gold
           </h1>
           <p className="text-2xl">
           Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request.
