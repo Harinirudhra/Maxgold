@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 const NewWhy = () => {
@@ -22,7 +23,17 @@ const NewWhy = () => {
     <section className="py-12 px-5 bg-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-[#efbf04] mb-8">WHY CHOOSE US?</h2>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+        <div className="relative w-full h-80 mb-8"> 
+          <Image
+            className="object-cover"
+            src="/choose.jpg"
+            alt="Why Choose Us"
+            layout="fill" 
+            objectFit="cover" 
+            priority={true} 
+          />
+        </div>       
+         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {benefits.map((benefit, index) => (
             <div
               key={index}

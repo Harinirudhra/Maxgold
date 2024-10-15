@@ -15,7 +15,7 @@ const NewContent = () => {
                     <div className='bg-[#550000] rounded-full p-4 flex items-center justify-center'>
                         <IoDiamondOutline className='text-white text-2xl' />
                     </div>
-                    <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#efbf04]'>
+                    <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#550000]'>
                         FAIR PRICING
                     </h3>
                 </div>
@@ -27,7 +27,7 @@ const NewContent = () => {
                     <div className='bg-[#550000] rounded-full p-4 flex items-center justify-center'>
                         <GiHeartNecklace className='text-white text-2xl' />
                     </div>
-                    <h3 className='ml-3 text-[#efbf04] text-xl md:text-2xl lg:text-2xl font-bold'>
+                    <h3 className='ml-3 text-[#550000] text-xl md:text-2xl lg:text-2xl font-bold'>
                         HIGH QUALITY
                     </h3>
                 </div>
