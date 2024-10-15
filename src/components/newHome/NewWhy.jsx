@@ -21,12 +21,12 @@ const NewWhy = () => {
   return (
     <section className="py-12 px-5 bg-white">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-red-600 mb-8">WHY CHOOSE US?</h2>
+        <h2 className="text-3xl font-bold text-[#efbf04] mb-8">WHY CHOOSE US?</h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="flex items-center p-4 bg-red-600 text-white rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:bg-red-400"
+              className="flex items-center p-4 bg-[#550000] text-white rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:bg-[#800000]"
               style={{
                 opacity: "0", // Start hidden
                 animation: `fadeInUp 0.5s ease-out forwards`,

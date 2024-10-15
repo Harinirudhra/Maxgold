@@ -51,7 +51,7 @@ const NewTestimonials = () => {
     <div className="bg-gray-50 px-8 py-12">
       <div className="text-center">
         <p className="text-gray-500 mb-4">2,157+ people have said how good MaxGold</p>
-        <h2 className="text-3xl font-bold mb-8">Our happy Customers say about us</h2>
+        <h2 className="text-3xl font-bold mb-8 text-[#efbf04]">Our happy Customers say about us</h2>
       </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 ">

@@ -39,10 +39,10 @@ import { FaCrown } from 'react-icons/fa';  // Icons for more creative design
 const Goldrate = () => {
   return (
     <div className='py-10 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center'>
-      <h1 className='text-red-600 text-xl font-semibold tracking-wide mb-2'>
+      <h1 className='text-black text-xl font-semibold tracking-wide mb-2'>
         BEFORE SELLING THE GOLD, STAY UPDATED WITH TODAY'S GOLD RATE!
       </h1>
-      <h2 className='text-orange-600 text-4xl font-bold mb-8'>
+      <h2 className='text-[#efbf04] text-4xl font-bold mb-8'>
         Today Gold Rate Per Gram in Chennai (INR)
       </h2>
 

@@ -12,17 +12,17 @@ const NewFAQ = () => {
     <section className="bg-white bg-cover text-white py-16 px-4 md:px-16"
       style={{ backgroundImage: 'url(./bg45.jpg)', }}>
       <div className="max-w-4xl mx-auto">
-        <h2 className="uppercase text-md text-red-600 font-semibold tracking-wide mb-4">FAQ</h2>
+        <h2 className="uppercase text-md text-[#efbf04] font-semibold tracking-wide mb-4">FAQ</h2>
         <h3 className="text-3xl md:text-4xl text-black font-bold mb-8">
           Check The Question Section To <br />
-          <span>Get <span className="text-red-600">Resources, FAQs, & Guides</span></span>
+          <span>Get <span className="text-[#efbf04]">Resources, FAQs, & Guides</span></span>
         </h3>
 
         <div className="space-y-4">
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className={`rounded-lg shadow-sm shadow-black overflow-hidden cursor-pointer transition-colors duration-300 ${openIndex === index ? 'bg-red-700 text-white' : 'bg-red-600 text-white'
+              className={`rounded-lg shadow-sm shadow-black overflow-hidden cursor-pointer transition-colors duration-300 ${openIndex === index ? 'bg-[#800000] text-white' : 'bg-[#550000] text-white'
                 }`}
               onClick={() => toggleFAQ(index)}
             >
@@ -31,7 +31,7 @@ const NewFAQ = () => {
                 <span>{openIndex === index ? '▲' : '▼'}</span>
               </div>
               {openIndex === index && (
-                <div className="transition-colors duration-300 p-4 md:p-7 bg-red-700 text-white">
+                <div className="transition-colors duration-300 p-4 md:p-7 bg-[#800000] text-white">
                   <p>{faq.answer}</p>
                 </div>
               )}

@@ -29,7 +29,7 @@ const NewStep = () => {
      
       <motion.h1
         variants={fadeInUp}
-        className='py-10 text-3xl font-bold text-center'
+        className='py-10 text-3xl font-bold text-center text-[#efbf04]'
       >
         Steps to sell your old gold
       </motion.h1>
@@ -65,12 +65,12 @@ const NewStep = () => {
             { number: "6", title: "100% Customer Satisfaction", text: "Your satisfaction is our paramount concern. We strive to offer the highest price while ensuring a secure process.", icon: faSmile },
           ].map((section, index) => (
             <motion.div key={index} variants={fadeInUp} className="flex items-center space-x-4">
-              <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-red-600 z-10">
+              <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-[#550000] z-10">
                 <FontAwesomeIcon icon={section.icon} className="text-white text-2xl p-8" />
               </div>
               <div className="space-y-2 pl-4">
-               <h1 className='font-bold text-lg'>
-               <span className='text-4xl text-red-600'>{section.number} </span> {section.title}
+               <h1 className='font-bold text-lg text-[#efbf04]'>
+               <span className='text-4xl text-[#550000]'>{section.number} </span> {section.title}
                </h1>
                <p>{section.text}</p>
               </div>

@@ -24,15 +24,15 @@ const Footer = () => {
         </h2>
         <ul className="space-y-4 text-lg text-gray-600">
           <li className="flex items-center">
-            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            <div className="w-4 h-4 bg-[#550000] rounded-full mr-4"></div>
             Having problem handling finance?
           </li>
           <li className="flex items-center">
-            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            <div className="w-4 h-4 bg-[#550000] rounded-full mr-4"></div>
             Having revenue problem?
           </li>
           <li className="flex items-center">
-            <div className="w-4 h-4 bg-red-600 rounded-full mr-4"></div>
+            <div className="w-4 h-4 bg-[#550000] rounded-full mr-4"></div>
             In the needs of professional advice?
           </li>
         </ul>
@@ -41,7 +41,7 @@ const Footer = () => {
       {/* Right Section */}
       <div className="lg:w-1/3 mt-8 lg:mt-0 lg:text-right">
         <h1 className="text-lg text-gray-900 mb-4">Contact us now</h1>
-        <button className="bg-red-600 text-white py-3 px-8 rounded-full hover:bg-red-700 transition-all duration-300">
+        <button className="bg-[#550000] text-white py-3 px-8 rounded-full hover:bg-red-700 transition-all duration-300">
           Contact
         </button>
       </div>
