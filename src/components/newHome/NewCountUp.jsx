@@ -21,7 +21,7 @@ const NewCountUp = () => {
 
       <div className="flex-1 z-10 py-8 ml-0 lg:ml-10">
         <h3 className="text-[#efbf04] font-semibold lg:mt-10 mt-0">WHY OURS</h3>
-        <h2 className="md:text-5xl text-3xl font-black mt-2 text-[#efbf04]">Our Best Achievements</h2>
+        <h2 className="md:text-5xl text-3xl font-black mt-2 text-white ">Our Best Achievements</h2>
         <p className="text-white mt-4">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
           ducimus asperiores vero consectetur iure laudantium nostrum neque,

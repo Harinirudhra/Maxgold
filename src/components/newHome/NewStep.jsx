@@ -69,7 +69,7 @@ const NewStep = () => {
                 <FontAwesomeIcon icon={section.icon} className="text-white text-2xl p-8" />
               </div>
               <div className="space-y-2 pl-4">
-               <h1 className='font-bold text-lg text-[#efbf04]'>
+               <h1 className='font-bold text-2xl text-[#550000]'>
                <span className='text-4xl text-[#550000]'>{section.number} </span> {section.title}
                </h1>
                <p>{section.text}</p>
