@@ -6,7 +6,7 @@ const AboutHero = ({ title, description, imageurl }) => {
       <img src={imageurl} className="object-cover w-screen h-screen" alt="hero background" />
       <div className="absolute  left-0 w-full h-full bg-black opacity-40"></div>
 
-     <div className="absolute justify-center items-center top-56 p-8 lg:w-1/3">
+     <div className="absolute justify-center items-center top-36 md:top-56 p-8 lg:w-1/3">
        <h1 className="text-white bg-clip-text text-7xl pb-4">
     {title}
   </h1>
