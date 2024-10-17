@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutHero = ({ title, description, imageurl }) => {
   return (
-    <div className="relative flex justify-center items-start ">
+    <div className="relative flex justify-center text-center ">
       <img src={imageurl} className="object-cover w-screen h-screen" alt="hero background" />
       <div className="absolute  left-0 w-full h-full bg-black opacity-40"></div>
 

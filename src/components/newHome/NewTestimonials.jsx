@@ -50,6 +50,7 @@ const NewTestimonials = () => {
   return (
     <div className="bg-gray-50 px-8 py-12">
       <div className="text-center">
+        <h1 className='text-[#efbf04] pb-6 text-4xl'>Testimonials</h1>
         <p className="text-gray-500 mb-4">2,157+ people have said how good MaxGold</p>
         <h2 className="text-3xl font-bold mb-8 text-[#efbf04]">Our happy Customers say about us</h2>
       </div>
