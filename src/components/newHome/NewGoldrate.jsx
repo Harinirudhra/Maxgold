@@ -38,11 +38,11 @@ import { FaCrown } from 'react-icons/fa';  // Icons for more creative design
 
 const Goldrate = () => {
   return (
-    <div className='py-10 bg-gradient-to-b from-yellow-50 to-yellow-100 text-center'>
+    <div className='lg:py-40 py-10 bg-white text-center'>
       <h1 className='text-black text-xl font-semibold tracking-wide mb-2'>
         BEFORE SELLING THE GOLD, STAY UPDATED WITH TODAY'S GOLD RATE!
       </h1>
-      <h2 className='text-[#efbf04] text-4xl font-bold mb-8'>
+      <h2 className='text-[#efbf04] text-4xl font-bold mb-12'>
         Today Gold Rate Per Gram in Chennai (INR)
       </h2>
 
@@ -65,27 +65,29 @@ const Goldrate = () => {
             </div>
           </div>
         </div>
-
         {/* Standard Gold (22K) Section */}
-        <div className="w-full bg-gradient-to-b from-[#e9e581] to-yellow-300 p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
+        <div className="w-full bg-gradient-to-tr from-[#550000] from-10% via-[#ff0000] via-[100%] to-[#550000]  p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
           <div className='flex items-center justify-center mb-6'>
-            <FaCrown className='text-[#f9f9f5] text-4xl mr-3' />
-            <h1 className="text-[#fafaf7] text-3xl font-bold">Standard Gold (22K)</h1>
+
+            <h1 className="text-[#fbfbfa] text-3xl font-bold">Standard Gold (22K)</h1>
           </div>
-          <div className='grid grid-cols-2 gap-4'>
-            <div>
-              <h3 className='text-2xl text-gray-800'>1 Gram</h3>
-              <p className="text-gray-900 text-3xl font-bold">7,120</p>
+          <div className='grid gap-4'>
+            <div className='grid grid-cols-2'>
+              <h3 className='text-2xl text-gray-100'>1 Gram</h3>
+              <p className="text-white text-3xl font-bold">7,575</p>
             </div>
-            <div>
-              <h3 className='text-2xl text-gray-800'>8 Gram</h3>
-              <p className="text-gray-900 text-3xl font-bold">56,960</p>
+            <div className='grid grid-cols-2'>
+              <h3 className='text-2xl text-gray-100'>8 Gram</h3>
+              <p className="text-white text-3xl font-bold">60,600</p>
             </div>
           </div>
         </div>
 
+
+
+
       </div>
-      <p className='text-sm text-gray-600 mt-6'>Last Update: 09:39:14 AM</p>
+      <p className='text-sm text-gray-600 mt-10'>Last Update: 09:39:14 AM</p>
     </div>
   );
 };
