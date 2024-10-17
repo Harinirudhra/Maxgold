@@ -10,10 +10,10 @@ const Newcashbackcard = () => {
         <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 px-20'>
             {/* Item 1 */}
             <div className="flex flex-col items-center py-4">
-                <div className='text-[#e22f2f] flex items-center justify-center'>
+                <div className=' flex items-center justify-center'>
                     <img src={o.src} className='w-36 h-36 object-contain' />
                 </div>
-                <p className='w-60 text-center text-xl pt-4 font-bold'>Instant cash within 30 minutes</p>
+                <p className='w-60 text-center text-xl pt-4 text-[#550000] font-bold'>Instant cash within 30 minutes</p>
             </div>
 
             {/* Item 2 */}
@@ -21,7 +21,7 @@ const Newcashbackcard = () => {
                 <div className='text-[#e22f2f] flex items-center justify-center'>
                     <img src={t.src} className='w-36 h-36 object-contain' />
                 </div>
-                <p className='w-60 text-center text-xl pt-4 font-bold '>Door services</p> {/* Adjusted upwards */}
+                <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>Door services</p> {/* Adjusted upwards */}
             </div>
 
             {/* Item 3 */}
@@ -29,7 +29,7 @@ const Newcashbackcard = () => {
                 <div className='text-[#e22f2f] flex items-center justify-center'>
                     <img src={th.src} className='w-36 h-36 object-contain' />
                 </div>
-                <p className='w-60 text-center text-xl pt-4 font-bold '>Pledge gold takeover</p> {/* Adjusted upwards */}
+                <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>Pledge gold takeover</p> {/* Adjusted upwards */}
             </div>
 
             {/* Item 4 */}
@@ -37,7 +37,7 @@ const Newcashbackcard = () => {
                 <div className='text-[#e22f2f] flex items-center justify-center'>
                     <img src={f.src} className='w-36 h-36 object-contain' />
                 </div>
-                <p className='w-60 text-center text-xl pt-4 font-bold'>8 Lacs+ Satisfied customers</p>
+                <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>8 Lacs+ Satisfied customers</p>
             </div>
         </div>
     )
