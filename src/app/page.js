@@ -25,6 +25,7 @@ import NewWhy from "@/components/newHome/NewWhy";
 import NewTestimonials from "@/components/newHome/NewTestimonials";
 import NewStep from "@/components/newHome/NewStep";
 import CAR from "@/components/newHome/CAR";
+import NewLogin from "@/components/newHome/NewLogin";
 
 
 export default function Home() {
@@ -41,8 +42,9 @@ export default function Home() {
       <NewFAQ />
 
       <NewTestimonials />
-<CAR/>
+      <CAR />
       <MaxGoldADS />
+      <NewLogin />
       {/* <Feedback/> */}
 
     </div>
