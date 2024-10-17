@@ -13,19 +13,19 @@ const ImageCard = ({ src, alt, shape }) => {
 const Aboutus = () => {
   const images = [
     {
-      src: "https://images.pexels.com/photos/7974/pexels-photo.jpg?cs=srgb&dl=pexels-life-of-pix-7974.jpg&fm=jpg",
+      src: "https://images.picxy.com/cache/2018/12/13/914fde17a4d9f25112718d4d95585ded.jpg",
       alt: 'Image 1',
     },
     {
-      src: 'https://c0.wallpaperflare.com/preview/425/253/79/boy-holding-lighting-crackers.jpg',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegcHssB5bxu2azpdG1ApPffkGvJWy1SjSN6NC3WmCmcaSSNKj8xCZlpREnfe0C6P8D18&usqp=CAU',
       alt: 'Image 2',
     },
     {
-      src: 'https://t4.ftcdn.net/jpg/01/92/03/87/360_F_192038732_Ya7WJtbrWqaj1oiE8qyXLAbfpOUy1ywP.jpg',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhya1d3E2SaimhtR_pfp2LDOT194q3f-nQOQ&s',
       alt: 'Image 3',
     },
     {
-      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoj1NUG54nLrRdjHMddkl1HcPB37M8nLJcg&s',
+      src: 'https://i.pinimg.com/736x/7e/e1/87/7ee187eb415792cc6f9dad614974a480.jpg',
       alt: 'Image 4',
     },
   ];
