@@ -1,19 +1,19 @@
-"use client"; 
+"use client";
 
 import React, { useState, useEffect } from 'react';
 
 const NewLogin = () => {
-    const [captcha, setCaptcha] = useState(''); 
+    const [captcha, setCaptcha] = useState('');
     const [formData, setFormData] = useState({
         name: '',
         mobile: '',
         location: '',
         goldStatus: '',
         goldGrams: '',
-        captchaInput: '' 
+        captchaInput: ''
     });
 
-    
+
     const generateCaptcha = () => {
         const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
         let result = '';
@@ -28,7 +28,7 @@ const NewLogin = () => {
         setCaptcha(generateCaptcha());
     }, []);
 
-    
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({
@@ -37,34 +37,35 @@ const NewLogin = () => {
         }));
     };
 
-    
-    const handleSubmit = (e) => {
-        e.preventDefault(); 
 
-       
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+
         if (formData.captchaInput === captcha) {
             console.log('Form submitted:', formData);
             alert('Form submitted Successfully');
-           
+
         } else {
             alert('Captcha is incorrect. Please try again.');
             setCaptcha(generateCaptcha()); // 
-            setFormData({ ...formData, captchaInput: '' }); 
+            setFormData({ ...formData, captchaInput: '' });
         }
     };
 
     return (
         <div>
-            <section className="bg-[url('https://img.freepik.com/premium-photo/yellow-flower-with-word-dandelion-it_1191871-106712.jpg?w=900')] min-h-screen flex justify-center items-center bg-cover bg-center p-4 md:p-8 lg:p-12">
-                <div className="bg-[#c39036] rounded-2xl flex flex-col md:flex-row max-w-4xl w-full p-6 md:p-10 lg:p-12 items-center opacity-90">
-                    <div className="w-full md:w-1/2 px-4 md:px-8">
+            <section className=" min-h-screen flex justify-center items-center bg-cover bg-center p-4 md:p-8 lg:p-12"
+                style={{ backgroundImage: 'url(./bgfaq.jpg)', }} >
+                <div className="bg-[#550000] rounded-2xl flex flex-col md:flex-row max-w-4xl w-full p-6 md:p-10 lg:p-12 items-center opacity-90">
+                    <div className="w-full  px-4 md:px-8 ">
                         <h2 className="font-medium text-xl md:text-2xl lg:text-3xl text-center md:text-left text-[#ffffff]">
                             Get Instant Cash for Gold in <span className='block md:inline'>30 min</span>
                         </h2>
 
-                        <form action="" className="flex flex-col gap-4 mt-6" onSubmit={handleSubmit}>
+                        <form action="" className="flex flex-col gap-4 mt-10" onSubmit={handleSubmit}>
                             <input
-                                className="p-2 rounded-lg"
+                                className="p-4 rounded-md"
                                 type="text"
                                 name="name"
                                 placeholder="Name"
@@ -73,7 +74,7 @@ const NewLogin = () => {
                             />
                             <div className="relative">
                                 <input
-                                    className="p-2 rounded-lg border w-full"
+                                    className="p-4 rounded-md border w-full"
                                     type="number"
                                     name="mobile"
                                     placeholder="Mobile"
@@ -83,7 +84,7 @@ const NewLogin = () => {
                             </div>
                             <div>
                                 <input
-                                    className="p-2 rounded-lg border w-full"
+                                    className="p-4 rounded-md border w-full"
                                     type="text"
                                     name="location"
                                     placeholder="Location"
@@ -93,7 +94,7 @@ const NewLogin = () => {
                             </div>
                             <div>
                                 <select
-                                    className="p-2 rounded-lg w-full"
+                                    className="p-4 rounded-md w-full"
                                     name="goldStatus"
                                     value={formData.goldStatus}
                                     onChange={handleChange}
@@ -106,7 +107,7 @@ const NewLogin = () => {
 
                             <div>
                                 <select
-                                    className="p-2 rounded-lg w-full"
+                                    className="p-4 rounded-md w-full"
                                     name="goldGrams"
                                     value={formData.goldGrams}
                                     onChange={handleChange}
@@ -122,19 +123,19 @@ const NewLogin = () => {
 
                             <div className='grid grid-cols-1 sm:grid-cols-2 gap-2'>
                                 <div>
-                                    <h4 className="text-black font-bold mb-1">Captcha</h4>
+                                    <h4 className="text-white font-bold mb-1">Captcha</h4>
                                     <input
-                                        className="p-2 rounded-lg border w-full bg-gray-100 cursor-not-allowed text-center"
-                                        value={captcha} 
+                                        className="p-4 rounded-md border w-full  cursor-not-allowed text-center"
+                                        value={captcha}
                                         placeholder="Captcha"
                                         readOnly
                                     />
                                 </div>
 
                                 <div>
-                                    <h3 className="text-black font-bold mb-1">Enter Captcha</h3>
+                                    <h3 className="text-white font-bold mb-1">Enter Captcha</h3>
                                     <input
-                                        className="p-2 rounded-lg border w-full"
+                                        className="p-4 rounded-md border w-full"
                                         name="captchaInput"
                                         value={formData.captchaInput}
                                         onChange={handleChange}
@@ -142,16 +143,14 @@ const NewLogin = () => {
                                 </div>
                             </div>
 
-                            <button className="bg-[#faf09e] text-black py-2 rounded-lg hover:scale-105 duration-300 hover:bg-[#c0504e] hover:text-white font-medium mt-4" type="submit">Submit</button>
+                            <button className="bg-[#ffd700]  py-2 rounded-lg  duration-300 hover:bg-[#e5b80b] text-black text-2xl font-semibold font-medium mt-4" type="submit">Submit</button>
                         </form>
                     </div>
 
-                    <div className="hidden md:block md:w-1/2 p-4">
-                        <img className="rounded-2xl max-h-[300px] md:max-h-[600px] lg:max-h-[800px] w-full object-cover" src="https://img.freepik.com/premium-photo/flower-wallpaper-hd_1021219-1283.jpg?w=740" alt="login form image" />
-                    </div>
+
                 </div>
             </section>
-        </div>
+        </div >
     );
 }
 

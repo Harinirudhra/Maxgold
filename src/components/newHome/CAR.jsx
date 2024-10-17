@@ -11,51 +11,51 @@ const CAR = () => {
     },
     {
       text: "Which is better- 18k Vs 22k Gold?",
-      url: "/18k-vs-22k-gold",
+      url: "/whatisbetter",
     },
     {
       text: "Understand the gold weight changes when melting",
-      url: "/gold-weight-changes",
+      url: "/goldweightchanges",
     },
     {
       text: "Gold Rate in Coimbatore",
-      url: "/gold-rate-coimbatore",
+      url: "/goldratecoimbatore",
     },
     {
       text: "Is it good to Sell Old Gold?",
-      url: "/sell-old-gold",
+      url: "/selloldgold",
     },
     {
       text: "Where to sell gold for cash in Chennai?",
-      url: "/sell-gold-cash-chennai",
+      url: "/sellgoldcashchennai",
     },
     {
       text: "Get Instant Cash for Selling Old Gold in Chennai",
-      url: "/instant-cash-sell-gold",
+      url: "/instantcashsellgold",
     },
     {
       text: "Documents Required for Selling Old Gold",
-      url: "/documents-sell-old-gold",
+      url: "/documentgold",
     },
     {
       text: "Purity Checking Process at Best Money Gold",
-      url: "/purity-checking-best-money-gold",
+      url: "/purity",
     },
     {
       text: "Where can I get the highest price for selling old gold?",
-      url: "/highest-price-sell-gold",
+      url: "/highest",
     },
     {
       text: "How to find a genuine gold buyer in Chennai?",
-      url: "/genuine-gold-buyer-chennai",
+      url: "/genuine",
     },
     {
       text: "22k vs 24k Gold, Which is better? What is 916 gold?",
-      url: "/22k-vs-24k-gold",
+      url: "/where22vs24",
     },
     {
       text: "Selling gold vs Exchanging gold, which is better?",
-      url: "/selling-vs-exchanging-gold",
+      url: "/goldvsold",
     },
   ];
 

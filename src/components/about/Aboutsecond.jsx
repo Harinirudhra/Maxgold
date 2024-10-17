@@ -20,9 +20,10 @@ const Aboutsecond = () => {
             <p className="mb-4 text-xl p-4">MaxGold started in year 2006 and in short span of time 1000s of Happy customers in our list & keeps growing by word of mouth advertisment through customers who used our services.We are leading cash for gold buyers in chennai</p>
             <p className="mb-4 text-xl text-white p-4">Looking for Gold buyer near me. You have reached the right destination. Yes Max Gold is most trusted Old gold buyer in Chennai offering most competitive market rates for your gold jewellery.Max Gold is a leading name in the world of precious metals, specializing in buying and selling gold, silver, platinum, and other valuable items. Established with a commitment to integrity, trust, and exceptional service, we have become a trusted partner for individuals and businesses looking to turn their precious metals into cash or invest in tangible assets.</p>
 
-            <button className="ml-4 button-72 flex items-center justify-center bg-gradient-to-b from-[#e03d3d] via-[#f43628] to-[#ed746b] rounded-full shadow-lg shadow-[rgba(222,220,224,0.24)] text-white text-lg font-bold tracking-wide leading-[16px] px-6 py-4 hover:from-white hover:to-white hover:text-black transition-all duration-300">
-              Contact
-            </button>
+            <a href="#_" class="relative rounded px-5 py-2.5 overflow-hidden group bg-white hover:bg-gradient-to-r hover:from-white hover:to-gray-400 text-black hover:ring-2 hover:ring-offset-2 hover:ring-yellow-500 transition-all ease-out duration-300 ml-4">
+              <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+              <span class="relative">Contact</span>
+            </a>
           </div>
         </div>
       </div>
