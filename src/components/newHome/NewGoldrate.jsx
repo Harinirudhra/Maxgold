@@ -40,7 +40,7 @@ const Goldrate = () => {
   return (
     <div className='lg:py-40 py-10 bg-white text-center'>
       <h1 className='text-black text-xl font-semibold tracking-wide mb-2'>
-        BEFORE SELLING THE GOLD, STAY UPDATED WITH TODAY'S GOLD RATE!
+        BEFORE SELLING THE GOLD, STAY UPDATED WITH TODAYS GOLD RATE!
       </h1>
       <h2 className='text-[#efbf04] text-4xl font-bold mb-12'>
         Today Gold Rate Per Gram in Chennai (INR)

@@ -11,12 +11,12 @@ function Extra() {
                     <span className="text-blue-600 dark:text-blue-500 font-semibold pl-6 relative before:absolute before:top-1/2 before:left-0 before:w-5 before:h-px before:bg-blue-600 dark:before:bg-blue-500 before:rounded-full">
                         Happy Clients
                     </span>
-                    <h1 className="font-bold text-gray-800 dark:text-white text-3xl">Client’s Say About Us</h1>
+                    <h1 className="font-bold text-gray-800 dark:text-white text-3xl">Clients Say About Us</h1>
                 </div>
                 <div className="relative">
                     <div className="flex md:items-stretch gap-10 lg:gap-14">
                         <div className="hidden md:flex md:w-1/2 lg:w-2/5 md:h-auto">
-                            <Image src={i.src}width={1900} height={1200} alt="Author Avatr" className="w-full h-full object-cover rounded-lg" />
+                            <Image src={i.src} width={1900} height={1200} alt="Author Avatr" className="w-full h-full object-cover rounded-lg" />
                         </div>
                         <div className="flex-1 flex flex-col space-y-6 md:space-y-12 lg:space-y-16 md:py-6 lg:py-8 md:h-auto md:justify-center">
                             <p className="text-xl lg:text-2xl font-medium text-gray-700 dark:text-gray-300">
@@ -51,7 +51,7 @@ function Extra() {
             </div>
         </section>
     )
-    }
-    
+}
+
 
 export default Extra
