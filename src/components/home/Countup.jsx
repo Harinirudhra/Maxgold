@@ -33,7 +33,7 @@ const Countup = () => {
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
       <section className="bg-[#550000] p-8 lg:p-16">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
-          
+
           {/* Left Content */}
           <div className="md:w-1/3 text-center md:text-left">
             <p className="text-sm text-white">Our expertise</p>

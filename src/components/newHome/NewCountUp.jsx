@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import Image from 'next/image';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion'; // Import Framer Motion for animations
 
 const NewCountUp = () => {
   // Initialize the Intersection Observer hook
@@ -14,10 +15,9 @@ const NewCountUp = () => {
     <section
       ref={ref}
       className="relative bg-[#550000] rounded-lg p-8 lg:px-8 lg:py-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-8"
-
     >
       {/* White Background Section */}
-      < div className="absolute top-0 left-0 w-full h-16 py-8 bg-white pt-5 rounded-t-lg" ></div >
+      <div className="absolute top-0 left-0 w-full h-16 py-8 bg-white pt-5 rounded-t-lg"></div>
 
       <div className="flex-1 z-10 py-8 ml-0 lg:ml-10">
         <h3 className="text-[#efbf04] font-semibold lg:mt-10 mt-0">WHY OURS</h3>
@@ -54,19 +54,23 @@ const NewCountUp = () => {
 
       {/* Image Section */}
       <div className="relative flex-1 flex justify-center items-center z-10">
-        <div className="relative lg:absolute mt-0 -top-7 lg:mt-8 lg:-top-24 xl:left-24 lg:w-96 lg:h-96 md:h-80 md:w-80 w-64 h-64 rounded-xl overflow-hidden shadow-lg">
+        {/* Motion.div for the top-to-bottom fade animation */}
+        <motion.div
+          className="relative lg:absolute mt-0 -top-7 lg:mt-8 lg:-top-24 xl:left-24 lg:w-96 lg:h-96 md:h-80 md:w-80 w-64 h-64 rounded-xl overflow-hidden shadow-lg"
+          initial={{ opacity: 1, y: -80 }} // Starting from above with opacity 0
+          animate={inView ? { opacity: 1, y: 0 } : {}} // Animate to full opacity and in place when in view
+          transition={{ duration: 1.5 }} // Duration of the fade and movement
+        >
           <Image
             src="/service2.jpg"
             alt="img"
             layout="fill"
             objectFit="cover"
           />
-        </div>
+        </motion.div>
       </div>
-    </section >
+    </section>
   );
 };
 
 export default NewCountUp;
-
-
