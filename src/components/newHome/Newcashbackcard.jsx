@@ -23,7 +23,7 @@ const Newcashbackcard = () => {
         <ScrollTrigger onEnter={handleEnter} onExit={handleExit}>
             <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 px-20'>
                 {/* Item 1 */}
-                <div className={`flex flex-col items-center py-4 transition-opacity duration-300 ${visibleItems[0] ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[2000ms] ${visibleItems[0] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='flex items-center justify-center'>
                         <img src={o.src} className='w-36 h-36 object-contain' />
                     </div>
@@ -31,7 +31,7 @@ const Newcashbackcard = () => {
                 </div>
 
                 {/* Item 2 */}
-                <div className={`flex flex-col items-center py-4 transition-opacity duration-500 ${visibleItems[1] ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[3000ms] ${visibleItems[1] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={t.src} className='w-36 h-36 object-contain' />
                     </div>
@@ -39,7 +39,7 @@ const Newcashbackcard = () => {
                 </div>
 
                 {/* Item 3 */}
-                <div className={`flex flex-col items-center py-4 transition-opacity duration-700 ${visibleItems[2] ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[4000ms] ${visibleItems[2] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={th.src} className='w-36 h-36 object-contain' />
                     </div>
@@ -47,7 +47,7 @@ const Newcashbackcard = () => {
                 </div>
 
                 {/* Item 4 */}
-                <div className={`flex flex-col items-center py-4 transition-opacity duration-1000 ${visibleItems[3] ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[5000ms] ${visibleItems[3] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={f.src} className='w-36 h-36 object-contain' />
                     </div>
