@@ -26,8 +26,9 @@ const page = () => {
       <CashforGoldY />
       <CashforgoldZ />
       <DoorstepX />
-      <DoorstepY />
+      
       <DoorstepZ />
+      <DoorstepY />
       <Aboutus />
       <Achievesucesses />
 
