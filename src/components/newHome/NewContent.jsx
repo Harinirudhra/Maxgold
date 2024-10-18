@@ -9,7 +9,7 @@ const NewContent = () => {
     const [inViewRight, setInViewRight] = useState(false);
 
     return (
-        <div className='bg-white w-full overflow-y-hidden min-h-screen grid grid-cols-1 md:grid-cols-2 p-5 md:p-6 lg:p-8 gap-6'>
+        <div className='bg-white w-full overflow-y-hidden overflow-x-hidden min-h-screen grid grid-cols-1 md:grid-cols-2 p-5 md:p-6 lg:p-8 gap-6'>
             {/* Left Grid */}
             <ScrollTrigger onEnter={() => setInViewLeft(true)} onExit={() => setInViewLeft(false)}>
                 <div className={`p-5  flex flex-col justify-center transform transition-transform duration-1000 ${inViewLeft ? 'translate-x-0 opacity-100' : '-translate-x-32 opacity-0'}`}>
