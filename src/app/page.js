@@ -45,7 +45,7 @@ export default function Home() {
       <CAR />
       <MaxGoldADS />
       <NewLogin />
-      <Gold />
+
       {/* <Feedback/> */}
 
     </div>
