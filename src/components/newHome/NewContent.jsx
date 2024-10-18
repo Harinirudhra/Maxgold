@@ -9,10 +9,10 @@ const NewContent = () => {
     const [inViewRight, setInViewRight] = useState(false);
 
     return (
-        <div className='bg-white w-full min-h-screen grid grid-cols-1 md:grid-cols-2 p-5 md:p-6 lg:p-8 gap-6'>
+        <div className='bg-white w-full overflow-y-hidden min-h-screen grid grid-cols-1 md:grid-cols-2 p-5 md:p-6 lg:p-8 gap-6'>
             {/* Left Grid */}
             <ScrollTrigger onEnter={() => setInViewLeft(true)} onExit={() => setInViewLeft(false)}>
-                <div className={`p-5 flex flex-col justify-center transform transition-transform duration-1000 ${inViewLeft ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
+                <div className={`p-5  flex flex-col justify-center transform transition-transform duration-1000 ${inViewLeft ? 'translate-x-0 opacity-100' : '-translate-x-32 opacity-0'}`}>
                     <h1 className='text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-bold text-[#efbf04] pb-7'>
                         HANDCRAFTED & ETHICALLY SOURCED
                     </h1>
@@ -45,7 +45,7 @@ const NewContent = () => {
 
             {/* Right Grid */}
             <ScrollTrigger onEnter={() => setInViewRight(true)} onExit={() => setInViewRight(false)}>
-                <div className={`flex justify-center items-center transform transition-transform duration-1000 ${inViewRight ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
+                <div className={`flex  justify-center items-center transform transition-transform duration-1000 ${inViewRight ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'}`}>
                     <img
                         src="https://www.totaramsons.com/assets/images/goldcat.jpg"
                         alt='Handcrafted and Ethically Sourced'
