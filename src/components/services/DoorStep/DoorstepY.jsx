@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import door from '../../../../public/doorstep/DSmain.jpg'
 
 const DoorstepY = () => {
 
@@ -12,11 +13,11 @@ const DoorstepY = () => {
     </p>
     <div className="mt-4"> 
         <Image
-            src="/DSmain.jpg"
+            src="/doorstep/DSmain.jpg"
             alt="Door Step" 
             width={800} 
             height={320} 
-            className="w-full h-80 object-cover" 
+            className="w-full h-full object-cover" 
         />
     </div>
 </div>
