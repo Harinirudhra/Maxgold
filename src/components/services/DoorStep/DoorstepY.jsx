@@ -11,13 +11,13 @@ const DoorstepY = () => {
     <p className="font-semibold text-yellow-400 text-3xl">
         Max Gold’s doorstep services offer several advantages that set us apart
     </p>
-    <div className="mt-4"> 
+    <div className="mt-4 flex items-center "> 
         <Image
-            src="/doorstep/DSmain.jpg"
+            src="/doorstep/DS.jpeg"
             alt="Door Step" 
             width={800} 
             height={320} 
-            className="w-full h-full object-cover" 
+            className="w-full h-full rounded-2xl object-cover" 
         />
     </div>
 </div>
