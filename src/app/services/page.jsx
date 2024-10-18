@@ -7,15 +7,21 @@ import React from 'react'
 import Ourservices from '@/components/services/Ourservices'
 import Parallax from '@/components/about/Parallex'
 import ServicesHero from '@/components/services/ServicesHero'
+import CashforGoldY from '@/components/services/cashforgold/CashforGoldY'
+import CashforgoldX from '@/components/services/cashforgold/CashforgoldX'
+import CashforgoldZ from '@/components/services/cashforgold/CashforgoldZ'
 
 
 const page = () => {
   return (
     <div>
-      <ServicesHero/>
+      <ServicesHero />
       <Ourservices />
       <Servicegrid />
       <Parallax />
+      <CashforgoldX />
+      <CashforGoldY />
+      <CashforgoldZ />
       <Aboutus />
       <Achievesucesses />
 
