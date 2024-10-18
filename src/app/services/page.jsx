@@ -10,6 +10,9 @@ import ServicesHero from '@/components/services/ServicesHero'
 import CashforGoldY from '@/components/services/cashforgold/CashforGoldY'
 import CashforgoldX from '@/components/services/cashforgold/CashforgoldX'
 import CashforgoldZ from '@/components/services/cashforgold/CashforgoldZ'
+import DoorstepX from '@/components/services/DoorStep/DoorstepX'
+import DoorstepY from '@/components/services/DoorStep/DoorstepY'
+import DoorstepZ from '@/components/services/DoorStep/DoorstepZ'
 
 
 const page = () => {
@@ -22,6 +25,9 @@ const page = () => {
       <CashforgoldX />
       <CashforGoldY />
       <CashforgoldZ />
+      <DoorstepX />
+      <DoorstepY />
+      <DoorstepZ />
       <Aboutus />
       <Achievesucesses />
 
