@@ -14,7 +14,7 @@ const NewCountUp = () => {
   return (
     <section
       ref={ref}
-      className="relative bg-[#550000] rounded-lg p-8 lg:px-8 lg:py-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-8"
+      className="relative bg-[#7b071e] rounded-lg p-8 lg:px-8 lg:py-20 flex flex-col-reverse lg:flex-row items-center lg:items-start lg:gap-8"
     >
       {/* White Background Section */}
       <div className="absolute top-0 left-0 w-full h-16 py-8 bg-white pt-5 rounded-t-lg"></div>

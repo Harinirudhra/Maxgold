@@ -4,7 +4,7 @@ import bg from '../../../public/aboutus img/handgold.webp'
 
 const AboutUs = () => {
   return (
-    <section className="bg-[#550000] text-white py-16 px-4">
+    <section className="bg-[#7b071e] text-white py-16 px-4">
       <div className="flex flex-col lg:flex-row gap-8 items-center justify-between">
         {/* Masked Image Section */}
         <div className="relative w-full lg:w-1/2 mb-12 lg:mb-0">
@@ -12,7 +12,7 @@ const AboutUs = () => {
             <svg className="w-full h-full" viewBox="0 0 32 32">
               <defs>
                 <clipPath id="hero-clip-desktop" clipPathUnits="objectBoundingBox">
-                  <path d="M0.53,0.505 c0.044,0.006,0.089,0.009,0.133,0.009 c0.261,0,0.399,-0.115,0.309,-0.257 C0.882,0.115,0.597,0,0.336,0 S-0.063,0.115,0.028,0.257 c0.068,0.107,0.247,0.199,0.442,0.238 c-0.044,-0.006,-0.089,-0.009,-0.133,-0.009 c-0.261,0,-0.399,0.115,-0.309,0.257 c0.09,0.142,0.375,0.257,0.636,0.257 s0.399,-0.115,0.309,-0.257 c-0.068,-0.107,-0.247,-0.199,-0.442,-0.238"/>
+                  <path d="M0.53,0.505 c0.044,0.006,0.089,0.009,0.133,0.009 c0.261,0,0.399,-0.115,0.309,-0.257 C0.882,0.115,0.597,0,0.336,0 S-0.063,0.115,0.028,0.257 c0.068,0.107,0.247,0.199,0.442,0.238 c-0.044,-0.006,-0.089,-0.009,-0.133,-0.009 c-0.261,0,-0.399,0.115,-0.309,0.257 c0.09,0.142,0.375,0.257,0.636,0.257 s0.399,-0.115,0.309,-0.257 c-0.068,-0.107,-0.247,-0.199,-0.442,-0.238" />
                 </clipPath>
               </defs>
 
@@ -50,8 +50,8 @@ const AboutUs = () => {
             Max gold
           </h1>
           <p className="text-2xl">
-          Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request.
-          Kindly reach us on 044 - 45454545 for detailed query.
+            Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request.
+            Kindly reach us on 044 - 45454545 for detailed query.
           </p>
         </div>
       </div>

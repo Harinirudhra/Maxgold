@@ -57,7 +57,7 @@ const NewLogin = () => {
         <div>
             <section className=" min-h-screen flex justify-center items-center bg-cover bg-center p-4 md:p-8 lg:p-12"
                 style={{ backgroundImage: 'url(./bgfaq.jpg)', }} >
-                <div className="bg-[#550000] rounded-2xl flex flex-col md:flex-row max-w-4xl w-full p-6 md:p-10 lg:p-12 items-center opacity-90">
+                <div className="bg-gradient-to-t from-amber-300 to-yellow-500 rounded-2xl flex flex-col md:flex-row max-w-4xl w-full p-6 md:p-10 lg:p-12 items-center opacity-90">
                     <div className="w-full  px-4 md:px-8 ">
                         <h2 className="font-medium text-xl md:text-2xl lg:text-3xl text-center md:text-left text-[#ffffff]">
                             Get Instant Cash for Gold in <span className='block md:inline'>30 min</span>
@@ -143,7 +143,7 @@ const NewLogin = () => {
                                 </div>
                             </div>
 
-                            <button className="bg-[#ffd700]  py-2 rounded-lg  duration-300 hover:bg-[#e5b80b] text-black text-2xl font-semibold font-medium mt-4" type="submit">Submit</button>
+                            <button className="bg-[#7b071e]  py-2 rounded-lg  duration-300 hover:bg-[#550000] text-white text-2xl font-semibold font-medium mt-4" type="submit">Submit</button>
                         </form>
                     </div>
 

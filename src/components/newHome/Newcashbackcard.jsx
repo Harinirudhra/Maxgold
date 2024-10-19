@@ -21,13 +21,13 @@ const Newcashbackcard = () => {
 
     return (
         <ScrollTrigger onEnter={handleEnter} onExit={handleExit}>
-            <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 px-20'>
+            <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-5 gap-8 pb-10 px-20'>
                 {/* Item 1 */}
                 <div className={`flex flex-col items-center py-4 transition-opacity duration-[2000ms] ${visibleItems[0] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='flex items-center justify-center'>
                         <img src={o.src} className='w-36 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 text-[#550000] font-bold'>Instant cash within 30 minutes</p>
+                    <p className='w-60 text-center text-xl pt-4 text-[#7b071e] font-bold'>Instant cash within 30 minutes</p>
                 </div>
 
                 {/* Item 2 */}
@@ -35,7 +35,7 @@ const Newcashbackcard = () => {
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={t.src} className='w-36 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>Door services</p>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>Door services</p>
                 </div>
 
                 {/* Item 3 */}
@@ -43,7 +43,7 @@ const Newcashbackcard = () => {
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={th.src} className='w-36 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>Pledge gold takeover</p>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>Pledge gold takeover</p>
                 </div>
 
                 {/* Item 4 */}
@@ -51,7 +51,13 @@ const Newcashbackcard = () => {
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={f.src} className='w-36 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#550000]'>8 Lacs+ Satisfied customers</p>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>8 Lacs+ Satisfied customers</p>
+                </div>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[4000ms] ${visibleItems[2] ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className='text-[#e22f2f] flex items-center justify-center'>
+                        <img src={th.src} className='w-36 h-36 object-contain' />
+                    </div>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ years </p>
                 </div>
             </div>
         </ScrollTrigger>

@@ -4,7 +4,7 @@ import bg from '../../../public/Logo/MaxGoldlogo.jpg'
 
 const Aboutsecond = () => {
   return (
-    <section className="about-text sig bg-gradient-to-b bg-[#550000] py-16">
+    <section className="about-text sig bg-gradient-to-b bg-[#7b071e] py-16">
       <div className="container mx-auto">
         <div className="flex flex-col gap-6 md:flex-row max-w-screen-lg mx-auto items-center">
           <div className="md:w-1/3 mb-5 md:mb-0 text-center">

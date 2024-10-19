@@ -49,7 +49,7 @@ const Goldrate = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-16 justify-items-center'>
 
         {/* Pure Gold (24K) Section */}
-        <div className="w-full bg-gradient-to-tr from-[#550000] from-10% via-[#ff0000] via-[100%] to-[#550000]  p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
+        <div className="w-full bg-[#7b071e]  p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
           <div className='flex items-center justify-center mb-6'>
 
             <h1 className="text-[#fbfbfa] text-3xl font-bold">Pure Gold (24K)</h1>
@@ -66,7 +66,7 @@ const Goldrate = () => {
           </div>
         </div>
         {/* Standard Gold (22K) Section */}
-        <div className="w-full bg-gradient-to-tr from-[#550000] from-10% via-[#ff0000] via-[100%] to-[#550000]  p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
+        <div className="w-full bg-[#7b071e] p-10 shadow-2xl rounded-lg transition-transform transform hover:scale-105">
           <div className='flex items-center justify-center mb-6'>
 
             <h1 className="text-[#fbfbfa] text-3xl font-bold">Standard Gold (22K)</h1>

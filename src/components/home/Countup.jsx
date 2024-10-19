@@ -31,7 +31,7 @@ const Countup = () => {
 
   return (
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-      <section className="bg-[#550000] p-8 lg:p-16">
+      <section className="bg-[#7b071e] p-8 lg:p-16">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
 
           {/* Left Content */}
@@ -40,7 +40,7 @@ const Countup = () => {
             <h2 className="text-xl lg:text-3xl font-semibold text-white mt-2">
               New fashionable is <br></br> around the world
             </h2>
-            <button className="mt-8 text-red-500 text-sm lg:text-base font-semibold py-3 px-6 rounded-md bg-white transition">
+            <button className="mt-8 text-[#7b071e] text-sm lg:text-base font-semibold py-3 px-6 rounded-md bg-white transition">
               DISCOVER NOW
             </button>
           </div>
@@ -50,7 +50,7 @@ const Countup = () => {
             <div className="w-full md:w-1/2 text-left px-4 mb-4 md:mb-0">
               <h3 className="text-xl font-semibold text-black">{data.rightContent[0].heading}</h3>
               <p className="text-sm text-gray-700 mt-2">{data.rightContent[0].paragraph}</p>
-              <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#550000] mt-4">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#7b071e] mt-4">
                 {counterOn && (
                   <CountUp
                     start={0}
@@ -63,13 +63,13 @@ const Countup = () => {
             </div>
 
             {/* Horizontal border on mobile and vertical on larger screens */}
-            <div className="w-44 h-px bg-[#550000] md:hidden my-6"></div>
-            <div className="hidden md:block h-28 lg:px-6 border-l-2 border-[#550000] mb-4 md:mb-0"></div>
+            <div className="w-44 h-px bg-[#7b071e] md:hidden my-6"></div>
+            <div className="hidden md:block h-28 lg:px-6 border-l-2 border-[#7b071e] mb-4 md:mb-0"></div>
 
             <div className="w-full md:w-1/2 text-left px-4">
               <h3 className="text-xl font-semibold text-black">{data.rightContent[1].heading}</h3>
               <p className="text-sm text-gray-700 mt-2">{data.rightContent[1].paragraph}</p>
-              <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#550000] mt-4">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#7b071e] mt-4">
                 {counterOn && (
                   <CountUp
                     start={0}

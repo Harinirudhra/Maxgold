@@ -18,26 +18,48 @@ const NewContent = () => {
                     </h1>
 
                     <div className='flex items-center pb-3'>
-                        <div className='bg-[#550000] rounded-full p-4 flex items-center justify-center'>
+                        <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
                             <IoDiamondOutline className='text-white text-2xl' />
                         </div>
-                        <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#550000]'>
+                        <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
                             FAIR PRICING
                         </h3>
                     </div>
-                    <p className='text-base md:text-lg lg:text-xl'>
+                    <p className='text-base md:text-lg '>
                         Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
                     </p>
 
                     <div className='flex items-center pb-3 pt-7'>
-                        <div className='bg-[#550000] rounded-full p-4 flex items-center justify-center'>
+                        <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
                             <GiHeartNecklace className='text-white text-2xl' />
                         </div>
-                        <h3 className='ml-3 text-[#550000] text-xl md:text-2xl lg:text-2xl font-bold'>
+                        <h3 className='ml-3 text-[#7b071e] text-xl md:text-2xl lg:text-2xl font-bold'>
                             HIGH QUALITY
                         </h3>
                     </div>
-                    <p className='text-base md:text-lg lg:text-xl'>
+                    <p className='text-base md:text-lg '>
+                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    </p>
+                    <div className='flex items-center pb-3 pt-3'>
+                        <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
+                            <IoDiamondOutline className='text-white text-2xl' />
+                        </div>
+                        <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
+                            FAIR PRICING
+                        </h3>
+                    </div>
+                    <p className='text-base md:text-lg '>
+                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    </p>
+                    <div className='flex items-center pb-3 pt-3'>
+                        <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
+                            <IoDiamondOutline className='text-white text-2xl' />
+                        </div>
+                        <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
+                            FAIR PRICING
+                        </h3>
+                    </div>
+                    <p className='text-base md:text-lg '>
                         Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
                     </p>
                 </div>

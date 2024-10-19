@@ -7,28 +7,28 @@ const cardData = [
     title: "TRUST",
     description: "Backed by the most trusted people in the industry & in partnership with RBI approved institutions.",
     imageSrc: "/ourValueIcons/diamond.png",
-    backgroundColor: "bg-red-400",
+    backgroundColor: "bg-[#7b071e]",
     roundedClass: "rounded-tr-[42px] rounded-b-xl text-white"
   },
   {
     title: "CONVENIENCE",
     description: "Our services are tech driven & designed to make your experience a tension-free one.",
     imageSrc: "/ourValueIcons/convenience.png",
-    backgroundColor: "bg-gradient-to-b from-[#fbe8b4] to-[#f9d986]",
+    backgroundColor: "bg-[#7b071e]",
     roundedClass: "rounded-tl-[42px] rounded-b-xl text-black"
   },
   {
     title: "TRANSPARENCY",
     description: "What you see is what you get. Quite literally, no hidden charges and fees!",
     imageSrc: "/ourValueIcons/pay.png",
-    backgroundColor: "bg-gradient-to-b from-[#fbe8b4] to-[#f9d986]",
+    backgroundColor: "bg-[#7b071e]",
     roundedClass: "rounded-br-[42px] rounded-t-xl "
   },
   {
     title: "SECURITY",
     description: "ISO certified, all your details and loan information is completely confidential.",
     imageSrc: "/ourValueIcons/security.png",
-    backgroundColor: "bg-red-400",
+    backgroundColor: "bg-[#7b071e]",
     roundedClass: "rounded-bl-[42px] rounded-t-xl text-white"
   }
 ];
@@ -42,7 +42,7 @@ const OurValue = () => {
           {/* Left side - Our Value Text */}
           <div className="flex flex-col justify-start relative items-start">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-black mb-6">
-              <span className="text-red-500">Our</span> Value
+              <span className="text-yellow-500">Our Value</span>
             </h2>
             <img src="/road/waysz.png" alt="Arrows" className="h-96 w-full left-0 absolute bottom-0 lg:block hidden" />
           </div>
@@ -53,8 +53,8 @@ const OurValue = () => {
             {cardData.map((card, index) => (
               <div key={index} className={`${card.backgroundColor} p-6 md:p-8 rounded-lg ${card.roundedClass} flex flex-col text-left`}>
                 <img src={card.imageSrc} alt={card.title} className="mb-4 w-12 h-12" />
-                <h3 className="text-lg md:text-xl font-bold mb-2 text-black">{card.title}</h3>
-                <p className=" text-sm md:text-base text-black">{card.description}</p>
+                <h3 className="text-lg md:text-xl font-bold mb-2 text-yellow-500">{card.title}</h3>
+                <p className=" text-sm md:text-base text-white">{card.description}</p>
               </div>
             ))}
           </div>

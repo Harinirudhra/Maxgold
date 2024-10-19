@@ -25,11 +25,11 @@ const NewStep = () => {
       initial="hidden"
       animate="visible"
       variants={container}
-      className='px-10'>
-     
+      className='px-10 bg-slate-200'>
+
       <motion.h1
         variants={fadeInUp}
-        className='py-10 text-3xl font-bold text-center text-[#efbf04]'
+        className='pt-5 text-3xl font-bold text-center text-[#efbf04]'
       >
         Steps to sell your old gold
       </motion.h1>
@@ -41,9 +41,9 @@ const NewStep = () => {
           className='flex justify-center items-center h-full'
         >
           <motion.img
-            src="/service2.jpg"
+            src="/rbg.png"
             alt="img"
-            className='object-cover w-full h-full max-h-96'
+            className='object-cover w-full h-full'
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1, transition: { duration: 0.8 } }}
           />
@@ -65,14 +65,15 @@ const NewStep = () => {
             { number: "6", title: "100% Customer Satisfaction", text: "Your satisfaction is our paramount concern. We strive to offer the highest price while ensuring a secure process.", icon: faSmile },
           ].map((section, index) => (
             <motion.div key={index} variants={fadeInUp} className="flex items-center space-x-4">
-              <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-[#550000] z-10">
+              <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-[#7b071e] z-10">
                 <FontAwesomeIcon icon={section.icon} className="text-white text-2xl p-8" />
               </div>
+              <span className='text-4xl hidden lg:flex font-extrabold text-[#7b071e]'>{section.number} </span>
               <div className="space-y-2 pl-4">
-               <h1 className='font-bold text-2xl text-[#550000]'>
-               <span className='text-4xl text-[#550000]'>{section.number} </span> {section.title}
-               </h1>
-               <p>{section.text}</p>
+                <h1 className='font-bold text-2xl text-[#7b071e]'>
+                  <span className='text-2xl lg:hidden text-[#7b071e]'>{section.number} </span> {section.title}
+                </h1>
+                <p>{section.text}</p>
               </div>
 
               {/* Add small vertical line */}

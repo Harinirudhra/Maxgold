@@ -22,12 +22,12 @@ const NewFAQ = () => {
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className={`rounded-lg shadow-sm shadow-black overflow-hidden cursor-pointer transition-colors duration-300 ${openIndex === index ? 'bg-[#ffffff] text-black' : 'bg-[#ce3737] text-white'
+              className={`rounded-lg shadow-sm shadow-black overflow-hidden cursor-pointer transition-colors duration-300 ${openIndex === index ? 'bg-gradient-to-tr from-amber-300 to-yellow-500 text-black' : 'bg-gradient-to-tr from-amber-300 to-yellow-500 text-black'
                 }`}
               onClick={() => toggleFAQ(index)}
             >
               <div className="md:p-7 p-4 flex justify-between gap-4 items-center">
-                <h4 className="text-lg font-medium">{faq.question}</h4>
+                <h4 className="text-lg font-semibold">{faq.question}</h4>
                 <span>{openIndex === index ? '▲' : '▼'}</span>
               </div>
               {openIndex === index && (
