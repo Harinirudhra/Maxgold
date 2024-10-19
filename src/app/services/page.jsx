@@ -13,6 +13,9 @@ import CashforgoldZ from '@/components/services/cashforgold/CashforgoldZ'
 import DoorstepX from '@/components/services/DoorStep/DoorstepX'
 import DoorstepY from '@/components/services/DoorStep/DoorstepY'
 import DoorstepZ from '@/components/services/DoorStep/DoorstepZ'
+import ReleaseGoldX from '@/components/services/releasegold/ReleaseGoldX'
+import ReleaseGoldY from '@/components/services/releasegold/ReleaseGoldY'
+import AddOnService from '@/components/services/addonservice/AddOnService'
 
 
 const page = () => {
@@ -25,10 +28,13 @@ const page = () => {
       <CashforgoldX />
       <CashforGoldY />
       <CashforgoldZ />
+      <ReleaseGoldX/>
+      <ReleaseGoldY/>
       <DoorstepX />
       
       <DoorstepZ />
       <DoorstepY />
+      <AddOnService/>
       <Aboutus />
       <Achievesucesses />
 
