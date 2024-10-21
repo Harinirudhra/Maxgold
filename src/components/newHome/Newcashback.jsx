@@ -30,7 +30,7 @@ const Newcashback = () => {
             <p className="text-base md:text-sm text-black lg:text-2xl font-thin md:!leading-7 mb-6">
               Looking to sell your gold jewelry? We offer a safe, reliable, and efficient service to get you instant cash. Whether it’s a necklace, earrings, or other pieces, we ensure you receive top value based on current market rates.
             </p>
-            <a href="#_" className="rounded py-3 px-8 overflow-hidden group bg-[#7b071e] relative hover:bg-gradient-to-r hover:from-red-700 hover:to-red-500 text-white hover:ring-2 hover:ring-offset-2 hover:ring-red-700 transition-all ease-out duration-300">
+            <a href="/contact" className="rounded py-3 px-8 overflow-hidden group bg-[#7b071e] relative hover:bg-gradient-to-r hover:from-red-700 hover:to-red-500 text-white hover:ring-2 hover:ring-offset-2 hover:ring-red-700 transition-all ease-out duration-300">
               <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
               <span className="relative">Contact</span>
             </a>
