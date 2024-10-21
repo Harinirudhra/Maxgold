@@ -15,12 +15,12 @@ const Hero = () => {
     return (
         <div className="relative bg-red-100 bg-cover bg-center h-screen flex items-center">
             <img
-                src="/RKImages/max.jpg"
+                src="/RKImages/ramyamain.jpg"
                 alt="hero"
                 className="hidden object-cover lg:block w-full h-full p-4 rounded" />
 
             <img
-                src="/RKImages/RAMYA MOBILE.jpg"
+                src="/RKImages/ramyamobile.jpg"
                 alt="RK"
                 className='block lg:hidden w-screen h-screen object-cover p-4 rounded' />
 
