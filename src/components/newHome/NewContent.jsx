@@ -67,11 +67,11 @@ const NewContent = () => {
 
             {/* Right Grid */}
             <ScrollTrigger onEnter={() => setInViewRight(true)} onExit={() => setInViewRight(false)}>
-                <div className={`flex  justify-center items-center transform transition-transform duration-1000 ${inViewRight ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'}`}>
+                <div className={`flex justify-center items-center h-full transform transition-transform duration-1000 ${inViewRight ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'}`}>
                     <img
                         src="https://www.totaramsons.com/assets/images/goldcat.jpg"
                         alt='Handcrafted and Ethically Sourced'
-                        className='object-cover w-full h-auto' // Full width and maintain aspect ratio
+                        className='object-contain w-auto h-auto max-w-full max-h-full' // Maintain aspect ratio, auto width/height
                     />
                 </div>
             </ScrollTrigger>
