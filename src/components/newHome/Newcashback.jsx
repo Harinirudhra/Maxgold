@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
-import i from "../../../public/Newcashback/z.png";
+import i from "../../../public/instant_cash.png";
 
 const Newcashback = () => {
   const [hasAnimated, setHasAnimated] = useState(false); // Flag to track if animation has occurred
@@ -18,11 +18,11 @@ const Newcashback = () => {
         ${hasAnimated ? 'translate-x-0 scale-100 opacity-100' : 'translate-y-10 scale-90 opacity-0'}`}>
         <div className='grid grid-cols-1 md:grid-cols-3'>
           <div className='px-10 md:px-6 lg:px-10 pt-14 text-center md:text-start'>
-            <h1 className='text-[#efbf04] text-3xl md:text-base lg:text-3xl '>Max Golds History Since - 1990</h1>
+            <h1 className='text-[#efbf04] text-3xl md:text-base lg:text-3xl'>Max Golds History Since - 1990</h1>
             <p className='pt-5 text-2xl text-black md:text-xl lg:text-2xl md:!leading-8'>We are the best choice for you to sell your precious gold, silver, platinum, diamond and ruby jewelry and get instant cash.</p>
           </div>
 
-          <div className='pt-5 md:pt-0 justify-center flex'>
+          <div className='flex justify-center items-center pt-5 md:pt-0'>
             <img src={i.src} className='w-auto md:w-40 lg:w-auto' alt="Cashback image" />
           </div>
 

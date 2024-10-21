@@ -143,7 +143,7 @@ const NewLogin = () => {
                                 </div>
                             </div>
 
-                            <button className="bg-[#7b071e]  py-2 rounded-lg  duration-300 hover:bg-[#550000] text-white text-2xl font-semibold font-medium mt-4" type="submit">Submit</button>
+                            <button className="bg-[#7b071e]  py-2 rounded-lg  duration-300 hover:bg-[#550000] text-white text-2xl font-semibold  mt-4" type="submit">Submit</button>
                         </form>
                     </div>
 
