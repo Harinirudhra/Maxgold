@@ -71,10 +71,10 @@ const Footer = () => {
             <div className="mb-8 lg:mb-0 mr-20">
               <h4 className="text-red-600 font-bold text-lg">COMPANY</h4>
               <ul className="mt-4 space-y-2 text-gray-600 text-sm md:text-base">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Our Service</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Our Service</a></li>
+                <li><a href="/contact">Contact Us</a></li>
               </ul>
             </div>
 

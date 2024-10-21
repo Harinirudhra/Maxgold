@@ -25,7 +25,8 @@ const page = () => {
       <Ourservices />
       {/*<Servicegrid /> */}
       <Aboutus />
-      <Achievesucesses />
+      {/* <Achievesucesses /> */}
+      <Parallax/>
 
 
     </div>
