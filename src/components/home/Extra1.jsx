@@ -1,3 +1,7 @@
+'use client'
+import React, { useState } from 'react';
+import ScrollTrigger from 'react-scroll-trigger';
+
 const iconRender = (val) => {
     switch (val) {
         case "send":
@@ -7,14 +11,18 @@ const iconRender = (val) => {
                 </svg>
             );
         default:
-            // Render an img tag if the val is a valid image path
             return <img src={val} alt="icon" className="w-10 h-10" />;
     }
 }
 
-const ServiceCard = ({ title, description, icon }) => {
+const ServiceCard = ({ title, description, icon, isVisible, index }) => {
+    const delay = index * 100; // Delay in milliseconds (100ms per card)
+
     return (
-        <div className="p-5 sm:p-6 lg:p-8 rounded-3xl border bg-[#7b071e] hover:bg-[#e9a914]  border-gray-200   relative overflow-hidden transition-transform transform hover:scale-105">
+        <div
+            className={`p-5 sm:p-6 lg:p-8 rounded-3xl border bg-[#7b071e] hover:bg-[#e9a914] border-gray-200 relative overflow-hidden transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} transition-all duration-500`}
+            style={{ transitionDelay: isVisible ? `${delay}ms` : '0ms' }} // Apply delay conditionally
+        >
             <div className="rounded-xl text-gray-100 w-max relative">
                 {iconRender(icon)}
             </div>
@@ -22,7 +30,7 @@ const ServiceCard = ({ title, description, icon }) => {
                 <h2 className="text-lg md:text-xl font-semibold text-gray-100 ">
                     {title}
                 </h2>
-                <p className="text-white  ">
+                <p className="text-white ">
                     {description}
                 </p>
             </div>
@@ -71,24 +79,28 @@ const services = [
 ]
 
 const Extra1 = () => {
+    const [scrolling, setScrolling] = useState(false);
+
     return (
         <section className="py-20">
             <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col items-start gap-10 xl:gap-14">
                 <div className="text-center max-w-3xl mx-auto space-y-4">
-                    <h1 className="text-gray-900  font-semibold text-4xl">
+                    <h1 className="text-gray-900 font-semibold text-4xl">
                         Why Max Gold
                     </h1>
-                    <p className="text-gray-700  text-base md:text-xl">
+                    <p className="text-gray-700 text-base md:text-xl">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                    {
-                        services.map(service => (
-                            <ServiceCard key={service.id} {...service} />
-                        ))
-                    }
-                </div>
+                <ScrollTrigger onEnter={() => setScrolling(true)} onExit={() => setScrolling(false)}>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                        {
+                            services.map((service, index) => (
+                                <ServiceCard key={service.id} {...service} isVisible={scrolling} index={index} />
+                            ))
+                        }
+                    </div>
+                </ScrollTrigger>
             </div>
         </section>
     )
