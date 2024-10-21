@@ -4,10 +4,10 @@ import bg from '../../../public/Logo/MaxGoldlogo.jpg'
 
 const Aboutsecond = () => {
   return (
-    <section className="about-text sig bg-gradient-to-b bg-[#7b071e] py-16">
+    <section className="about-text  bg-gradient-to-b bg-[#7b071e] px-2 md:px-4 py-16">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-6 md:flex-row max-w-screen-lg mx-auto items-center">
-          <div className="md:w-1/2 md:ml-8 text-blue-50">
+        <div className="flex flex-col gap-6 md:flex-row  mx-auto items-center">
+          <div className="md:w-1/2 pb-5 text-blue-50">
             <h2 className="mb-4 text-3xl md:text-4xl font-semibold bg-gradient-to-r from-[#F7EF8A] to-[#E0AA3E] text-transparent bg-clip-text p-4">We create <em>signature moments</em></h2>
             <p className="mb-4 text-xl p-4">MaxGold started in year 2006 and in a short span of time has 1000s of happy customers in our list, growing by word of mouth advertising through customers who have used our services. We are leading cash for gold buyers in Chennai.</p>
             <p className="mb-4 text-xl text-white p-4">Looking for a gold buyer near you? You have reached the right destination. Yes, Max Gold is the most trusted old gold buyer in Chennai, offering the most competitive market rates for your gold jewellery. Max Gold is a leading name in the world of precious metals, specializing in buying and selling gold, silver, platinum, and other valuable items. Established with a commitment to integrity, trust, and exceptional service, we have become a trusted partner for individuals and businesses looking to turn their precious metals into cash or invest in tangible assets.</p>
@@ -16,12 +16,12 @@ const Aboutsecond = () => {
               <span className="relative">Contact</span>
             </a>
           </div>
-          <div className="md:w-1/2 mb-5 md:mb-0 text-center">
+          <div className="md:w-1/2  md:mb-0 text-center">
             <Image
               id="designups-symbol"
               src={bg}
               alt="DesignUps symbol glitch animation"
-              className="max-w-full h-auto"
+              className="w-screen h-screen"
             />
           </div>
         </div>
