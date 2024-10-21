@@ -30,7 +30,7 @@ export default function Home() {
       <NewContent />
       <NewCountUp />
       <NewWhy />
-      <NewGoldrate />
+      {/* <NewGoldrate /> */}
       <NewFAQ />
       <NewTestimonials />
       <CAR />
