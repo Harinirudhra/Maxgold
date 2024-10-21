@@ -23,18 +23,7 @@ const page = () => {
     <div>
       <ServicesHero />
       <Ourservices />
-      <Servicegrid />
-      <Parallax />
-      <CashforgoldX />
-      <CashforGoldY />
-      <CashforgoldZ />
-      <ReleaseGoldX/>
-      <ReleaseGoldY/>
-      <DoorstepX />
-      
-      <DoorstepZ />
-      <DoorstepY />
-      <AddOnService/>
+      {/*<Servicegrid /> */}
       <Aboutus />
       <Achievesucesses />
 
