@@ -65,7 +65,7 @@ const NewStep = () => {
             variants={container}
           >
             {[
-              { number: "1", title: "Contact Us", text: "To sell your gold, reach out to us at 97501 97501 or via WhatsApp to arrange doorstep service.", icon: faPhoneAlt },
+              { number: "1", title: "Contact Us", text: "To sell your gold, reach out to us at 044- 4545 4545 ,or via WhatsApp +91 9677406080 to arrange doorstep service.", icon: faPhoneAlt },
               { number: "2", title: "Get Quote", text: "Our expert team provides a comprehensive estimate based on current market rates for your gold, silver, and diamond jewelry.", icon: faCalculator },
               { number: "3", title: "Transparent Service", text: "Our estimation value remains the highest in Chennai. We offer transparent service throughout the selling process.", icon: faCheck },
               { number: "4", title: "Visit Our Branch", text: "Visit any of our branches to sell your gold for the same estimated value offered by our team.", icon: faStore },
