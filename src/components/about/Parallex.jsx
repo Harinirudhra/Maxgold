@@ -13,7 +13,7 @@ const servicesData = [
       "The Max Gold Instant Cash for Gold Process ",
       "A Commitment to Customer Satisfaction",
     ],
-    image: "/AchieveSuccess/goldcoin.png",
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/126fbb182282155.652ad63d40875.jpg", // Remove url()
     buttonText: "View More",
     href: "/services/cashforgold",
   },
@@ -26,7 +26,7 @@ const servicesData = [
       "Rights and Responsibilities",
       "Valuable Considerations",
     ],
-    image: "/AchieveSuccess/person.png",
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/93f717168213353.64369fe84335a.jpg", // Remove url()
     buttonText: "View More",
     href: "/services/releasegold",
   },
@@ -34,13 +34,12 @@ const servicesData = [
     id: 3,
     title: "Door Step Services",
     description: [
-    
       "Max Gold provides the Convenience of Doorstep Services",
       "Steps to Avail Doorstep Services from Max Gold",
       "Max Gold’s doorstep services offer several advantages",
       "Considerations for Doorstep Services"
     ],
-    image: "/AchieveSuccess/delivery.png",
+    image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2fd824102034643.5f2cfeb0bee15.jpg", // Remove url()
     buttonText: "View More",
     href: "/services/DoorStep",
   },
@@ -51,13 +50,13 @@ const servicesData = [
       "Max Gold - Add-on Services",
       "Cash for Diamond, Platinum and Silver",
       "Value Added Services"
-      
     ],
-    image: "/AchieveSuccess/goldcoin.png",
+    image: "https://img.freepik.com/premium-photo/closeup-delicate-gold-necklace-with-floral-motifs-dangling-beads-rich-blue-fabric-background_923559-13903.jpg?w=996", // Remove url()
     buttonText: "View More",
     href: "/services/addonservice",
   },
 ];
+
 
 const Parallax = () => {
   return (
