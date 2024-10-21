@@ -10,19 +10,20 @@ const servicesData = [
     href: '/services/cashforgold', // Add href path
   },
   {
-    title: 'Door Step Services',
-    description: 'In the fast-paced world we live in, convenience is key. Whether you’re looking to sell your gold jewelry, coins, or other gold items, Max Gold offers a solution that’s designed with your convenience in mind. Our doorstep services bring the expertise and trustworthiness of Max Gold right to your door, making the process of selling your precious gold easier and more accessible than ever. This comprehensive guide explores the benefits and steps involved in Max Gold’s doorstep services, so you can unlock the hidden value of your gold without leaving the comfort of your home.',
-    image: '/AchieveSuccess/delivery.png',
-    buttonText: 'View More',
-    href: '/services/DoorStep', // Add href path
-  },
-  {
     title: 'Release Pledged Gold',
     description: 'Gold, one of the most enduring forms of wealth, has been utilized as collateral for loans and financial transactions for centuries. Many individuals pledge their gold jewelry or assets as collateral for various reasons, whether it’s to secure a loan, obtain a credit line, or meet financial needs. However, there comes a time when you may want to release pledged gold and regain possession of your cherished assets. This comprehensive guide will walk you through the process of releasing pledged gold, explaining the steps involved, your rights, and providing valuable insights to make the process smoother.',
     image: '/AchieveSuccess/person.png',
     buttonText: 'View More',
     href: '/services/releasegold', // Add href path
   },
+  {
+    title: 'Door Step Services',
+    description: 'In the fast-paced world we live in, convenience is key. Whether you’re looking to sell your gold jewelry, coins, or other gold items, Max Gold offers a solution that’s designed with your convenience in mind. Our doorstep services bring the expertise and trustworthiness of Max Gold right to your door, making the process of selling your precious gold easier and more accessible than ever. This comprehensive guide explores the benefits and steps involved in Max Gold’s doorstep services, so you can unlock the hidden value of your gold without leaving the comfort of your home.',
+    image: '/AchieveSuccess/delivery.png',
+    buttonText: 'View More',
+    href: '/services/DoorStep', // Add href path
+  },
+
   {
     title: 'Add-On Services',
     description: 'At Max Gold, we take pride in going the extra mile to provide our customers with a comprehensive and satisfying experience. In addition to our core gold buying services, we offer a range of add-on services designed to meet various needs and enhance your overall journey with us. This guide delves into the diverse add-on services provided by Max Gold, ensuring that your experience with us is both convenient and rewarding.',
