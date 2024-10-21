@@ -33,7 +33,7 @@ const NewStep = () => {
         initial="hidden"
         animate={scrolling ? "visible" : "hidden"}
         variants={container}
-        className='px-10 bg-slate-200'>
+        className='px-10 bg-[#7b071e]'>
 
         <motion.h1
           variants={fadeInUp}
@@ -72,21 +72,21 @@ const NewStep = () => {
               { number: "5", title: "Doorstep Service", text: "Our friendly staff will visit your home, verify the gold, and make payments accordingly.", icon: faHome },
               { number: "6", title: "100% Customer Satisfaction", text: "Your satisfaction is our paramount concern. We strive to offer the highest price while ensuring a secure process.", icon: faSmile },
             ].map((section, index) => (
-              <motion.div key={index} variants={fadeInUp} className="flex items-center space-x-4">
-                <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-[#7b071e] z-10">
+              <motion.div key={index} variants={fadeInUp} className="flex items-center  space-x-4">
+                <div className="relative flex items-center justify-center h-16 w-16 rounded-full bg-yellow-500 z-10">
                   <FontAwesomeIcon icon={section.icon} className="text-white text-2xl p-8" />
                 </div>
-                <span className='text-4xl hidden lg:flex font-extrabold text-[#7b071e]'>{section.number} </span>
+                <span className='text-4xl hidden lg:flex font-extrabold text-yellow-500'>{section.number} </span>
                 <div className="space-y-2 pl-4">
-                  <h1 className='font-bold text-2xl text-[#7b071e]'>
-                    <span className='text-2xl lg:hidden text-[#7b071e]'>{section.number} </span> {section.title}
+                  <h1 className='font-bold text-2xl text-yellow-500'>
+                    <span className='text-2xl lg:hidden text-yellow-500'>{section.number} </span> {section.title}
                   </h1>
-                  <p>{section.text}</p>
+                  <p className=' text-white'>{section.text}</p>
                 </div>
 
                 {/* Add small vertical line */}
                 {index < 5 && (
-                  <div className="absolute left-4 md:top-full md:h-10 w-1 bg-black items-center justify-center"></div>
+                  <div className="absolute left-4 md:top-full md:h-10 w-1 bg-white items-center justify-center"></div>
                 )}
               </motion.div>
             ))}

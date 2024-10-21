@@ -1,4 +1,7 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
+import ScrollTrigger from 'react-scroll-trigger';
 
 const testimonials = [
   {
@@ -45,8 +48,9 @@ const testimonials = [
   },
 ];
 
-
 const NewTestimonials = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
   return (
     <div className="bg-gray-50 px-8 py-12">
       <div className="text-center">
@@ -55,30 +59,36 @@ const NewTestimonials = () => {
         <h2 className="text-3xl font-bold mb-8 text-[#efbf04]">Our happy Customers say about us</h2>
       </div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 ">
-        {testimonials.map((testimonial) => (
-          <div
-            key={testimonial.id}
-            className="bg-white shadow-lg rounded-lg p-6 text-center"
-          >
-            <div className="flex justify-left mb-4">
-              <span className="text-yellow-400 text-lg">★★★★★</span>
-            </div>
-            <p className="text-gray-900 text-left mb-6">{testimonial.text}</p>
-            <div className="flex items-start justify-start space-x-4">
-              <img
-                src={testimonial.image}
-                alt={testimonial.name}
-                className="w-10 h-10 rounded-full"
-              />
-              <div className='text-left'>
-                <p className="font-semibold">{testimonial.name}</p>
-                <p className="text-sm text-gray-600">{testimonial.title}</p>
+      <ScrollTrigger onEnter={() => setIsVisible(true)} onExit={() => setIsVisible(false)}>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div
+              key={testimonial.id}
+              className={`bg-white shadow-lg rounded-lg p-6 text-center transform transition-transform duration-700 
+                ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}
+              style={{
+                transitionDelay: `${index * 100}ms`, // Stagger the delay for each testimonial
+              }}
+            >
+              <div className="flex justify-left mb-4">
+                <span className="text-yellow-400 text-lg">★★★★★</span>
+              </div>
+              <p className="text-gray-900 text-left mb-6">{testimonial.text}</p>
+              <div className="flex items-start justify-start space-x-4">
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                  className="w-10 h-10 rounded-full"
+                />
+                <div className='text-left'>
+                  <p className="font-semibold">{testimonial.name}</p>
+                  <p className="text-sm text-gray-600">{testimonial.title}</p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </ScrollTrigger>
 
       <div className="text-center mt-10">
         <button className="text-blue-500 hover:underline">
@@ -90,5 +100,3 @@ const NewTestimonials = () => {
 };
 
 export default NewTestimonials;
-
-

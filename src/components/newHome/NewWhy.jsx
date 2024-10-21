@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import ScrollTrigger from 'react-scroll-trigger';
 
 const NewWhy = () => {
   const benefits = [
@@ -19,28 +20,40 @@ const NewWhy = () => {
     "Over 500,000 Satisfied Customers",
   ];
 
+  const [imageVisible, setImageVisible] = useState(false);
+
+  const handleEnterViewport = () => {
+    setImageVisible(true);
+  };
+
   return (
     <section className="py-12 px-5 bg-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-[#efbf04] mb-8">WHY CHOOSE US?</h2>
-        <div className="relative w-full h-80 mb-8"> 
-          <Image
-            className="object-cover"
-            src="/choose.jpg"
-            alt="Why Choose Us"
-            layout="fill" 
-            objectFit="cover" 
-            priority={true} 
-          />
-        </div>       
-         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+        
+        <ScrollTrigger onEnter={handleEnterViewport}>
+          <div 
+            className={`relative w-full h-80 mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full'}`} 
+          > 
+            <Image
+              className="object-cover"
+              src="/choose.jpg"
+              alt="Why Choose Us"
+              layout="fill" 
+              objectFit="cover" 
+              priority={true} 
+            />
+          </div>
+        </ScrollTrigger>
+        
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {benefits.map((benefit, index) => (
             <div
               key={index}
               className="flex items-center p-4 bg-[#550000] text-white rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:bg-[#800000]"
               style={{
                 opacity: "0", // Start hidden
-                animation: `fadeInUp 0.5s ease-out forwards`,
+                animation: `slideInLeft 0.5s ease-out forwards`,
                 animationDelay: `${index * 0.2}s`, // Delay each item
               }}
             >
@@ -64,14 +77,14 @@ const NewWhy = () => {
         </div>
       </div>
       <style jsx>{`
-        @keyframes fadeInUp {
+        @keyframes slideInLeft {
           0% {
             opacity: 0;
-            transform: translateY(20px);
+            transform: translateX(-20px);
           }
           100% {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateX(0);
           }
         }
       `}</style>
