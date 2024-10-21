@@ -4,6 +4,7 @@ import o from '../../../public/30MIN.png';
 import t from '../../../public/DOOR.png';
 import th from '../../../public/rating.png';
 import f from '../../../public/MONEY.png';
+import g from '../../../public/bulid.png';
 import ScrollTrigger from 'react-scroll-trigger';
 
 const Newcashbackcard = () => {
@@ -53,9 +54,9 @@ const Newcashbackcard = () => {
                     </div>
                     <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>8 Lacs+ Satisfied customers</p>
                 </div>
-                <div className={`flex flex-col items-center py-4 transition-opacity duration-[4000ms] ${visibleItems[2] ? 'opacity-100' : 'opacity-0'}`}>
+                <div className={`flex flex-col items-center py-4 transition-opacity duration-[6000ms] ${visibleItems[2] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='text-[#e22f2f] flex items-center justify-center'>
-                        <img src={th.src} className='w-36 h-36 object-contain' />
+                        <img src={g.src} className='w-28 h-36 object-contain' />
                     </div>
                     <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ years </p>
                 </div>
