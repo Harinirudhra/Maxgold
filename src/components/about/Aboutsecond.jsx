@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ScrollTrigger from "react-scroll-trigger";
 // import React from 'react'
 import Image from 'next/image'
-import bgz from '../../../public/ramyaAbout.jpg'
+import bg from '../../../public/RKImages/ramyabout.jpg'
 
 const Aboutsecond = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -21,10 +21,10 @@ const Aboutsecond = () => {
                 <span className="relative">Contact</span>
               </a>
             </div>
-            <div className={`md:w-1/2  md:mb-0 text-center flex items-center justify-center transform transition-all duration-700 ${scrolling ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-              <img
+            <div className={`md:w-1/2  md:mb-0 text-center flex items-center jus transform transition-all duration-700 ${scrolling ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
+              <Image
                 id="designups-symbol"
-                src={bgz}
+                src={bg}
                 alt="DesignUps symbol glitch animation"
                 className=" w-fit max-h-screen "
               />
