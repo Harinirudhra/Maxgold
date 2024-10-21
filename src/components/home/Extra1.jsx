@@ -14,7 +14,7 @@ const iconRender = (val) => {
 
 const ServiceCard = ({ title, description, icon }) => {
     return (
-        <div className="p-5 sm:p-6 lg:p-8 rounded-3xl border bg-[#7b071e] hover:bg-[#e9a914]  border-gray-200   relative overflow-hidden">
+        <div className="p-5 sm:p-6 lg:p-8 rounded-3xl border bg-[#7b071e] hover:bg-[#e9a914]  border-gray-200   relative overflow-hidden transition-transform transform hover:scale-105">
             <div className="rounded-xl text-gray-100 w-max relative">
                 {iconRender(icon)}
             </div>

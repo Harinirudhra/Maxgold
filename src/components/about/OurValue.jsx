@@ -36,11 +36,11 @@ const cardData = [
 const OurValue = () => {
   return (
     <section className="px-4 py-10 md:py-12 bg-white ">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-10 ">
           {/* Left side - Our Value Text */}
-          <div className="flex flex-col justify-start relative items-start">
+          <div className="flex flex-col justify-start relative items-start ">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-black mb-6">
               <span className="text-yellow-500">Our Value</span>
             </h2>
@@ -48,10 +48,10 @@ const OurValue = () => {
           </div>
 
           {/* Right side - Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 lg:gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 lg:gap-10 ">
             {/* Map through the card data */}
             {cardData.map((card, index) => (
-              <div key={index} className={`${card.backgroundColor} p-6 md:p-8 rounded-lg ${card.roundedClass} flex flex-col text-left`}>
+              <div key={index} className={`${card.backgroundColor} p-6 md:p-8 rounded-lg ${card.roundedClass} flex flex-col text-left transition-transform transform hover:scale-105`}>
                 <img src={card.imageSrc} alt={card.title} className="mb-4 w-12 h-12" />
                 <h3 className="text-lg md:text-xl font-bold mb-2 text-yellow-500">{card.title}</h3>
                 <p className=" text-sm md:text-base text-white">{card.description}</p>
