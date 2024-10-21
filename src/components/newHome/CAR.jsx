@@ -6,19 +6,14 @@ import Link from "next/link"; // Import Link for navigation
 const CAR = () => {
   // Define all your benefit data here
   const benefits = [
-    { id: 1, text: "Gold Rate in Chennai Today", detail: "Detailed information about the gold rate in Chennai today." },
-    { id: 2, text: "Which is better- 18k Vs 22k Gold?", detail: "Comparing the advantages of 18k and 22k gold." },
-    { id: 3, text: "Understand the gold weight changes when melting", detail: "Information about how gold weight changes when melting." },
-    { id: 4, text: "Gold Rate in Coimbatore", detail: "Detailed information about the gold rate in Coimbatore." },
-    { id: 5, text: "Is it good to Sell Old Gold?", detail: "Explaining whether it's good to sell old gold." },
-    { id: 6, text: "Where to sell gold for cash in Chennai?", detail: "Where to sell gold for cash in Chennai." },
-    { id: 7, text: "Get Instant Cash for Selling Old Gold in Chennai", detail: "How to get instant cash for selling old gold in Chennai." },
-    { id: 8, text: "Documents Required for Selling Old Gold", detail: "Documents required to sell old gold." },
-    { id: 9, text: "Purity Checking Process at Best Money Gold", detail: "Details about the purity checking process." },
-    { id: 10, text: "Where can I get the highest price for selling old gold?", detail: "Finding the best price for selling old gold." },
-    { id: 11, text: "How to find a genuine gold buyer in Chennai?", detail: "Tips on finding genuine gold buyers." },
-    { id: 12, text: "22k vs 24k Gold, Which is better? What is 916 gold?", detail: "Understanding the differences between 22k and 24k gold." },
-    { id: 13, text: "Selling gold vs Exchanging gold, which is better?", detail: "Comparison between selling and exchanging gold." },
+    { id: 1, text: "Which is better- 18k Vs 22k Gold?" },
+    { id: 2, text: "Understand the gold weight changes when melting", },
+    { id: 3, text: "Explaining whether it's good to sell old gold.", },
+    { id: 4, text: "Where to sell gold for cash in Chennai." },
+    { id: 5, text: "Documents required to sell old gold" },
+    { id: 6, text: "How to get instant cash for selling old gold in Chennai" },
+    { id: 7, text: "Finding the best price for selling old gold." },
+    { id: 8, text: "Comparison between selling and exchanging gold" }
   ];
 
   return (
