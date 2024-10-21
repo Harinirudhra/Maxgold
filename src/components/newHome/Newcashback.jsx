@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
-import i from "../../../public/instant_cash.png";
+import imagex from "../../../public/15MINs.png";
 
 const Newcashback = () => {
   const [hasAnimated, setHasAnimated] = useState(false); // Flag to track if animation has occurred
@@ -23,7 +23,7 @@ const Newcashback = () => {
           </div>
 
           <div className='flex justify-center items-center pt-5 md:pt-0'>
-            <img src={i.src} className='w-auto md:w-40 lg:w-auto' alt="Cashback image" />
+            <img src={imagex.src} className=' md:w-80 ' alt="Cashback image" />
           </div>
 
           <div className='pt-10 md:pt-14 text-center md:text-start px-10 md:px-6 lg:px-10'>
