@@ -10,7 +10,7 @@ const CashforgoldZ = () => {
 
             <div class="mb-16 text-center">
                
-                <p class="mt-2 w-5/6 text-5xl lg:text-4xl font-bold tracking-tight ml-24  text-gray-900">The Max Gold Instant Cash for Gold Process & Customer Satisfaction
+                <p class="mt-2 w-5/6 text-5xl lg:text-4xl font-bold tracking-tight ml-24  text-[#FFD700]">The Max Gold Instant Cash for Gold Process & Customer Satisfaction
 
                 </p>
             </div>
