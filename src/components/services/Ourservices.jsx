@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ourservices = ({ imageurl, title, para }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
+    <div className="flex flex-col lg:flex-row items-center p-6 md:p-12 bg-white rounded-lg ">
 
       <div className="lg:w-1/2 flex justify-center md:justify-start mb-6 md:mb-0 ">
         <img
