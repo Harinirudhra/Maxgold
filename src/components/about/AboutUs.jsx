@@ -48,10 +48,10 @@ const AboutUs = () => {
                 strokeLinejoin="round"
               />
             </svg>
-            <h3 className="text-yellow-400 mb-4 text-lg">About Us</h3>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-4">Max Gold</h1>
-            <p className="text-2xl">
-              Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request. Kindly reach us on 044 - 45454545 for detailed query.
+            <h3 className="text-yellow-500 mb-4 text-3xl">About Us</h3>
+            <h1 className="text-yellow-400 text-4xl lg:text-6xl font-bold mb-4">Max Gold</h1>
+            <p className=" text-2xl">
+              Max Gold is a gold, silver and diamond jewellery buyers based on the purity of precious metals and offer best market price than anyone else like banks, pawn brokers and other financers. We buy all type of unused and second-hand diamond, gold & bars, silver, platinum, gold coins, silver coins, rings, chains, bangles and other jewelry; and offer immediate cash on your gold jewelry through cash payment, cheque or NEFT/RTGS transfer as per customer request. Kindly reach us on  044- 4545 4545 , +91 9677406080  for detailed query.
             </p>
           </div>
         </div>

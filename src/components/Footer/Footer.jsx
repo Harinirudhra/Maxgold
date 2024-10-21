@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="mb-8 lg:mb-0 lg:ml-20">
               <h3 className="text-red-600 text-lg md:text-xl font-semibold pm-6">Max Gold</h3>
               <p className="mt-4 pm-6 text-gray-600 text-sm md:text-base w-50 lg:w-96">Max Gold has been growing tremendously at a fast pace with its comprehensive services. Max Gold, recognized as the top-notch and trustworthy place to Sell your used Gold in Tamil Nadu. We offer best cash for your Old Gold Jewelry as per the market rate.</p>
-              <h2 className='font-semibold text-red-600 mt-8'>7 days, 10 AM - 8 PM</h2>
+              <h2 className='font-semibold text-red-600 mt-8'> Sunday - Monday, 10 AM - &:30 PM</h2>
 
               {/* 
             <div className="flex space-x-4 mt-6 lg:mt-20">
