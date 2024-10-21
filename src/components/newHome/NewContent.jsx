@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
 import { GiHeartNecklace } from "react-icons/gi";
 import { IoDiamondOutline } from "react-icons/io5";
+import { RiServiceLine } from "react-icons/ri";
+import { AiFillGolden } from "react-icons/ai";
 
 const NewContent = () => {
     const [inViewLeft, setInViewLeft] = useState(false);
@@ -26,7 +28,7 @@ const NewContent = () => {
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>
-                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    At Max Gold, we ensure you receive a fair price for your old jewelry, valuing your items based on current market trends and purity. Our transparent pricing policy guarantees that you know exactly what you’re getting for your valuables.
                     </p>
 
                     <div className='flex items-center pb-3 pt-7'>
@@ -38,29 +40,29 @@ const NewContent = () => {
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>
-                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    We pride ourselves on our high-quality service, providing expert evaluations that reflect the true worth of your jewelry. Trust Max Gold for a reliable and honest assessment, ensuring that you get the best value for your items.
                     </p>
                     <div className='flex items-center pb-3 pt-3'>
                         <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
-                            <IoDiamondOutline className='text-white text-2xl' />
+                            <RiServiceLine className='text-white text-2xl' />
                         </div>
                         <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
-                            FAIR PRICING
+                            Customer Service
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>
-                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    Customer satisfaction is our top priority at Max Gold, and our dedicated team is here to assist you every step of the way. Experience personalized service that makes selling your old jewelry seamless and hassle-free.
                     </p>
                     <div className='flex items-center pb-3 pt-3'>
                         <div className='bg-[#7b071e] rounded-full p-4 flex items-center justify-center'>
-                            <IoDiamondOutline className='text-white text-2xl' />
+                            <AiFillGolden  className='text-white text-2xl' />
                         </div>
                         <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
-                            FAIR PRICING
+                           Advance Gold testing Machine
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>
-                        Nullam quis ante. Pellentesque libero tortor, tincidunt et, tincidunt amet est. In hac habitasse platea dictumst. Praesent nec nisl a purus blandit viverra.
+                    Max Gold utilizes advanced gold testing machines to accurately determine the purity of your jewelry, ensuring you receive a precise valuation. Our state-of-the-art technology enhances transparency and builds trust in our evaluation process.
                     </p>
                 </div>
             </ScrollTrigger>
