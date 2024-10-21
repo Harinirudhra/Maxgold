@@ -90,8 +90,50 @@ const contactData = {
         </>
       ),
       email: "info@maxgold.co.in",
-      phone: "81223 41656",
+      phone: "8122341656",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4468325972543!2d80.13151117411985!3d12.943234615501474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fd6348f9dff%3A0x97cb4fefc4ae4212!2sMax%20Gold%20Tambaram%20-%20Cash%20for%20Gold%20-%20Sell%20old%20gold!5e0!3m2!1sen!2sin!4v1726312020051!5m2!1sen!2sin",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "TAMBARAM",
+      address: (
+        <>
+          No 36/644 - First Floor,<br />
+          Grand Southern Trunk Rd, West, Nehru Nagar, Kadaperi,<br />
+          Tambaram, Chennai, Tamil Nadu 600045
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "9750197501",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124430.30145544492!2d80.00224828720093!3d12.943228980859947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ff603c8a77f%3A0x3490866251a19e94!2sBest%20Money%20Gold%20%7C%20Tambaram%20%7C%20Old%20Gold%20Buyers!5e0!3m2!1sen!2sin!4v1729511744633!5m2!1sen!2sin",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "Purasaiwakkam",
+      address: (
+        <>
+          109, Vellala St,<br />
+          near Muthoot Finance,<br />
+          Purasaiwakkam, Chennai, Tamil Nadu 600084
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "9003086157",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173364.24306534568!2d80.09581622991016!3d13.063298901611507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265df73e5a6dd%3A0xcf48f0092de1d780!2sGOLD%20MAX%20-%20Most%20Trusted%20-%20Old%20Gold%20Buyers%20In%20Chennai%20-%20Cash%20for%20Gold%20-%20Best%20Place!5e0!3m2!1sen!2sin!4v1729512293203!5m2!1sen!2sin",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "Old Washermanpet",
+      address: (
+        <>
+          34, Nethaji Nagar,<br />
+          Old Washermanpet,<br />
+          Chennai, Tamil Nadu 600081
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "9786287514",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d144720.0078297794!2d80.13893963607913!3d13.084730501135576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526fe80e93bf35%3A0x949e9a039e1f5f40!2sMax%20Gold!5e0!3m2!1sen!2sin!4v1729512379552!5m2!1sen!2sin",
       backgroundColor: "bg-[#7b071e]"
     },
     {
@@ -106,6 +148,34 @@ const contactData = {
       email: "info@maxgold.co.in",
       phone: "84382 45452",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62174.431717946725!2d80.19178242951214!3d13.10539557666045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265f4693087c7%3A0xf710796e49d93a5d!2sMax%20Gold%20-%20cash%20For%20Gold%20-%20Perambur!5e0!3m2!1sen!2sin!4v1726312132521!5m2!1sen!2sin",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "Velachery",
+      address: (
+        <>
+          new #3 Old, 23, 1st Main Rd,near Arti scan, opp. Sri Sakthi Vinayagar Temple,<br />
+          BHEL Shakthi Nagar, Vijaya Nagar,<br />
+          Velachery, Chennai, Tamil Nadu 600042
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "9600047850",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248828.10361639253!2d80.02902078060842!3d12.97574577378486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ddb675c5647%3A0x3abaee4efd3ad49f!2sGoldMax%20-%20Velachery%20-%20Old%20Gold%20Buyers%20-%20Most%20Trustworthy%20Place%20to%20Sell%20gold%20-%20Cash%20for%20Gold!5e0!3m2!1sen!2sin!4v1729511944504!5m2!1sen!2sin",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "Velachery",
+      address: (
+        <>
+          312, Velachery Main Rd,Velachery, <br />
+          next to TNSC Bank, Dhadeswaram Nagar, <br />
+          Chennai, Tamil Nadu 600042
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "9677406080",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13854.388690952132!2d80.20571311173569!3d12.98743482002505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d0b2a08158b%3A0x853a3e5f50b3e9f6!2sMax%20Gold%20-%20Cash%20For%20Gold%20-%20Velachery!5e0!3m2!1sen!2sin!4v1729512117884!5m2!1sen!2sin",
       backgroundColor: "bg-[#7b071e]"
     }
   ]
