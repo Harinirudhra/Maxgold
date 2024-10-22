@@ -22,26 +22,10 @@ const DoorstepX = () => {
 
 
   return (
-    <div className=" px-4 py-8 min-h-screen bg-[#7b071e]">
+    <div className=" px-4 py-8 min-h-96 bg-[#7b071e]">
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-        <div className='flex flex-col justify-center items-center'>
-          <div className="mt-12 text-black ">
-            <h1 className='text-left text-yellow-400'>
-              Max Golds Convenient Doorstep Services: Sell Your Gold, Your Convenience
-            </h1>
-            <p className=' text-left mt-3 text-white '>
-              Max Gold makes selling your gold simple with our trusted doorstep service. Whether its jewelry, coins, or other gold items, our experts come directly to you, ensuring a secure, hassle-free process. From valuation to payment, everything is handled at your convenience, allowing you to unlock the value of your gold without leaving home.
-            </p>
-          </div>
-          <div className="mt-12 text-black ">
-            <h1 className=' text-left text-yellow-400'>
-              Max Gold provides the Convenience of Doorstep Services
-            </h1>
-            <p className=' text-left mt-3 text-white'>
-              Max Golds doorstep services are designed to cater to the needs of busy individuals who value their time and comfort. By choosing our doorstep services, you eliminate the need to travel to a physical location, stand in line, or wait for appointments. We bring our expertise to you, ensuring a smooth and convenient transaction process. Here are some key benefits:        </p>
-          </div>
-        </div>
+        
 
         <div className="mt-12 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
           {services.map((service, index) => (
