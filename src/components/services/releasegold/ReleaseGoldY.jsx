@@ -1,5 +1,7 @@
 import React from 'react';
 import release2 from '../../../../public/Cashforgold/ReleasePledgedGold-2.png';
+import release3 from '../../../../public/Cashforgold/ReleasePledgedGold-3.png';
+import release4 from '../../../../public/Cashforgold/ReleasePledgedGold-4.png';
 
 const ReleaseGoldY = () => {
   return (
@@ -72,7 +74,7 @@ const ReleaseGoldY = () => {
                 <img
                   width="600"
                   height="600"
-                  src="https://maxgold.co.in/wp-content/uploads/2023/11/Release-Pledged-Gold12-724x1024.jpg"
+                  src={release3.src}
                   className="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                   style={{ color: 'transparent' }}
                 />
@@ -110,7 +112,7 @@ const ReleaseGoldY = () => {
                 <img
                   width="600"
                   height="600"
-                  src="https://maxgold.co.in/wp-content/uploads/2023/11/Release-Pledged-Gold123-724x1024.jpg"
+                  src={release4.src}
                   className="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                   style={{ color: 'transparent' }}
                 />
