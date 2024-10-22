@@ -37,7 +37,7 @@ const NewStep = () => {
 
         <motion.h1
           variants={fadeInUp}
-          className='pt-5 text-3xl font-bold text-center text-[#efbf04]'
+          className='pt-10 text-3xl font-bold text-center text-[#efbf04]'
         >
           Steps to sell your old gold
         </motion.h1>
