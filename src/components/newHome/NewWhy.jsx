@@ -32,17 +32,16 @@ const NewWhy = () => {
         <h2 className="text-3xl font-bold text-[#efbf04] mb-8">WHY CHOOSE US?</h2>
         
         <ScrollTrigger onEnter={handleEnterViewport}>
-          <div 
-            className={`relative w-full h-80 mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full'}`} 
-          > 
+          <div
+            className={`relative w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`}
+          >
             <Image
-              className="object-cover"
-              src="/choose.jpg"
+              className=""
+              src="/whyChoose/WHYCHOOSE.png"
               alt="Why Choose Us"
-              layout="fill" 
-              objectFit="cover" 
-              priority={true} 
-              quality={75} // Adjust image quality if needed
+              width={1000}
+              height={100}
+              priority={true}
             />
           </div>
         </ScrollTrigger>

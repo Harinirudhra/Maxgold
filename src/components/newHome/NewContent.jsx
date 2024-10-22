@@ -47,7 +47,7 @@ const NewContent = () => {
                             <RiServiceLine className='text-white text-2xl' />
                         </div>
                         <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
-                            Customer Service
+                            CUSTOMER SERVICE
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>
@@ -58,7 +58,7 @@ const NewContent = () => {
                             <AiFillGolden  className='text-white text-2xl' />
                         </div>
                         <h3 className='ml-3 text-xl md:text-2xl lg:text-2xl font-bold text-[#7b071e]'>
-                           Advance Gold testing Machine
+                           ADVANCE GOLD TESTING MACHINE
                         </h3>
                     </div>
                     <p className='text-base md:text-lg '>

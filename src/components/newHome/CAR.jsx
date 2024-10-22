@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link"; // Import Link for navigation
 import Image from "next/image";
 import ScrollTrigger from 'react-scroll-trigger';
-import mainbg from "../../../public/RKImages/ramyazzx.png"
+import mainbg from "../../../public/RKImages/ramya.png"
 
 
 const CAR = () => {

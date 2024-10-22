@@ -14,6 +14,7 @@ import TestimonialExtra from "@/components/home/TestimonialExtra";
 import Aboutsecond from '@/components/about/Aboutsecond'
 import AboutExtra from '@/components/about/AboutExtra'
 import NewTestimonials from '@/components/newHome/NewTestimonials'
+import MaxTamil from '@/components/newHome/MaxTamil'
 const page = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const page = () => {
       <Aboutsecond />
       <Extra1 />
       {/* <WhyMaxGold /> */}
+      <MaxTamil/>
       <OurValue />
       {/* <AboutExtra /> */}
       <NewTestimonials/>

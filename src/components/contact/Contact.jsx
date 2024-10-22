@@ -101,7 +101,7 @@ const contactData = {
       address: (
         <>
           No 36/644 - First Floor,<br />
-          Grand Southern Trunk Rd, West, Nehru Nagar, Kadaperi,<br />
+          Grand Southern Trunk Rd, West, Nehru Nagar,<br /> Kadaperi,
           Tambaram, Chennai, Tamil Nadu 600045
         </>
       ),
@@ -177,7 +177,7 @@ const Contact = () => {
           className={`grid grid-cols-1 md:grid-cols-2 lg:mb-10 ${backgroundColor} mb-5 md:mb-0 mx-0 lg:mx-10`} 
           key={index}
         >
-          <div className={`text-white flex flex-col justify-center items-start mx-0 lg:mx-32 p-10 ${index % 2 === 1 ? "md:order-last" : ""}`}>
+          <div className={`text-white flex flex-col justify-center items-start w-full mx-0 lg:mx-32 p-10 ${index % 2 === 1 ? "md:order-last" : ""}`}>
             <h2 className="lg:text-2xl md:text-xl text-lg font-bold mb-3">{name}</h2>
             <div className="flex items-start mb-3 gap-3">
               <RoomIcon className="text-white md:text-lg lg:text-xl text-base" />

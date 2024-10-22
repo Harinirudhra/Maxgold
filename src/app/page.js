@@ -17,6 +17,7 @@ import NewStep from "@/components/newHome/NewStep";
 import CAR from "@/components/newHome/CAR";
 import NewLogin from "@/components/newHome/NewLogin";
 import Contact from "@/components/contact/Contact";
+import MaxTamil from "@/components/newHome/MaxTamil";
 
 
 
