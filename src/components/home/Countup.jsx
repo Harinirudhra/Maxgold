@@ -6,7 +6,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const data = {
   rightContent: [
     {
-      heading: "Tranparence",
+      heading: "transparency",
       counter: {
         value: 100,
         duration: 2.5,
