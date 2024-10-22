@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link"; // Import Link for navigation
 import Image from "next/image";
 import ScrollTrigger from 'react-scroll-trigger';
-
+import mainbg from "../../../public/RKImages/ramyazzx.png"
 
 
 const CAR = () => {
@@ -19,7 +19,7 @@ const CAR = () => {
     { id: 7, text: "Finding the best price for selling old gold." },
     { id: 8, text: "Comparison between selling and exchanging gold" }
   ];
-  
+
 
   const [imageVisible, setImageVisible] = useState(false);
 
@@ -34,16 +34,16 @@ const CAR = () => {
           Customer Assistance Repository
         </h2>
         <ScrollTrigger onEnter={handleEnterViewport}>
-          <div 
-            className={`relative w-full h-80 mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`} 
-          > 
+          <div
+            className={`relative w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`}
+          >
             <Image
-              className="object-cover"
-              src="/choose.jpg"
+              className=""
+              src={mainbg.src}
               alt="Why Choose Us"
-              layout="fill" 
-              objectFit="cover" 
-              priority={true} 
+              width={1000}
+              height={100}
+              priority={true}
             />
           </div>
         </ScrollTrigger>
