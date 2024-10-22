@@ -35,7 +35,7 @@ export default function Home() {
       <NewFAQ />
       <NewTestimonials />
       <CAR />
-      <MaxGoldADS />
+
       <NewLogin />
       <Contact />
 
