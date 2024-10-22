@@ -1,57 +1,43 @@
-'use client';
-import React from 'react';
 
-const AboutHero = ({ title, description, imageurl }) => {
-  return (
-    <div className="relative flex justify-center text-center">
-      <img src={imageurl} className="object-cover w-screen h-screen" alt="hero background" />
-      <div className="absolute left-0 w-full h-full bg-black opacity-40"></div>
+"use client";
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import bgmobile from '../../../public/HeroAbout/aboutmob.png'
 
-      <div className="absolute justify-center items-center top-36 md:top-56 p-8 lg:w-1/3">
-        <h1 className="text-white bg-clip-text text-7xl pb-4 animate-fade-up">
-          {title}
-        </h1>
-        <p className="text-white text-3xl animate-fade-up">
-          {description}
-        </p>
-      </div>
-      
-      <style jsx>{`
-        @keyframes fadeInUp {
-          0% {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
+const AboutHero = () => {
+    const [isVisible, setIsVisible] = useState(false);
 
-        .animate-fade-up {
-          animation: fadeInUp 0.7s ease-out forwards;
-        }
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 300); // Delay for animation
+        return () => clearTimeout(timer);
+    }, []);
 
-        .animate-fade-up:nth-child(1) {
-          animation-delay: 0.2s; /* Delay for the h1 */
-        }
+    return (
+        <div className="relative bg-red-100 bg-cover bg-center h-screen flex items-center">
+            <img
+                src="/HeroAbout/about.jpg"
+                alt="hero"
+                className="hidden object-cover lg:block w-full h-full p-4 rounded" />
 
-        .animate-fade-up:nth-child(2) {
-          animation-delay: 0.2s; /* Delay for the p */
-        }
-      `}</style>
-    </div>
-  );
+            <img
+                src={bgmobile.src}
+                alt="RK"
+                className='block lg:hidden w-screen h-screen object-cover p-4 rounded' />
+
+            <div className="absolute inset-0 flex flex-col justify-start lg:justify-center lg:items-start items-center p-4 lg:p-20">
+                <div className="text-center lg:text-left">
+                    <h1 className={` bg-gradient-to-tr from-amber-300 to-yellow-500 text-transparent bg-clip-text text-3xl md:text-3xl pt-12 lg:text-6xl  font-bold transition-opacity duration-300 ease-in-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+                        Max gold <span className=" pt-6 px-2 md:px-6 lg:px-0 md:font-medium lg:font-bold text-2xl md:text-xl lg:w-1/2 block">we are the best choice for you to sell your precious gold jewelry and get instant cash</span> 
+                    </h1>
+                    <p className='text-white'> </p>
+                </div>
+                
+            </div>
+        </div>
+    );
 };
 
-const AboutHeroSection = () => {
-  return (
-    <AboutHero
-      title="Max gold"
-      description="We are the best choice for you to sell your precious gold jewelry and get instant cash"
-      imageurl="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2f73bb61658493.5a75732e670c8.jpg"
-    />
-  );
-};
+export default AboutHero;
 
-export default AboutHeroSection;
