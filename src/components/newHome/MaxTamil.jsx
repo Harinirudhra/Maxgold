@@ -1,6 +1,8 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import add1 from '../../../public/RKImages/ADD1.PNG'
+import add2 from '../../../public/RKImages/ADD2.PNG'
 
 const MaxTamil = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -15,12 +17,12 @@ const MaxTamil = () => {
     return (
         <div className="relative bg-white bg-cover bg-center h-screen flex items-center">
             <img
-                src="/RKImages/ADD1.PNG"
+                src={add1.src}
                 alt="hero"
                 className="hidden object-cover lg:block w-full h-full p-4 rounded" />
 
             <img
-                src="/RKImages/ADD2.png"
+                src={add2.src}
                 alt="RK"
                 className='block lg:hidden w-screen h-screen object-cover p-4 rounded' />
 
