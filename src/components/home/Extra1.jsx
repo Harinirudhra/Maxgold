@@ -44,7 +44,7 @@ const services = [
         id: 1,
         icon: '/NewWhyIcons/price-down.png',
         title: 'Affordability',
-        description: 'DIGIGOLD offers the best price for all products compared to live market rates.'
+        description: 'Max Gold offers the best price for all products compared to live market rates.'
     },
     {
         id: 2,
@@ -68,13 +68,13 @@ const services = [
         id: 5,
         icon: '/NewWhyIcons/24-hour-clock.png',
         title: 'Accessibility',
-        description: 'DIGIGOLD provides all services for its customers 24x7 Globally.'
+        description: 'Max Gold provides all services for its customers 24x7 Globally.'
     },
     {
         id: 6,
         icon: '/NewWhyIcons/gold-ingot.png',
         title: 'High Liquidity',
-        description: 'With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.'
+        description: 'With Max Gold you can buy, sell, gift, and store anywhere, anytime - online.'
     }
 ]
 
@@ -88,9 +88,7 @@ const Extra1 = () => {
                     <h1 className="text-gray-900 font-semibold text-4xl">
                         Why Max Gold
                     </h1>
-                    <p className="text-gray-700 text-base md:text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+
                 </div>
                 <ScrollTrigger onEnter={() => setScrolling(true)} onExit={() => setScrolling(false)}>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
