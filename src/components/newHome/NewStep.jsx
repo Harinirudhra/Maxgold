@@ -33,7 +33,7 @@ const NewStep = () => {
         initial="hidden"
         animate={scrolling ? "visible" : "hidden"}
         variants={container}
-        className='px-10 bg-[#7b071e]'>
+        className='px-10 bg-[#7b071e] overflow-x-hidden overflow-y-hidden'>
 
         <motion.h1
           variants={fadeInUp}
