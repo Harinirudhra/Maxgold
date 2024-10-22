@@ -100,69 +100,83 @@ const contactData = {
       name: "TAMBARAM",
       address: (
         <>
-          No 36/644 - First Floor,<br />
-          Grand Southern Trunk Rd, West, Nehru Nagar,<br /> Kadaperi,
-          Tambaram, Chennai, Tamil Nadu 600045
+          No. 45, 1st Floor<br />
+          Velachery Main Rd, Tambaram<br />
+          Chennai, Tamil Nadu 600045
         </>
       ),
       email: "info@maxgold.co.in",
-      phone: "9750197501",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124430.30145544492!2d80.00224828720093!3d12.943228980859947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ff603c8a77f%3A0x3490866251a19e94!2sBest%20Money%20Gold%20%7C%20Tambaram%20%7C%20Old%20Gold%20Buyers!5e0!3m2!1sen!2sin!4v1729511744633!5m2!1sen!2sin",
-      googleMapsUrl: "https://www.google.com/maps/place/No+36/644+-+First+Floor,+Grand+Southern+Trunk+Rd,+West,+Nehru+Nagar,+Kadaperi,+Tambaram,+Chennai,+Tamil+Nadu+600045",
+      phone: "8122341656",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2457.719083339835!2d80.1552622639704!3d12.91696388231789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0d5f80aa6f%3A0x11cb4e4c3aa24db3!2sMax%20Gold%20-%20Cash%20for%20Gold%20%7C%20Sell%20Old%20Gold%20Buyers!5e0!3m2!1sen!2sin!4v1726312233637!5m2!1sen!2sin",
+      googleMapsUrl: "https://www.google.com/maps/place/No.+45,+1st+Floor,+Velachery+Main+Rd,+Tambaram,+Chennai,+Tamil+nadu+600045",
       backgroundColor: "bg-[#7b071e]"
     },
     {
-      name: "KODAMBAKKAM (Main Branch)",
+      name: "VELACHERY",
       address: (
         <>
-          145, Kodambakkam High Road,<br />
-          Near Ekkatuthangal Metro Station,<br />
-          Chennai 600024
+          1st Floor, 1/7, Vijayanand Nagar,<br />
+          Velachery Main Rd, Chennai,<br />
+          Tamil Nadu 600042
         </>
       ),
       email: "info@maxgold.co.in",
-      phone: "93823 20192",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7952752701436!2d80.22365507074139!3d13.04863239313839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526678c7bde55b%3A0x19446e1e8f67cd35!2sMax%20Gold%20-%20Cash%20For%20Gold%20%7C%20Kodambakkam!5e0!3m2!1sen!2sin!4v1726312114452!5m2!1sen!2sin",
-      googleMapsUrl: "https://www.google.com/maps/place/145,+Kodambakkam+High+Road,+Near+Ekkatuthangal+Metro+Station,+Chennai,+Tamil+nadu+600024",
-      backgroundColor: "bg-[#7b071e]"
-    },
-    {
-      name: "KODAMBAKKAM",
-      address: (
-        <>
-          107, 1st Floor, N.N. Balu Nagar,<br />
-          Near Ags Cinemas, Kodambakkam,<br />
-          Chennai, 600024
-        </>
-      ),
-      email: "info@maxgold.co.in",
-      phone: "96770 35402",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24113.45828374887!2d80.22614047161226!3d13.047679097338137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266a55ac63b63%3A0xb61af64ec75177de!2sMax%20Gold%20-%20Cash%20For%20Gold%20%7C%20Kodambakkam!5e0!3m2!1sen!2sin!4v1726312174440!5m2!1sen!2sin",
-      googleMapsUrl: "https://www.google.com/maps/place/107,+1st+Floor,+N.N.+Balu+Nagar,+Near+Ags+Cinemas,+Kodambakkam,+Chennai,+Tamil+nadu+600024",
+      phone: "8122341656",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2457.5367003091636!2d80.2210342639704!3d12.91954278232219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f0ecdbf6b7f%3A0x1803ac9ef066792e!2sMax%20Gold%20-%20Cash%20For%20Gold%20%7C%20Sell%20Old%20Gold%20%7C%20Buyers!5e0!3m2!1sen!2sin!4v1726312348948!5m2!1sen!2sin",
+      googleMapsUrl: "https://www.google.com/maps/place/1st+Floor,+1/7,+Vijayanand+Nagar,+Velachery+Main+Rd,+Chennai,+Tamil+nadu+600042",
       backgroundColor: "bg-[#7b071e]"
     },
     {
       name: "THIRUVANMIYUR",
       address: (
         <>
-          No:52, 1st Floor,<br />
-          East Coast Road,<br />
+          1st Floor, Old Mahabalipuram Rd,<br />
           Thiruvanmiyur, Chennai,<br />
           Tamil Nadu 600041
         </>
       ),
       email: "info@maxgold.co.in",
-      phone: "96770 35402",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14642.925017894486!2d80.26764727819037!3d12.96826238684491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f2a62fbac8d%3A0xf682bdc1d6e5c65a!2sMax%20Gold%20-%20Cash%20for%20Gold%20%7C%20Sell%20Old%20Gold!5e0!3m2!1sen!2sin!4v1729513070724!5m2!1sen!2sin",
-      googleMapsUrl: "https://www.google.com/maps/place/No:+52,+1st+Floor,+East+Coast+Road,+Thiruvanmiyur,+Chennai,+Tamil+nadu+600041",
+      phone: "8122341656",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.2752148537735!2d80.2536749639704!3d12.88331704514531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a2d24188d93%3A0x6821652918f09e76!2sMax%20Gold%20-%20Cash%20For%20Gold%20%7C%20Sell%20Gold%20%7C%20Gold%20Buyers!5e0!3m2!1sen!2sin!4v1726312464321!5m2!1sen!2sin",
+      googleMapsUrl: "https://www.google.com/maps/place/1st+Floor,+Old+Mahabalipuram+Rd,+Thiruvanmiyur,+Chennai,+Tamil+nadu+600041",
       backgroundColor: "bg-[#7b071e]"
-    }
+    },
+    {
+      name: "KOTTURPURAM",
+      address: (
+        <>
+          35, R.K. Salai, <br />
+          Kotturpuram, Chennai,<br />
+          Tamil Nadu 600085
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "8122341656",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.052008776508!2d80.2379609639704!3d12.89425062280336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52595d5dc3e6e1%3A0x72e0aa572e5638bc!2sMax%20Gold%20-%20Cash%20For%20Gold%20-%20Kotturpuram!5e0!3m2!1sen!2sin!4v1726312574535!5m2!1sen!2sin",
+      googleMapsUrl: "https://www.google.com/maps/place/35,+R.K.+Salai,+Kotturpuram,+Chennai,+Tamil+nadu+600085",
+      backgroundColor: "bg-[#7b071e]"
+    },
+    {
+      name: "SHOLINGANALLUR",
+      address: (
+        <>
+          1st Floor, Om Shanti Building,<br />
+          Sholinganallur, Chennai,<br />
+          Tamil Nadu 600100
+        </>
+      ),
+      email: "info@maxgold.co.in",
+      phone: "8122341656",
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.3158946353567!2d80.2234979639704!3d12.877546922176333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525982b653673f%3A0x6f9128c5a828c20d!2sMax%20Gold%20-%20Cash%20For%20Gold%20%7C%20Old%20Gold%20Buyers!5e0!3m2!1sen!2sin!4v1726312702340!5m2!1sen!2sin",
+      googleMapsUrl: "https://www.google.com/maps/place/1st+Floor,+Om+Shanti+Building,+Sholinganallur,+Chennai,+Tamil+nadu+600100",
+      backgroundColor: "bg-[#7b071e]"
+    },
   ]
 };
 
 const Contact = () => {
   return (
-    <div className="py-10 px-4 lg:px-8">
+    <div className="py-10 px-4 lg:px-8 overflow-hidden">
       <header className="text-center">
         <h1 className="font-bold md:text-3xl text-xl mb-3 text-[#efbf04]">Max Gold - Our Locations</h1>
         <p className="font-medium mt-4 mb-8 text-sm md:text-lg">
@@ -187,29 +201,28 @@ const Contact = () => {
               <EmailIcon className="text-white md:text-lg lg:text-xl text-base" />
               <p className="md:text-lg lg:text-xl text-base">{email}</p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center mb-3 gap-3">
               <CallIcon className="text-white md:text-lg lg:text-xl text-base" />
               <p className="md:text-lg lg:text-xl text-base">{phone}</p>
             </div>
-            <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="mt-3 text-white bg-red-600 hover:bg-red-500 px-4 py-2 rounded">
-              View on Google Maps
-            </a>
+            <div className="mt-4">
+              {/* <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="text-white underline">
+                View on Google Maps
+              </a> */}
+            </div>
           </div>
-          <div className="md:w-full">
-            <iframe
-              src={mapUrl}
-              width="100%"
-              height="450"
-              style={{ border: 0 }}
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-              title={name}
-            />
-          </div>
+          <iframe 
+            className="w-full h-72 md:h-80 lg:h-full" 
+            title={name} 
+            src={mapUrl} 
+            loading="lazy" 
+            style={{ border: 0 }} 
+            allowFullScreen
+          ></iframe>
         </div>
       ))}
     </div>
   );
 };
 
-export default React.memo(Contact);
+export default Contact;
