@@ -71,9 +71,9 @@ const Parallax = () => {
             backgroundAttachment: "fixed",
           }}
         >
-          <div className="title h-full sm:w-full md:w-1/2 bg-gray-200/35 shadow-lg p-4 sm:p-6 md:p-8">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 md:mb-8">{service.title}</h1>
-            <ul className="text-lg font-bold sm:text-xl md:text-2xl text-gray-800">
+          <div className="title h-full sm:w-full md:w-1/2 bg-[#7b071e] shadow-lg p-4 sm:p-6 md:p-8 ">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 md:mb-8  text-yellow-400 ">{service.title}</h1>
+            <ul className="text-lg font-bold sm:text-xl md:text-2xl text-white">
               {service.description.map((desc, index) => (
                 <li key={index}>{desc}</li>
               ))}

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import ScrollTrigger from 'react-scroll-trigger';
 
 const NewWhy = () => {
@@ -22,9 +22,9 @@ const NewWhy = () => {
 
   const [imageVisible, setImageVisible] = useState(false);
 
-  const handleEnterViewport = () => {
+  const handleEnterViewport = useCallback(() => {
     setImageVisible(true);
-  };
+  }, []);
 
   return (
     <section className="py-12 px-5 bg-white">
@@ -33,7 +33,7 @@ const NewWhy = () => {
         
         <ScrollTrigger onEnter={handleEnterViewport}>
           <div 
-            className={`relative w-full h-80 mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`} 
+            className={`relative w-full h-80 mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full'}`} 
           > 
             <Image
               className="object-cover"
@@ -42,6 +42,7 @@ const NewWhy = () => {
               layout="fill" 
               objectFit="cover" 
               priority={true} 
+              quality={75} // Adjust image quality if needed
             />
           </div>
         </ScrollTrigger>
@@ -50,9 +51,8 @@ const NewWhy = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="flex items-center p-4 bg-[#550000] text-white rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:bg-[#800000]"
+              className={`flex items-center p-4 bg-[#550000] text-white rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:bg-[#800000]`}
               style={{
-                opacity: "0", // Start hidden
                 animation: `slideInLeft 0.5s ease-out forwards`,
                 animationDelay: `${index * 0.2}s`, // Delay each item
               }}
@@ -92,4 +92,4 @@ const NewWhy = () => {
   );
 };
 
-export default NewWhy;
+export default React.memo(NewWhy);

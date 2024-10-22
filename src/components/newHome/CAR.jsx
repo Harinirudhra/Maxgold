@@ -1,7 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link"; // Import Link for navigation
+import Image from "next/image";
+import ScrollTrigger from 'react-scroll-trigger';
+import mainbg from "../../../public/RKImages/ramyazzx.png"
+
 
 const CAR = () => {
   // Define all your benefit data here
@@ -16,12 +20,33 @@ const CAR = () => {
     { id: 8, text: "Comparison between selling and exchanging gold" }
   ];
 
+
+  const [imageVisible, setImageVisible] = useState(false);
+
+  const handleEnterViewport = () => {
+    setImageVisible(true);
+  };
+
   return (
     <section className="py-12 px-5 bg-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-[#efbf04] mb-8">
           Customer Assistance Repository
         </h2>
+        <ScrollTrigger onEnter={handleEnterViewport}>
+          <div
+            className={`relative w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`}
+          >
+            <Image
+              className=""
+              src={mainbg.src}
+              alt="Why Choose Us"
+              width={1000}
+              height={100}
+              priority={true}
+            />
+          </div>
+        </ScrollTrigger>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {benefits.map((benefit) => (
             <Link href={`/benefits/${benefit.id}`} key={benefit.id}>
