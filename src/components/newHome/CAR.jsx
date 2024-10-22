@@ -35,7 +35,7 @@ const CAR = () => {
         </h2>
         <ScrollTrigger onEnter={handleEnterViewport}>
           <div
-            className={`relative w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`}
+            className={`relative w-full h-full overflow-x-hidden overflow-y-hidden mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full '}`}
           >
             <Image
               className=""

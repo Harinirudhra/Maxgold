@@ -30,10 +30,10 @@ const NewWhy = () => {
     <section className="py-12 px-5 bg-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-[#efbf04] mb-8">WHY CHOOSE US?</h2>
-        
+
         <ScrollTrigger onEnter={handleEnterViewport}>
           <div
-            className={`relative w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full overflow-x-hidden overflow-y-hidden'}`}
+            className={`relative overflow-x-hidden overflow-y-hidden w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full '}`}
           >
             <Image
               className=""
@@ -45,7 +45,7 @@ const NewWhy = () => {
             />
           </div>
         </ScrollTrigger>
-        
+
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
           {benefits.map((benefit, index) => (
             <div
