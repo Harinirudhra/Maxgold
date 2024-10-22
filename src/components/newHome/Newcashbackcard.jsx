@@ -58,7 +58,7 @@ const Newcashbackcard = () => {
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={g.src} className='w-28 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ Years experience </p>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ Years Experience </p>
                 </div>
             </div>
         </ScrollTrigger>
