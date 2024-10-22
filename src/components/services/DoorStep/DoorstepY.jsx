@@ -1,5 +1,5 @@
 import React from 'react'
-import cash from '../../../../public/Cashforgold/Cashfirst.png'
+import cash from '../../../../public/doorstep/doorstep.png'
 const DoorStepY = () => {
     return (
         <div>
