@@ -6,19 +6,17 @@ import ScrollTrigger from "react-scroll-trigger";
 const data = {
   rightContent: [
     {
-      heading: "Successful Rates",
-      paragraph: "Lorem ipsum consectetur tempor incididunt ut labore.",
+      heading: "Tranparence",
       counter: {
-        value: 95,
+        value: 100,
         duration: 2.5,
         suffix: "%"
       }
     },
     {
-      heading: "Happy Clients",
-      paragraph: "Lorem ipsum consectetur tempor incididunt ut labore.",
+      heading: "Happy Customer",
       counter: {
-        value: 10,
+        value: 5,
         duration: 2.5,
         suffix: " L+"
       }
@@ -36,10 +34,10 @@ const Countup = () => {
 
           {/* Left Content */}
           <div className="md:w-1/3 text-center md:text-left">
-            <p className="text-sm text-white">Our expertise</p>
-            <h2 className="text-xl lg:text-3xl font-semibold text-white mt-2">
-              New fashionable is <br></br> around the world
-            </h2>
+           <h1 className="text-white">Customer Experience</h1>
+            <p className="text-xl lg:text-lg font-semibold text-white mt-2">
+            Our commitment to excellence is reflected  in our successful rate 
+            </p>
             <button className="mt-8 text-[#7b071e] text-sm lg:text-base font-semibold py-3 px-6 rounded-md bg-white transition">
               DISCOVER NOW
             </button>
@@ -49,7 +47,6 @@ const Countup = () => {
           <div className="md:w-2/3 bg-white shadow-md rounded-md px-7 py-10 flex flex-col md:flex-row justify-between items-center h-auto">
             <div className="w-full md:w-1/2 text-left px-4 mb-4 md:mb-0">
               <h3 className="text-xl font-semibold text-black">{data.rightContent[0].heading}</h3>
-              <p className="text-sm text-gray-700 mt-2">{data.rightContent[0].paragraph}</p>
               <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#7b071e] mt-4">
                 {counterOn && (
                   <CountUp
