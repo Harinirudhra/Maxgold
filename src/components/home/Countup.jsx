@@ -1,7 +1,9 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
+
 
 const data = {
   rightContent: [
@@ -38,9 +40,14 @@ const Countup = () => {
             <p className="text-xl lg:text-lg font-semibold text-white mt-2">
             Our commitment to excellence is reflected  in our successful rate 
             </p>
+            <Link href="/contact" smooth={true} duration={800} className="scroll-link">
             <button className="mt-8 text-[#7b071e] text-sm lg:text-base font-semibold py-3 px-6 rounded-md bg-white transition">
               DISCOVER NOW
             </button>
+            </Link>
+           
+                      
+                    
           </div>
 
           {/* Right Content */}

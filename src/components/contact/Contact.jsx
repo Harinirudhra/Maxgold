@@ -185,7 +185,7 @@ const Contact = () => {
   return (
     <div className="py-10 px-4 lg:px-8">
       <div>
-        <h1 className="text-center font-bold md:text-3xl text-xl mb-3">Max Gold - Our Locations</h1>
+        <h1 className="text-center font-bold md:text-3xl text-xl  bg-gradient-to-tr from-amber-300 to-yellow-500 text-transparent bg-clip-text  mb-3">Max Gold - Our Locations</h1>
         <p className="text-center font-medium mt-4 mb-8 text-sm md:text-lg ">
           Contact us today, and let us help you make informed decisions and valuable transactions. <br />
           Thank you for choosing Max Gold where your gold matters.

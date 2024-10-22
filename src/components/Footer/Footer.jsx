@@ -41,9 +41,12 @@ const Footer = () => {
         {/* Right Section */}
         <div className="lg:w-1/3 mt-8 lg:mt-0 lg:text-right">
           <h1 className="text-lg text-gray-900 mb-4">Contact us now</h1>
+          <Link href="/contact" smooth={true} duration={800} className="scroll-link">
           <button className="bg-[#550000] text-white py-3 px-8 rounded-full hover:bg-red-700 transition-all duration-300">
             Contact
           </button>
+            </Link>
+            
         </div>
       </div>
 

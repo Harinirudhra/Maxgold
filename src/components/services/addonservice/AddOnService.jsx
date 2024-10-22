@@ -1,4 +1,7 @@
 import React from 'react'
+import dia from '../../../../public/RKImages/Addonservice1.jpg'
+import dia2 from '../../../../public/RKImages/Addonservice2.jpg'
+import dia3 from '../../../../public/RKImages/Addonservice3.jpg'
 const AddOnService = () => {
     return (
         <div>
@@ -38,11 +41,11 @@ const AddOnService = () => {
                             </div>
                         </div>
                         <div class="mt-12 sm:mt-16 lg:mt-0">
-                            <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                            <div class="-mr-48 md:pl-6 w-full px-2  md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                                 <img
                                     width="600"
                                     height="600"
-                                    src="https://maxgold.co.in/wp-content/uploads/2023/11/Add-on-service-max-819x1024.jpg"
+                                    src={dia.src}
                                     class="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                                     style={{ color: 'transparent' }} />
                             </div>
@@ -86,11 +89,11 @@ const AddOnService = () => {
                             </div>
                         </div>
                         <div class="mt-12 sm:mt-16 lg:mt-0">
-                            <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                            <div class=" md:pl-6 w-full px-2  lg:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                                 <img
                                     width="600"
                                     height="600"
-                                    src="https://maxgold.co.in/wp-content/uploads/2023/11/cash-silver-819x1024.jpg"
+                                    src={dia2.src}
                                     class="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                                     style={{ color: 'transparent' }} />
                             </div>
@@ -135,11 +138,11 @@ const AddOnService = () => {
                             </div>
                         </div>
                         <div class="mt-12 sm:mt-16 lg:mt-0">
-                            <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                            <div class="-mr-48 md:pl-6 w-full px-2 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                                 <img
                                     width="600"
                                     height="600"
-                                    src="https://maxgold.co.in/wp-content/uploads/2023/11/platinum-111-819x1024.jpg"
+                                    src={dia3.src}
                                     class="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                                     style={{ color: 'transparent' }} />
                             </div>
