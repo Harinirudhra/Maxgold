@@ -5,6 +5,7 @@ import { GiHeartNecklace } from "react-icons/gi";
 import { IoDiamondOutline } from "react-icons/io5";
 import { RiServiceLine } from "react-icons/ri";
 import { AiFillGolden } from "react-icons/ai";
+import machine from '../../../public/RKImages/machine.jpg'
 
 const NewContent = () => {
     const [inViewLeft, setInViewLeft] = useState(false);
@@ -71,7 +72,7 @@ const NewContent = () => {
             <ScrollTrigger onEnter={() => setInViewRight(true)} onExit={() => setInViewRight(false)}>
                 <div className={`flex justify-center items-center h-full transform transition-transform duration-1000 ${inViewRight ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'}`}>
                     <img
-                        src="https://www.totaramsons.com/assets/images/goldcat.jpg"
+                        src={machine.src}
                         alt='Handcrafted and Ethically Sourced'
                         className='object-contain w-auto h-auto max-w-full max-h-full' // Maintain aspect ratio, auto width/height
                     />
