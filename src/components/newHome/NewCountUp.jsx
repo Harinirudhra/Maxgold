@@ -23,31 +23,30 @@ const NewCountUp = () => {
         <h3 className="text-[#efbf04] font-semibold lg:mt-10 mt-0">WHY OURS</h3>
         <h2 className="md:text-5xl text-3xl font-black mt-2 text-white ">Our Best Achievements</h2>
         <p className="text-white mt-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-          ducimus asperiores vero consectetur iure laudantium nostrum neque,
-          provident blanditiis ea! Recusandae delectus odio cum illo quis id,
-          inventore corrupti aperiam temporibus dolorem.
+        With over 30 years of experience, we have built a reputation for excellence and reliability. 
+        We proudly serve more than 500,000 satisfied customers, ensuring personalized service in every transaction.
+         Our commitment to 100% transparency means you can trust us to provide competitive rates for exchanging jeweleries.
         </p>
 
         {/* Achievements Section */}
         <div className="flex flex-wrap mt-5 md:mt-8 gap-5 lg:gap-12">
           <div className="text-left">
             <h3 className="md:text-6xl text-5xl font-bold mb-1 text-[#efbf04]">
-              {inView && <CountUp start={0} end={55} duration={2} suffix="k+" />}
+              {inView && <CountUp start={0} end={100} duration={2} suffix="%" />}
             </h3>
-            <p className="font-semibold text-white">University Scholars</p>
+            <p className="font-semibold text-white">Transparency</p>
           </div>
           <div className="text-left">
             <h3 className="md:text-6xl text-5xl font-bold mb-1 text-[#efbf04]">
-              {inView && <CountUp start={0} end={17} duration={2} suffix="k" />}
+              {inView && <CountUp start={0} end={5} duration={2} suffix="L+" />}
             </h3>
-            <p className="font-semibold text-white">Professional Educators</p>
+            <p className="font-semibold text-white">Happy Customers</p>
           </div>
           <div className="text-left">
             <h3 className="md:text-6xl text-5xl font-bold mb-1 text-[#efbf04]">
-              {inView && <CountUp start={0} end={2} duration={2} suffix="k+" />}
+              {inView && <CountUp start={0} end={12} duration={2} suffix="+" />}
             </h3>
-            <p className="font-semibold text-white">Worldwide Branches</p>
+            <p className="font-semibold text-white">Running Branches</p>
           </div>
         </div>
       </div>
