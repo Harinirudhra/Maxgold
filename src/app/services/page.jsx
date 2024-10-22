@@ -16,6 +16,7 @@ import DoorstepZ from '@/components/services/DoorStep/DoorstepZ'
 import ReleaseGoldX from '@/components/services/releasegold/ReleaseGoldX'
 import ReleaseGoldY from '@/components/services/releasegold/ReleaseGoldY'
 import AddOnService from '@/components/services/addonservice/AddOnService'
+import MaxTamil from '@/components/newHome/MaxTamil'
 
 
 const page = () => {
@@ -23,6 +24,7 @@ const page = () => {
     <div>
       <ServicesHero />
       <Ourservices />
+      <MaxTamil/>
       {/*<Servicegrid /> */}
 
       {/* <Achievesucesses /> */}
