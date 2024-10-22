@@ -59,7 +59,7 @@ const NewLogin = () => {
                 style={{ backgroundImage: 'url(./bgfaq.jpg)', }} >
                 <div className="bg-gradient-to-t from-amber-300 to-yellow-500 rounded-2xl flex flex-col md:flex-row max-w-4xl w-full p-6 md:p-10 lg:p-12 items-center opacity-90">
                     <div className="w-full  px-4 md:px-8 ">
-                        <h2 className="font-medium text-xl md:text-2xl lg:text-3xl text-center md:text-left text-[#ffffff]">
+                        <h2 className="font-medium text-xl md:text-2xl lg:text-3xl text-center md:text-left text-[#7b071e]">
                             Get Instant Cash for Gold in <span className='block md:inline'>30 min</span>
                         </h2>
 

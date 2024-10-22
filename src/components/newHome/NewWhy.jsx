@@ -33,7 +33,7 @@ const NewWhy = () => {
 
         <ScrollTrigger onEnter={handleEnterViewport}>
           <div
-            className={`relative overflow-x-hidden overflow-y-hidden w-full h-full mb-8 transition-transform duration-700 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full '}`}
+            className={`relative overflow-x-hidden overflow-y-hidden w-full h-full mb-8 transition-transform duration-300 ease-out ${imageVisible ? 'translate-x-0' : '-translate-x-full '}`}
           >
             <Image
               className=""
