@@ -26,8 +26,8 @@ const Hero = () => {
 
             <div className="absolute inset-0 flex flex-col justify-start lg:justify-end lg:items-start items-center p-4 lg:p-20">
                 <div className="text-center lg:text-left">
-                    <h1 className={`text-white text-3xl md:text-3xl pt-12 lg:text-6xl lg:w-1/3 font-bold transition-opacity duration-300 ease-in-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
-                        You deserve valuable price in<span className="block">market</span>
+                    <h1 className={` bg-gradient-to-tr from-amber-300 to-yellow-500 text-transparent bg-clip-text text-3xl md:text-3xl pt-12 lg:text-6xl  font-bold transition-opacity duration-300 ease-in-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}>
+                        Providing<span className=" block">Best Price in</span> <span className="block"> Market</span>
                     </h1>
                 </div>
                 <div className="flex flex-row float-start lg:flex-row gap-4 lg:gap-6 -mt-1 lg:mt-8 p-6">
