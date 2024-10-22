@@ -60,7 +60,7 @@ const NewTestimonials = () => {
       </div>
 
       <ScrollTrigger onEnter={() => setIsVisible(true)} onExit={() => setIsVisible(false)}>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 overflow-x-hidden overflow-y-hidden">
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.id}
