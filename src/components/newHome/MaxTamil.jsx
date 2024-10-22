@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import add1 from '../../../public/RKImages/ADD1.PNG'
-import add2 from '../../../public/RKImages/ADD2.PNG'
+import add2 from '../../../public/RKImages/ADD3.PNG'
 
 const MaxTamil = () => {
     const [isVisible, setIsVisible] = useState(false);
