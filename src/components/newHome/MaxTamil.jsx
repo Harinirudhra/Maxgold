@@ -13,9 +13,9 @@ const MaxTamil = () => {
     }, []);
 
     return (
-        <div className="relative bg-red-100 bg-cover bg-center h-screen flex items-center">
+        <div className="relative bg-white bg-cover bg-center h-screen flex items-center">
             <img
-                src="/RKImages/ramyamain.jpg"
+                src="/RKImages/ADD1.PNG"
                 alt="hero"
                 className="hidden object-cover lg:block w-full h-full p-4 rounded" />
 

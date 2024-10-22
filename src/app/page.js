@@ -35,7 +35,6 @@ export default function Home() {
       <NewFAQ />
       <NewTestimonials />
       <CAR />
-      <MaxTamil/>
       <MaxGoldADS />
       <NewLogin />
       <Contact />
