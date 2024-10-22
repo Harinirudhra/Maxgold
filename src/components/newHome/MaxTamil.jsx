@@ -20,7 +20,7 @@ const MaxTamil = () => {
                 className="hidden object-cover lg:block w-full h-full p-4 rounded" />
 
             <img
-                src="/RKImages/ramyamobile.jpg"
+                src="/RKImages/ADD2.png"
                 alt="RK"
                 className='block lg:hidden w-screen h-screen object-cover p-4 rounded' />
 
