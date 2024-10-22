@@ -1,4 +1,5 @@
 import React from 'react'
+import release from '../../../../public/Cashforgold/ReleasePledgedGold-1.jpg'
 const ReleaseGoldX = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const ReleaseGoldX = () => {
               <img
                 width="600"
                 height="600"
-                src="https://maxgold.co.in/wp-content/uploads/2023/11/Release-pledged-Gold-1024x1024.jpg"
+                src={release.src}
                 class="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                 style={{ color: 'transparent' }} />
             </div>

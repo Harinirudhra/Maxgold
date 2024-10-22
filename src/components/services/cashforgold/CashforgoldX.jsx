@@ -1,5 +1,6 @@
 import React from 'react'
 import CashforGoldY from './CashforGoldY'
+import cash from '../../../../public/Cashforgold/Cashfirst.png'
 const CashforGoldX = () => {
     return (
         <div>
@@ -14,7 +15,7 @@ const CashforGoldX = () => {
                             <img
                                 width="600"
                                 height="600"
-                                src="https://maxgold.co.in/wp-content/uploads/2023/11/Release-pledged-Gold-1024x1024.jpg"
+                                src={cash.src}
                                 class="mx-auto rounded-lg shadow-lg dark-bg-gray-500"
                                 style={{ color: 'transparent' }} />
                         </div>

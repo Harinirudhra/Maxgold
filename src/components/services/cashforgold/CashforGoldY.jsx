@@ -22,9 +22,9 @@ const CashforGoldY = () => {
                                 class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
                                 {/* <img src="https://www.svgrepo.com/show/503163/api-settings.svg" /> */}
                             </div>
-                            <p class="font-heading ml-16  leading-6 text-2xl font-bold text-[#7b071e]">Purity and Karat</p>
+                            <p class="font-heading md:ml-16  leading-6 text-2xl font-bold text-[#7b071e]">Purity and Karat</p>
                         </dt>
-                        <dd class="mt-4 ml-16 text-xl text-gray-500">
+                        <dd class="mt-4 md:ml-16 text-xl text-gray-500">
                         Gold jewelry is often marked with a karat value, which indicates the purity of the gold used.
                          Karat values typically range from 24k
                          (pure gold) to 10k.
