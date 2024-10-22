@@ -15,7 +15,7 @@ const Newcashback = () => {
       }}
     >
       <div className={`w-auto h-auto bg-white py-5 md:py-16 transform transition-all duration-300 
-        ${hasAnimated ? 'translate-x-0 scale-100 opacity-100' : 'translate-y-10 scale-90 opacity-0'}`}>
+        ${hasAnimated ? 'translate-x-0 scale-100 opacity-100' : 'translate-y-10 scale-90 opacity-0 overflow-x-hidden overflow-y-hidden'}`}>
         <div className='grid grid-cols-1 md:grid-cols-3'>
           <div className='px-10 md:px-6 lg:px-10 pt-14 text-center md:text-start'>
             <h1 className='text-[#efbf04] text-3xl md:text-base lg:text-3xl'>Max Golds History Since - 1990</h1>

@@ -22,7 +22,7 @@ const Newcashbackcard = () => {
 
     return (
         <ScrollTrigger onEnter={handleEnter} onExit={handleExit}>
-            <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-5 gap-8 pb-10 px-20'>
+            <div className='w-auto h-auto grid grid-cols-1 md:grid-cols-5 gap-8 pb-10 px-20 overflow-x-hidden overflow-y-hidden'>
                 {/* Item 1 */}
                 <div className={`flex flex-col items-center py-4 transition-opacity duration-[2000ms] ${visibleItems[0] ? 'opacity-100' : 'opacity-0'}`}>
                     <div className='flex items-center justify-center'>
@@ -58,7 +58,7 @@ const Newcashbackcard = () => {
                     <div className='text-[#e22f2f] flex items-center justify-center'>
                         <img src={g.src} className='w-28 h-36 object-contain' />
                     </div>
-                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ years </p>
+                    <p className='w-60 text-center text-xl pt-4 font-bold text-[#7b071e]'>30+ Years experience </p>
                 </div>
             </div>
         </ScrollTrigger>
